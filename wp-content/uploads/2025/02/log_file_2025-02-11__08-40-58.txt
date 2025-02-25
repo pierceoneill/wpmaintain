@@ -1,0 +1,30 @@
+
+---Downloaded files---
+The import files for: Chatbot were successfully downloaded!
+Initial max execution time = 900
+Files info:
+Site URL = https://wpmaintain.ie
+Data file = /home/vxwhqvbg/wpmaintain.ie/wp-content/plugins/akpager-toolkit/includes/demo-config/demos/chatbot/content.xml
+Widget file = /home/vxwhqvbg/wpmaintain.ie/wp-content/plugins/akpager-toolkit/includes/demo-config/demos/general/widgets.wie
+Customizer file = /home/vxwhqvbg/wpmaintain.ie/wp-content/plugins/akpager-toolkit/includes/demo-config/demos/chatbot/customizer.dat
+Redux files:
+not defined!
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Primary Sidebar : 
+
+Search - No Title - Imported
+Categories - No Title - Imported
+Akpager Recent Posts - Recent Posts - Imported
+Tag Cloud - No Title - Imported
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file.
+
+---ocdi/after_import---
+

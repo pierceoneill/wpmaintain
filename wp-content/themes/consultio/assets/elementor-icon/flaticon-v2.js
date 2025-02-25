@@ -1,0 +1,29 @@
+{
+    "icons": [
+    "aeroplane",
+    "id-card",
+    "shield",
+    "earning-money-idea",
+    "list",
+    "menu",
+    "banknote",
+    "creative",
+    "network",
+    "speech-bubble",
+    "layers",
+    "gear",
+    "computer",
+    "objective",
+    "right-arrow",
+    "long-arrow-pointing-to-the-right",
+    "edit",
+    "responsive",
+    "speed",
+    "happiness",
+    "play-button",
+    "pin",
+    "thin-arrowheads-pointing-down",
+    "multiply",
+    "right-quotation-mark"
+]
+}

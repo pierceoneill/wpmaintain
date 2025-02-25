@@ -1,0 +1,11 @@
+<?php
+
+class PxlIconSearch_Widget extends Pxltheme_Core_Widget_Base{
+    protected $name = 'pxl_icon_search';
+    protected $title = 'Case Search Popup';
+    protected $icon = 'eicon-search';
+    protected $categories = array( 'pxltheme-core' );
+    protected $params = '{"sections":[{"name":"section_content","label":"Content","tab":"content","controls":[{"name":"pxl_icon","label":"Icon","type":"icons","fa4compatibility":"icon"},{"name":"icon_color","label":"Icon Color","type":"color","selectors":{"{{WRAPPER}} .pxl-search-popup-button":"color: {{VALUE}};","{{WRAPPER}} .pxl-search-popup-button svg path":"fill: {{VALUE}};"}},{"name":"icon_color_hover","label":"Icon Color Hover","type":"color","selectors":{"{{WRAPPER}} .pxl-search-popup-button:hover":"color: {{VALUE}};","{{WRAPPER}} .pxl-search-popup-button:hover svg path":"fill: {{VALUE}};"}},{"name":"icon_font_size","label":"Icon Font Size","type":"slider","control_type":"responsive","size_units":["px"],"range":{"px":{"min":0,"max":300}},"selectors":{"{{WRAPPER}} .pxl-search-popup-button":"font-size: {{SIZE}}{{UNIT}};","{{WRAPPER}} .pxl-search-popup-button svg":"height: {{SIZE}}{{UNIT}};"}},{"name":"style","label":"Style","type":"select","options":{"style-default":"Default","style-box":"Box"},"default":"style-default"},{"name":"box_color","label":"Box Color","type":"color","selectors":{"{{WRAPPER}} .pxl-search-popup-button.style-box":"background-color: {{VALUE}};"},"condition":{"style":["style-box"]}},{"name":"box_height","label":"Box Height","type":"slider","control_type":"responsive","size_units":["px"],"range":{"px":{"min":0,"max":300}},"selectors":{"{{WRAPPER}} .pxl-search-popup-button.style-box":"height: {{SIZE}}{{UNIT}};"},"condition":{"style":["style-box"]}},{"name":"box_width","label":"Box Width","type":"slider","control_type":"responsive","size_units":["px"],"range":{"px":{"min":0,"max":300}},"selectors":{"{{WRAPPER}} .pxl-search-popup-button.style-box":"width: {{SIZE}}{{UNIT}};"},"condition":{"style":["style-box"]}},{"name":"border_radius","label":"Border Radius","type":"dimensions","size_units":["px"],"selectors":{"{{WRAPPER}} .pxl-search-popup-button.style-box":"border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};"},"condition":{"style":["style-box"]}}]}]}';
+    protected $styles = array(  );
+    protected $scripts = array(  );
+}

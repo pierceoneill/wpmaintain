@@ -1,0 +1,13 @@
+.bpp-frontend-main-container-package .bpp-front-package-filter button.bpp-front-btn {
+    right: unset;
+    left: 10px;
+}
+.bpp-package-list-col .bpp-package-detail .bpp-package-duration .bpa-ma-dt__time-val svg {
+    margin-right: 0px;
+    margin-left: 4px;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-nm, 
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-dur{
+    padding-left: 10px;
+    padding-right: 10px;
+}

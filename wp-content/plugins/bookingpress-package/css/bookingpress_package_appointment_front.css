@@ -1,0 +1,190 @@
+.bpp-front-cp-my-package .bpp-services-details-table{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.bpp-ma-vac-ser-title {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    color: var(--bpa-dt-black-400);    
+}
+.bpp-front-cp-my-package .bpp-services-details-table.el-table th.el-table__cell .cell {
+    font-weight: 600;
+    color: var(--bpa-dt-black-400); 
+}
+.bpp-front-cp-my-package .bpp-services-details-table.el-table th.el-table__cell .cell,
+.bpp-front-cp-my-package .bpp-services-details-table.el-table td.el-table__cell .cell {
+    padding: 0px 10px !important;
+}
+.bpp-front-cp-my-package .bpp-mob--package-details {
+    justify-content: space-between;
+    gap: 10px;
+}
+.bpp-front-cp-my-package .bpp-mob-payment-amount-row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.bpp-my-packages-tab .bpp-my-packages-icon {
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.bpp-front-cp-my-package .bpp-ma-vac--services-details .bpp-package-services-data{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 12px;
+    -webkit-animation-name: bpaFadeInUp;
+    animation-name: bpaFadeInUp;
+    animation-timing-function: cubic-bezier(.645, .045, .355, 1);
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+}
+.bpp-front-cp-my-package .bpp_my_package_total_amount {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bpa-fm--bs__package-module-box .bpa-cmt__right-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.bpa-fm--bs__package-module-box .el-select.bpa-front-form-control{
+    width: 100%;
+    margin-right: 15px;
+}
+.el-date-picker.has-time .el-picker-panel__footer .el-button--default,.el-date-picker.has-time .el-time-panel__btn.confirm
+{
+    border-color:var(--bpp-pt-main-green)!important;
+    background-color:var(--bpp-pt-main-green)!important;
+    color:var(--bpp-cl-white)!important;
+}
+.bpa-fm--bs__package-module-box button.bpa-front-btn{
+    position: relative;
+    top:0;
+    right: 0;
+    padding: 9px 13px !important;
+}
+/* package input box style */
+.bpa-front-module--booking-summary .bpa-fm--bs__coupon-module-textbox,
+.bpa-front-module--booking-summary .bpa-is-coupon-applied{
+    position: relative;
+    padding: 12px 24px;
+	border-top: 1px solid var(--bpa-gt-gray-400);
+	-webkit-animation-name: bpaFadeInUp;
+    animation-name: bpaFadeInUp;    
+    animation-timing-function: cubic-bezier(.51,.92,.24,1.15);
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;    
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0.4s;  
+    animation-delay: 0.4s;
+}
+.bpa-front-module--booking-summary .bpa-front-module--bs-amount-details .bpa-is-coupon-applied{
+	padding: 12px 24px;
+}
+.bpa-front-module--booking-summary .bpa-is-coupon-applied .bpa-bs-ai__item span svg {
+    width: 14px;
+    vertical-align: middle;
+    margin-left: 4px;
+    cursor: pointer;
+    fill: var(--bpa-cl-white);
+    margin-top: -1px;
+}
+.bpa-front-module--booking-summary .bpa-fm--bs-amount-item .bpa-bs-ai__item {
+    font-weight: 500;
+    color: var(--bpa-dt-black-300);
+    font-family: var(--bpa-primary-font);
+    font-size: 14px;
+    line-height: 20px;
+}
+.bpa-front-module--booking-summary  .bpa-is-coupon-applied .bpa-bs-ai__item span {
+    background-color: var(--bpa-pt-main-green);
+    border-radius: var(--bpa-radius-2px);
+    color: var(--bpa-cl-white);
+    font-family: var(--bpa-primary-font);
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 2px 6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8px;
+}
+.bpp-front-module--pm__empty-view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bpp-front-module--pm__empty-view svg{
+    width: 80px;
+}
+.bpp-front-module--pm__empty-view svg .bpp-ev__vector-primary-color{
+    fill: var(--bpp-pt-main-green);
+}
+.bpp-front-module--pm__empty-view svg .bpp-ev__vector-primary-color--is-storke{
+    stroke: var(--bpp-pt-main-green);
+}
+.bpp-front-module--pm__empty-view .bpp-front-pm-ev__title{
+    font-size: 15px;
+    color: var(--bpa-dt-black-200);
+    line-height: 20px;
+    margin-top: 12px;
+    font-family: var(--bpp-primary-font);
+    font-weight: 500;
+}
+.bpa-front-cp-my-appointment span.material-icons-round.bpp-apc__package-icon
+{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    fill: var(--bpa-dt-black-200);
+}
+.bpp-front-module-heading{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: var(--bpa-dt-black-400);
+    font-family: var(--bpa-primary-font);            
+    -webkit-animation-name: bpaFadeInUp;
+    animation-name: bpaFadeInUp;
+    animation-timing-function: cubic-bezier(.645, .045, .355, 1);
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;    
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@media (min-width: 1200px) and (max-width: 1367px) {
+    .bpp-front-module-heading{
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+@media (max-width: 1024px) {
+    .bpp-front-module-heading{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .bpa-fm--bs__package-module-box .el-select.bpa-front-form-control{
+        margin-right: 0 !important;
+    }
+    .bpp-front-module-heading{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

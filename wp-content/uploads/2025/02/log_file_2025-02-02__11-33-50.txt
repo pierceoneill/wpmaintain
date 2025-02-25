@@ -1,0 +1,65 @@
+
+---Downloaded files---
+The import files for: Home 1 were successfully downloaded!
+Initial max execution time = 900
+Files info:
+Site URL = https://wpmaintain.ie
+Data file = /home/vxwhqvbg/wpmaintain.ie/wp-content/themes/collax/sample-data/contents-demo.xml
+Widget file = /home/vxwhqvbg/wpmaintain.ie/wp-content/themes/collax/sample-data/widget-settings.json
+Customizer file = /home/vxwhqvbg/wpmaintain.ie/wp-content/themes/collax/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - Search Here - Imported
+TP Blog Posts Sidebar - Recent Post - Imported
+Categories - Categories - Imported
+Tag Cloud - Tags - Imported
+
+Footer 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer 2 : 
+
+Navigation Menu - Useful Links - Imported
+
+Footer 3 : 
+
+Navigation Menu - Community - Imported
+
+Footer 4 : 
+
+Custom HTML - Subscribe Newslatter - Imported
+
+Footer Style 4 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 4 : 2 : 
+
+Navigation Menu - Useful Links - Imported
+
+Footer Style 4 : 3 : 
+
+Navigation Menu - Community - Imported
+
+Footer Style 4 : 4 : 
+
+Custom HTML - Subscribe Newslatter - Imported
+
+Footer Style 7 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 7 : 2 : 
+
+Custom HTML - Company - Imported
+
+Footer Style 7 : 3 : 
+
+TP Footer Posts - Hand Picked News - Imported
+
+

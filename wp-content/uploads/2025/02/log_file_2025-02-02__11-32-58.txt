@@ -1,0 +1,15 @@
+
+---Downloaded files---
+The import files for: Home 1 were successfully downloaded!
+Initial max execution time = 900
+Files info:
+Site URL = https://wpmaintain.ie
+Data file = /home/vxwhqvbg/wpmaintain.ie/wp-content/themes/collax/sample-data/contents-demo.xml
+Widget file = /home/vxwhqvbg/wpmaintain.ie/wp-content/themes/collax/sample-data/widget-settings.json
+Customizer file = /home/vxwhqvbg/wpmaintain.ie/wp-content/themes/collax/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+

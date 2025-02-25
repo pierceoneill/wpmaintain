@@ -1,0 +1,24 @@
+{
+    "icons": [
+    "meeting-room",
+    "customer-service",
+    "customer-service-1",
+    "phone-ringing",
+    "home",
+    "send",
+    "calendar",
+    "content-strategy",
+    "bank",
+    "insurance",
+    "mobile-app",
+    "privacy",
+    "register",
+    "box",
+    "add",
+    "virtual-tour",
+    "sugar-cube",
+    "touch-id",
+    "voice-assistant",
+    "cryptowallet"
+]
+}

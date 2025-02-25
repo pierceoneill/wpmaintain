@@ -1,0 +1,254 @@
+     
+                    .bpp-frontend-main-container-package .bpp-front-package-detail{
+                        border: 1px solid #CFD6E5 !important;
+                    }                               
+                    .bpp-front-data-empty-view .bpa-front-dev__primary-bg{ 
+                        fill:#243B5E !important;
+                    }
+                    .bpp-front-data-empty-view .bpa-front-dev__primary-bg{
+                        stroke:#243B5E !important;
+                    }                    
+                    .bpa-front-data-empty-view .bpp-front-dev__panel-bg{
+                        fill: #f4f7fb !important;
+                    }                
+                    .bpp-front-data-empty-view{
+                        background-color: #fff !important;
+                    }
+                    .bpp-front-data-empty-view .bpa-front-dev__form-bg{
+                        fill: #fff !important;
+                    }    
+                    .bpp-front-data-empty-view .bpa-front-dev__title{
+                        font-family: Poppins !important;
+                        color: #727E95 !important;
+                    }
+                .bpp-frontend-main-container-package, .bpp-custom-datepicker{
+                    --bpp-pt-main-green: #243B5E !important;  
+                    --bpp-pt-main-green-darker: #243B5E !important;
+                    --bpp-pt-main-green-alpha-12: #243B5E1F !important;
+                }.bpp-package-list-col .bpp-package-price .bpp-package-discprice,
+                    .bpp-package-booking-left-menu .__bpp-is-active, 
+                    .bpp-package-booking-left-menu .__bpp-is-active .bpp-tm__item-label,
+                    .bpp-front-form-control--radio .el-radio__input.is-checked+.el-radio__label,
+                    .el-radio__input.is-checked .el-radio__inner
+                    { color: #243B5E !important; }.bpp-package-list-col .bpp-package-price .bpp-package-realprice{ color: #727E95; }.bpp-package-list-col .bpp-frontend-main-container-package .bpp-package-service-include-text,
+                        .bpp-front-form-control--file-upload,
+                        .bpp-front-form-control--file-upload .bpp-fu__btn,
+                        .bpp-front-form-control.--bpp-country-dropdown,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown-list,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown,
+                        .bpp-custom-datepicker,
+                        .bpp-custom-datepicker .el-time-panel,
+                        .bpp-custom-datepicker .el-time-panel__content::after, 
+                        .bpp-custom-datepicker .el-time-panel__content::before,
+                        .bpp-custom-datepicker .el-time-panel__footer,
+                        .bpp-front-package-detail .bpp-front-form-control input,
+                        .bpp-front-package-detail .bpp-front-form-control input:focus,
+                        .bpp-front-dialog-body .bpp-front-form-control input,
+                        .bpp-front-form-control input:focus,
+                        .bpp-front-package-booking-dialog .el-checkbox__inner,
+                        .bpp-front-form-control--checkbox .el-checkbox__inner,
+                        .bpp-front-form-control--radio .el-radio__inner,
+                        .bpp-front-form-control .el-textarea__inner,
+                        .bpp-front-form-control .el-textarea__inner:focus
+                        { border-color: #CFD6E5 !important; }
+                        .bpp-custom-datepicker .el-picker-panel__footer{
+                            border-top-color: #CFD6E5 !important;
+                        }
+                        .bpp-custom-datepicker .el-picker-panel__footer{
+                            border-bottom-color: #CFD6E5 !important;
+                        }.bpp-package-list-col .bpp-package-service-load-link, 
+                        .bpp-package-list-col .bpp-package-service-load-link:hover,
+                        .bpp-front-form-control--checkbox .el-checkbox__input.is-checked + .el-checkbox__label,
+                        .el-date-picker__header-label.active,
+                        .el-date-picker__header-label:hover,
+                        .bpp-custom-dropdown .el-select-dropdown__item.selected,
+                        .el-date-table td.today:not(.current),
+                        .el-date-table td.today:not(.current) span
+                        { color: #243B5E !important; }.bpp-front-loader .bpp-front-loader-cl-primary,
+                        .bpp-show-package-services_load .bpp-package-service-load-link svg
+                        { fill: #243B5E !important; }.bpp-front-loader-cl-primary,
+                        .bpp-package-booking-left-menu .bpp-package-menu-item.__bpp-is-active svg,
+                        .bpp-package-booking-left-menu .bpp-package-menu-item.__bpp-is-active svg .bpp-ev__vector-primary-color 
+                        {  fill: #243B5E !important; }.bpa-front-btn--primary:focus, .bpp-front-btn--primary:focus,
+                        .el-radio__input.is-checked .el-radio__inner,
+                        .bpp-front-form-control--file-upload .bpp-fu__btn:hover,
+                        .el-date-picker.has-time .el-picker-panel__footer .el-button--default,
+                        .el-date-picker.has-time .el-picker-panel__footer .el-button--default:focus,
+                        .el-date-picker.has-time .el-picker-panel__footer .el-button--default:hover,
+                        .el-date-table td.current:not(.disabled) span
+                        {  background-color: #243B5E !important; }
+                        .bpp-front-btn--primary,
+                        .bpp-front-btn--primary:hover, 
+                        .bpa-front-btn--primary, 
+                        .bpa-front-btn--primary:hover,
+                        .bpp-frontend-main-container-package .bpp-buy-now-button,
+                        .bpp-frontend-main-container-package .bpp-buy-now-button:hover
+                        { background:#243B5E !important; }
+                        .bpp-front-btn--primary,
+                        .bpp-front-btn--primary:hover, 
+                        .bpa-front-btn--primary, 
+                        .bpa-front-btn--primary:hover,
+                        .bpp-frontend-main-container-package .bpp-buy-now-button,
+                        .bpp-frontend-main-container-package .bpp-buy-now-button:hover,
+                        .bpa-front-btn--primary:focus,
+                        .bpp-front-btn--primary:focus,
+                        .el-checkbox__input.is-checked .el-checkbox__inner,
+                        .bpp-front-btn--primary:focus,
+                        .el-date-picker.has-time .el-picker-panel__footer .el-button--default,
+                        .el-date-picker.has-time .el-picker-panel__footer .el-button--default:focus,
+                        .el-date-picker.has-time .el-picker-panel__footer .el-button--default:hover,
+                        .el-date-picker.has-time .el-time-panel__btn.confirm,
+                        .el-radio__inner:hover,
+                        .bpa-front-form-control--checkbox .el-checkbox__inner:hover,
+                        .el-radio__input.is-checked .el-radio__inner,
+                        .bpp-front-form-control--file-upload .bpp-fu__btn:hover
+                        { border-color: #243B5E !important; } 
+                        .bpa-front-btn--primary span, 
+                        .bpp-front-btn--primary span,
+                        .bpp-frontend-main-container-package .bpp-buy-now-button span,
+                        .bpp-front-form-control--file-upload .bpp-fu__btn:hover,
+                        .el-date-picker.has-time .el-picker-panel__footer .el-button--default,
+                        .el-date-table td.current:not(.disabled) span
+                        { color: #fff !important}
+                        .bpp-front-btn--primary svg,
+                        .el-date-table td.current:not(.disabled) span
+                        { fill: #fff !important}
+                        .bpp-front-module-heading, .bpp-package-name, .bpp-front-module-heading,
+                        .bpp-front-form-control input,
+                        .bpp-package-service-include-text,                        
+                        .bpp-front-form-control .el-textarea__inner,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown-item.highlighted strong,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown-item.highlighted span,
+                        .bpp-front-dialog-body .bpp-packge-name,
+                        .bpp-is-total-row .bpp-bs-ai__item span,
+                        .bpp-front-package-detail .bpp-displaying-total-package-num,
+                        .el-picker-panel__content .el-date-table td:not(.next-month):not(.prev-month):not(.today):not(.current) span,
+                        .el-date-picker__header-label,
+                        .bpp-summary-item-detail,
+                        .bpp-summary-bkid-success-msg,
+                        .bpp-summary-id-detail .bpp-summary-bkid .bpp-front-pb-id,
+                        .el-date-picker__time-header .el-input .el-input__inner,
+                        .el-date-picker.has-time .el-time-spinner__item.active:not(.disabled)
+                        { color: #202C45 !important; }
+                        .bpp-package-duration, 
+                        .bpp-front-form-label,
+                        .el-form-item__label span,
+                        .bpp-package-booking-left-menu .bpp-tm__item-label,
+                        .bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-nm,
+                        .bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-dur,
+                        .bpp-package-service-no-app,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown-item strong,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown-item span,
+                        .bpp-front-btn.bpp-front-btn--borderless,
+                        .bpp-front-module--bs-amount-details .bpp-is-total-row .bpp-fm-tr__tax-included-label,
+                        .bpp-front-module--bs-amount-details .--bpp-is-dpm-total-item .bpp-fm-tr__tax-included-label,
+                        .bpp-front-module--bs-amount-details .bpp-bs-ai__item,
+                        .bpp-front-cdf__title,
+                        .bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item p,
+                        .bpp-front-package-detail .bpp-displaying-total-package-txt,
+                        .el-picker-panel__content .el-date-table td:not(.current):not(.today) span:hover, 
+                        .el-picker-panel__content .el-date-table td:not(.next-month):not(.prev-month):not(.today):not(.current) span:hover,
+                        .bpp-summary-id-detail .bpp-summary-bkid,
+                        .bpp-custom-dropdown .el-select-dropdown__item,
+                        .el-picker-panel__content .el-date-table th,
+                        .el-date-picker.has-time .el-time-spinner__item
+                        { color: #535D71 !important; }
+                        .bpp-front-btn.bpp-front-btn--borderless,
+                        .bpp-package-detail .bpp-package-duration svg
+                        { fill: #535D71 !important; }.bpp-frontend-main-container-package .bpp-package-indicator::after      
+                        { background: #535D71 !important; }
+                        .bpp-package-description,
+                        .bpp-front-form-control--radio .el-radio__label,
+                        .bpp-summary-bkid-success-info-text,
+                        .bpp-summary-item-title,
+                        .bpp-front-cp__singup-link-group .bpp-custom-signup-label a,
+                        .bpp-front-form-field--file-upload .el-upload-list__item-name [class^=el-icon],
+                        .bpp-front-form-control--checkbox .el-checkbox__label,
+                        .bpp-front-form-control--file-upload .bpp-fu__placeholder
+                        { color: #727E95 !important; }
+                        .bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item svg.bpp-front-pm-pay-local-icon,
+                        .bpp-package-booking-left-menu .bpp-package-menu-item svg
+                        { fill: #727E95 !important; }                        
+                        .bpp-front-form-control input::placeholder,
+                        .bpp-front-form-control .el-textarea__inner::placeholder,
+                        .el-date-picker__time-header .el-input .el-input__inner::placeholder { color:rgba(114,126,149,0.75) !important;}.bpa-front-btn--primary:focus, .bpp-front-btn--primary:focus,
+                        .bpp-front-tabs--panel-body .bpp-front-tabs--foot .bpp-front-btn--primary:focus
+                        {  box-shadow: 0 4px 8px rgba(36,59,94,0.06), 0 8px 16px rgba(36,59,94,0.16) !important; }.bpp-frontend-main-container-package,
+                        .bpp-frontend-main-inner_container,
+                        .bpp-front-dialog.bpp-front-package-booking-dialog,
+                        .bpp-front-form-control--file-upload,
+                        .bpp-front-form-control--file-upload .bpp-fu__btn,
+                        .bpp-front-form-control--file-upload,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown-list,
+                        .bpp-custom-dropdown.el-select-dropdown,
+                        .bpp-custom-datepicker,
+                        .bpp-custom-datepicker .el-picker-panel__footer,
+                        .bpp-custom-datepicker .el-time-panel,
+                        .bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item .bpp-front-si-card--checkmark-icon,
+                        .bpp-frontend-main-container-package .bpp-package-list-col,
+                        .bpp-front-tabs--panel-body .bpp-front-tabs--foot,
+                        .bpp-front-form-control--radio .el-radio__inner::after,
+                        .bpp-custom-datepicker .el-time-panel,
+                        .el-date-picker.has-time .el-time-spinner__item
+                        { background-color: #fff !important }
+                        .bpp-front-form-control .el-textarea__inner,
+                        .el-date-picker__header-label,
+                        .bpp-custom-dropdown .el-select-dropdown__item span,
+                        .bpp-front-module-heading, .bpp-search-btn-txt,.bpa-ma-dt__time-val,.bpp-package-name,
+                        .bpp-front-module-heading, .bpp-search-btn-txt,.bpa-ma-dt__time-val span,
+                        .bpp-front-package-detail .bpp-package-description,
+                        .bpp-front-package-detail .bpp-package-description-full,
+                        .bpp-front-package-detail .bpp-package-description .bpp-package-description-show-less,
+                        .bpp-front-package-detail .bpp-package-description .bpp-package-description-show-more,
+                        .bpp-front-package-detail .bpp-package-description .bpp-package-description-excerpt,
+                        .bpp-front-package-detail .bpp-package-services-list .bpp-package-service-include-text,
+                        .bpp-front-package-detail .bpp-package-price .bpp-package-realprice,
+                        .bpp-front-package-detail .bpp-package-price .bpp-package-discprice,
+                        .bpp-front-package-detail .bpp-package-service .bpp-package-service-nm,
+                        .bpp-front-package-detail .bpp-package-service .bpp-package-service-dur,
+                        .bpp-front-package-detail .bpp-package-service .bpp-package-service-no-app,
+                        .bpp-front-package-detail .bpp-show-package-services_load .bpp-package-service-load-link span,
+                        .bpp-front-package-detail .bpp-package-button .bpa-btn span,
+                        .bpp-pagination-record-display-label .bpp-displaying-total-package-txt,
+                        .bpp-pagination-record-display-label .bpp-displaying-total-package-num,
+                        .bpp-front-form-control input,.bpp-front-package-booking-dialog .bpp-front-form-label,
+                        .bpp-front-dialog-body .bpp-tm__item-label, .bpp-front-dialog-body .bpp-tm__item-icon,
+                        .bpp-front-form-control input::placeholder,
+                        .bpp-front-form-control .el-textarea__inner::placeholder,
+                        .el-date-picker__time-header .el-input .el-input__inner::placeholder,
+                        .el-date-picker__time-header .el-input .el-input__inner,
+                        .bpp-front-form-control--checkbox .el-checkbox__label div,
+                        .bpp-front-form-control--radio .el-radio__label,
+                        .bpp-front-form-control--file-upload .bpp-fu__placeholder,
+                        .bpp-front-form-field--file-upload .el-upload-list__item-name,
+                        .bpp-front-dialog-body .bpp-front-btn--primary span,
+                        .bpp-front-form-control--file-upload .bpp-fu__btn,
+                        .bpp-front-dialog-body .el-form-item__error,.bpp-front-btn.bpp-front-btn--borderless span label,
+                        .bpp-front-cp__singup-link-group .bpp-custom-signup-label a,
+                        .bpp-front-toast-notification.--bpp-error p,
+                        .bpp-front-dialog-body .bpp-packge-name, .bpp-front-module--bs-amount-details .bpp-bs-ai__item,
+                        .bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item,
+                        .bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item p,            
+                        .bpp-front-module--bs-amount-details .bpp-is-total-row .bpp-fm-tr__tax-included-label,
+                        .bpp-is-total-row .bpp-bs-ai__item span,
+                        .bpp-front-module-container-payment .bpp-front-cdf__title,
+                        .bpp-summary-id-detail .bpp-summary-bkid,.bpp-summary-id-detail .bpp-summary-bkid .bpp-front-pb-id,
+                        .bpp-summary-bkid-success-msg, .bpp-summary-bkid-success-info-text,
+                        .bpp-summary-item-title, .bpp-summary-item-detail,
+                        .el-date-picker__header-label, .el-picker-panel__content .el-date-table td span,
+                        .el-date-picker.has-time button.el-button--mini,
+                        .el-picker-panel__content .el-date-table th,
+                        .el-date-picker.has-time .el-time-spinner__item
+                        {  font-family: Poppins !important;}
+                        .bpp-front-form-control .el-textarea__inner,
+                        .bpp-front-form-control input,
+                        .bpp-front-btn--primary span
+                        {  font-size: 14px !important;}
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown:hover,
+                        .bpp-front-form-control.--bpp-country-dropdown .vti__dropdown-item.highlighted,
+                        .bpp-custom-dropdown .el-select-dropdown__item.hover,
+                        .bpp-custom-dropdown .el-select-dropdown__item:hover
+                        { background-color: #f4f7fb !important;}                        
+                        .bpp-front-tmc__vector--confirmation .bpp-front-vc__bg          
+                        { fill: #f4f7fb !important;}

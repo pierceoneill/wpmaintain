@@ -1,0 +1,65 @@
+.bpp-frontend-main-container-package .bpp-front-package-filter button.bpp-front-btn {
+    right: unset;
+    left: 10px;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-nm, .bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-dur {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bpp-show-package-services_load .bpp-package-service-load-link svg {
+    left: -24px;
+    right: unset;
+    top: 45%;
+}
+.bpp-package-list-col .bpp-package-detail .bpp-package-duration .bpa-ma-dt__time-val svg {
+    margin-right: unset;
+    margin-left: 4px;
+}
+.el-form-item__error {
+    right: 0;
+    left: auto;
+    padding-right: 20px;
+    padding-left: 0;
+}
+.bpp-front-package-booking-dialog .el-form-item.is-required:not(.is-no-asterisk)>.el-form-item__label:before {
+    right: unset;
+    left: -14px;
+}
+.bpp-front-form-control--radio.el-radio,.bpp-front-form-control--checkbox.el-checkbox {
+    margin-right: 0;
+    margin-left: 16px;
+}
+.bpp-front-form-control--checkbox .el-checkbox__label,.bpp-front-form-control--radio .el-radio__label {
+    padding-left: 0;
+    padding-right: 8px;
+}
+.bpp-front-package-detail .bpp-show-package-services_load .bpp-package-service-load-link span {
+    padding-right: 10px;
+}
+.bpp-front-form-control.--bpp-country-dropdown .vti__dropdown-list {
+    left: auto;
+    right: -1px;
+}
+.bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item .bpp-front-si-card--checkmark-icon {
+    right: auto;
+    left: 12px;
+} 
+.bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item:last-child {
+    margin-right: 16px;
+}
+.bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item:first-child {
+    margin-right: 0;
+}
+.bpp-front-btn:not(.bpp-front-btn--icon-without-box) span svg {
+    margin-right: unset;
+    margin-left: 4px;
+}
+.bpp-front-module--payment-methods .bpp-front-module--pm-body .bpp-front-module--pm-body__item svg {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.bpp-fm--bs__coupon-module-textbox button.bpp-front-btn{
+    left: 3px;
+    right: unset;
+}
+.bpp-right-summary-border { border-right: none; border-left: 1px solid var(--bpp-gt-gray-400);;}

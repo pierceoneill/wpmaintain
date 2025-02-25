@@ -1,0 +1,115 @@
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 69.6 MB/512 MB - pierceoneill > Start upgrade from 0.0.0
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_emails`] => Created table `wpgs_newsletter_emails`
+)
+
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_sent`] => Created table `wpgs_newsletter_sent`
+)
+
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter`] => Created table `wpgs_newsletter`
+)
+
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_user_logs`] => Created table `wpgs_newsletter_user_logs`
+)
+
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_user_meta`] => Created table `wpgs_newsletter_user_meta`
+)
+
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_stats`] => Created table `wpgs_newsletter_stats`
+)
+
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_logs`] => Created table `wpgs_newsletter_logs`
+)
+
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > Backing up options of 0.0.0
+22-02-2025 10:12:29 - INFO  - 8.7.1 - 68.1 MB/512 MB - pierceoneill > End
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 60.6 MB/512 MB - pierceoneill > Start upgrade from 8.7.1
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_emails`] => Created table `wpgs_newsletter_emails`
+)
+
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_sent`] => Created table `wpgs_newsletter_sent`
+)
+
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter`] => Created table `wpgs_newsletter`
+)
+
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_user_logs`] => Created table `wpgs_newsletter_user_logs`
+)
+
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_user_meta`] => Created table `wpgs_newsletter_user_meta`
+)
+
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_stats`] => Created table `wpgs_newsletter_stats`
+)
+
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > Array
+(
+    [`wpgs_newsletter_logs`] => Created table `wpgs_newsletter_logs`
+    [wpgs_newsletter_logs.status] => Changed type of wpgs_newsletter_logs.status from int(11) to int
+)
+
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > Backing up options of 8.7.1
+22-02-2025 10:17:56 - INFO  - 8.7.1 - 59.7 MB/512 MB - pierceoneill > End
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 37.3 MB/1 GB - pierceoneill > Start upgrade from 8.7.1
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 36.8 MB/1 GB - pierceoneill > Array
+(
+    [`wpgs_newsletter_emails`] => Created table `wpgs_newsletter_emails`
+)
+
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 36.8 MB/1 GB - pierceoneill > Array
+(
+    [`wpgs_newsletter_sent`] => Created table `wpgs_newsletter_sent`
+)
+
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 36.8 MB/1 GB - pierceoneill > Array
+(
+    [`wpgs_newsletter`] => Created table `wpgs_newsletter`
+)
+
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 36.8 MB/1 GB - pierceoneill > Array
+(
+    [`wpgs_newsletter_user_logs`] => Created table `wpgs_newsletter_user_logs`
+)
+
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 36.8 MB/1 GB - pierceoneill > Array
+(
+    [`wpgs_newsletter_user_meta`] => Created table `wpgs_newsletter_user_meta`
+)
+
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 36.8 MB/1 GB - pierceoneill > Array
+(
+    [`wpgs_newsletter_stats`] => Created table `wpgs_newsletter_stats`
+)
+
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 36.8 MB/1 GB - pierceoneill > Array
+(
+    [`wpgs_newsletter_logs`] => Created table `wpgs_newsletter_logs`
+    [wpgs_newsletter_logs.status] => Changed type of wpgs_newsletter_logs.status from int(11) to int
+)
+
+22-02-2025 14:56:43 - INFO  - 8.7.1 - 36.8 MB/1 GB - pierceoneill > End

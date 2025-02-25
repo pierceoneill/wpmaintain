@@ -1,0 +1,11 @@
+<?php
+
+class CT_CtAboutUs_Widget extends Case_Theme_Core_Widget_Base{
+    protected $name = 'ct_about_us';
+    protected $title = 'Case About Us';
+    protected $icon = 'eicon-site-logo';
+    protected $categories = array( 'case-theme-core' );
+    protected $params = '{"sections":[{"name":"content_section","label":"Banner Box","tab":"content","controls":[{"name":"image","label":"Image","type":"media"},{"name":"sub_title","label":"Sub Title","type":"text"},{"name":"sub_title_color","label":"Sub Title Color","type":"color","selectors":{"{{WRAPPER}} .ct-about-us .ct-about-subtitle":"color: {{VALUE}};","{{WRAPPER}} .ct-about-us .ct-about-subtitle span:before":"background-color: {{VALUE}};"}},{"name":"title","label":"Title","type":"text"},{"name":"title_color","label":"Title Color","type":"color","selectors":{"{{WRAPPER}} .ct-about-us .ct-about-title":"color: {{VALUE}};"}},{"name":"desc","label":"Description","type":"textarea","rows":10,"show_label":false},{"name":"desc_color","label":"Description Color","type":"color","selectors":{"{{WRAPPER}} .ct-about-us .ct-about-desc":"color: {{VALUE}};"}},{"name":"bg","type":"background","control_type":"group","types":["classic","gradient"],"selector":"{{WRAPPER}} .ct-about-us .ct-about-holder"},{"name":"icon_box","label":"Icon Box","type":"repeater","controls":[{"name":"ib_icon","label":"Icon","type":"icons","fa4compatibility":"icon","default":{"value":"fas fa-star","library":"fa-solid"}},{"name":"ib_title","label":"Title","type":"text"},{"name":"ib_content","label":"Content","type":"textarea"}],"title_field":"{{{ ib_title }}}"},{"name":"box_icon_color","label":"Box Icon Color","type":"color","selectors":{"{{WRAPPER}} .ct-about-us .ct-box-item .ct-box-icon i":"color: {{VALUE}};"}},{"name":"box_icon_title","label":"Box Title Color","type":"color","selectors":{"{{WRAPPER}} .ct-about-us .ct-box-item .ct-box-title":"color: {{VALUE}};"}},{"name":"box_icon_desc","label":"Box Description Color","type":"color","selectors":{"{{WRAPPER}} .ct-about-us .ct-box-item .ct-box-desc":"color: {{VALUE}};"}}]}]}';
+    protected $styles = array(  );
+    protected $scripts = array(  );
+}

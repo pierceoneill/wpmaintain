@@ -1,0 +1,11 @@
+Import demo successfully!!!.
+Import media successfully!
+Import demo successfully!!!.
+Import theme options "ct_theme_options" successfully!
+Set home page successfully!
+Import menus successfully!
+Import wp options successfully!
+Import widget successfully!
+Crop images successfully!
+Import term meta successfully!
+done all

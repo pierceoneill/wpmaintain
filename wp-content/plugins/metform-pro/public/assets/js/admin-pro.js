@@ -1,0 +1,1 @@
+jQuery(document).ready((function(o){"use strict";o(document).on("click","#revoke_zoho",(function(){let e=o("#revoke_zoho").attr("data-zoho-nonce"),t=o("#revoke_zoho").attr("data-admin-url");o.ajax({url:t,type:"post",data:{action:"zoho_revoke_token",nonce:e},dataType:"json",success:function(o){location.reload()},error:function(o){}})}))}));

@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="ct_theme_options">
+            <key name="wellcome" />
+            <key name="h_time_label" />
+            <key name="h_time" />
+            <key name="h_phone_label" />
+            <key name="h_phone" />
+            <key name="h_address_label" />
+            <key name="h_address" />
+            <key name="h_btn_text" />
+            <key name="h_btn_link_custom" />
+            <key name="search_field_placeholder" />
+            <key name="portfolio_slug" />
+            <key name="service_slug" />
+            <key name="case_study_slug" />
+        </key>
+    </admin-texts>
+</wpml-config>

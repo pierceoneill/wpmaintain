@@ -1,0 +1,83 @@
+2025-02-24T12:41:36+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\SiteVerification::insert {
+  "error": {
+    "code": 400,
+    "message": "The necessary verification token could not be found on your site.",
+    "errors": [
+      {
+        "message": "The necessary verification token could not be found on your site.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ]
+  }
+}
+2025-02-24T12:41:44+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\Ads::has_access {
+    "message": "The caller does not have permission",
+    "code": 7,
+    "status": "PERMISSION_DENIED",
+    "details": [
+        {
+            "@type": "type.googleapis.com\/google.ads.googleads.v18.errors.GoogleAdsFailure",
+            "errors": [
+                {
+                    "errorCode": {
+                        "authorizationError": "USER_PERMISSION_DENIED"
+                    },
+                    "message": "User doesn't have permission to access customer. Note: If you're accessing a client customer, the manager's customer id must be set in the 'login-customer-id' header. See https:\/\/developers.google.com\/google-ads\/api\/docs\/concepts\/call-structure#cid"
+                }
+            ],
+            "requestId": "M4JwKG1AJ_AB0KvaJdXqKQ"
+        }
+    ]
+}
+2025-02-24T12:41:46+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\Ads::has_access {
+    "message": "The caller does not have permission",
+    "code": 7,
+    "status": "PERMISSION_DENIED",
+    "details": [
+        {
+            "@type": "type.googleapis.com\/google.ads.googleads.v18.errors.GoogleAdsFailure",
+            "errors": [
+                {
+                    "errorCode": {
+                        "authorizationError": "USER_PERMISSION_DENIED"
+                    },
+                    "message": "User doesn't have permission to access customer. Note: If you're accessing a client customer, the manager's customer id must be set in the 'login-customer-id' header. See https:\/\/developers.google.com\/google-ads\/api\/docs\/concepts\/call-structure#cid"
+                }
+            ],
+            "requestId": "wQrV1WxdxmHuDUVBaEa5bA"
+        }
+    ]
+}
+2025-02-24T12:41:47+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\Ads::has_access {
+    "message": "The caller does not have permission",
+    "code": 7,
+    "status": "PERMISSION_DENIED",
+    "details": [
+        {
+            "@type": "type.googleapis.com\/google.ads.googleads.v18.errors.GoogleAdsFailure",
+            "errors": [
+                {
+                    "errorCode": {
+                        "authorizationError": "USER_PERMISSION_DENIED"
+                    },
+                    "message": "User doesn't have permission to access customer. Note: If you're accessing a client customer, the manager's customer id must be set in the 'login-customer-id' header. See https:\/\/developers.google.com\/google-ads\/api\/docs\/concepts\/call-structure#cid"
+                }
+            ],
+            "requestId": "V0CBaqVrXN4wBFV89CLziA"
+        }
+    ]
+}
+2025-02-24T12:43:18+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\SiteVerification::insert {
+  "error": {
+    "code": 400,
+    "message": "The necessary verification token could not be found on your site.",
+    "errors": [
+      {
+        "message": "The necessary verification token could not be found on your site.",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ]
+  }
+}

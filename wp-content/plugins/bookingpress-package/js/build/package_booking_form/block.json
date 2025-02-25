@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "bookingpress-package/booking-package-form",
+  "title": "BookingPress Package Addon - Extension for BookingPress plugin to package integration",
+  "category": "bookingpress",
+  "keywords": [ "package", "appointment", "bookingpress" , "booking calendar", "scheduling", "booking system", "reservation"],
+  "version": "1.0",
+  "textdomain": "bookingpress-package",      
+  "editorScript": "file:./index.js"  
+}

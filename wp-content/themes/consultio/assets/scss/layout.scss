@@ -1,0 +1,125 @@
+.site-content {
+  padding: 90px 0;
+  position: relative;
+}
+
+#page.site {
+  @media #{$max-lg} {
+    overflow: hidden;
+  }
+}
+
+.single-footer {
+  .site-footer-custom {
+    display: none;
+  } 
+  .site-content { 
+    padding: 0;
+  }
+}
+
+@media #{$min-xl} {
+  body {
+    .container {
+      max-width: 1200px;
+      width: 100%;
+    }
+    .content-has-sidebar {
+      &.float-left {
+        padding-right: 70px;
+      }
+      &.float-right {
+        padding-left: 70px;
+      }
+    }
+    &.single-post .content-has-sidebar {
+      &.float-left {
+        padding-right: 15px;
+      }
+      &.float-right {
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+@media #{$min-lg} {
+  .content-has-sidebar.float-right {
+    order: 2;
+    -webkit-order: 2;
+    -ms-order: 2;
+    + #secondary {
+      order: 1;
+      -webkit-order: 1;
+      -ms-order: 1;
+    }
+  }
+}
+
+@media #{$max-lg} {
+  body .container {
+    max-width: 100%;
+  }
+  body .site-content {
+    background-image: none !important;
+  }
+}
+
+@media #{$max-md} {
+  #primary + #secondary {
+    margin-top: 60px;
+  }
+}
+
+.site-h17 {
+  .ct-demo-bar .ct-demo-option {
+    top: 100px;
+  }
+}
+
+.fw-home-fintech {
+  > .elementor-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    @media #{$max-xl} {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    @media #{$max-lg2} {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
+
+.ct-position-inherit {
+  position: static !important;
+}
+
+.h9-section-one {
+  .h9-section-gradient {
+    @include background-horizontal($gradient_color_from, $gradient_color_to);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    @media #{$max-md2} {
+      display: none;
+    }
+  }
+  .ct-icon1.style1 {
+    display: flex;
+    flex-direction: column;
+      a {
+        display: inline-flex;
+        width: 80px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        i {
+            margin: 0;
+            font-size: 21px;
+          }
+      }
+  }
+}

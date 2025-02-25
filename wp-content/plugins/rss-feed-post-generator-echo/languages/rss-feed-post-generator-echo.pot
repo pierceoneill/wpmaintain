@@ -1,0 +1,6284 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Echo RSS Feed Post Generator\n"
+"POT-Creation-Date: 2022-05-09 08:33+0300\n"
+"PO-Revision-Date: 2022-05-09 08:33+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rss-feed-post-generator-echo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: res/echo-feed-search.php:20
+msgid "Error in feed searching. Please try again/other keyword."
+msgstr ""
+
+#: res/echo-feed-search.php:25
+msgid "Error in feed decoding: "
+msgstr ""
+
+#: res/echo-feed-search.php:37
+msgid "No results found for your query!"
+msgstr ""
+
+#: res/echo-feed-search.php:46
+msgid "Search RSS Feeds by keyword, website URL or #topic:"
+msgstr ""
+
+#: res/echo-feed-search.php:52
+msgid "Find feeds based on title, URL or #topic (Required):"
+msgstr ""
+
+#: res/echo-feed-search.php:56
+msgid "Input the the keyword, URL or #topic fo which you want to search feeds."
+msgstr ""
+
+#: res/echo-feed-search.php:70
+msgid "Feed Locale (en_US, pt_BR):"
+msgstr ""
+
+#: res/echo-feed-search.php:74
+msgid "Set the locale for which to search feeds."
+msgstr ""
+
+#: res/echo-feed-search.php:88
+msgid "Maximum Number of Feed Results:"
+msgstr ""
+
+#: res/echo-feed-search.php:92
+msgid "Set the maximum number of feed results to show. Default is 20."
+msgstr ""
+
+#: res/echo-feed-search.php:115
+msgid "Found RSS Feeds:"
+msgstr ""
+
+#: res/echo-feed-search.php:119
+msgid "Here you can see the found RSS feeds."
+msgstr ""
+
+#: res/echo-feed-search.php:131
+msgid "Feed URL"
+msgstr ""
+
+#: res/echo-feed-search.php:131
+msgid "Website name"
+msgstr ""
+
+#: res/echo-helper.php:12
+msgid "Error in page crawling. Please try again/other webpage."
+msgstr ""
+
+#: res/echo-helper.php:17
+msgid "Invalid URL provided: "
+msgstr ""
+
+#: res/echo-helper.php:28
+msgid "URL To Get Info From:"
+msgstr ""
+
+#: res/echo-helper.php:32
+msgid "Input the URL you want to get HTML Class, ID or XPATH from."
+msgstr ""
+
+#: res/echo-helper.php:55
+msgid "Query Type:"
+msgstr ""
+
+#: res/echo-helper.php:59
+msgid ""
+"Input the query type that you want to apply for the crawled article. This "
+"should be the same as the 'Query Type' settings field from the plugin "
+"settings."
+msgstr ""
+
+#: res/echo-helper.php:66
+msgid "Get Clicked Element HTML Class"
+msgstr ""
+
+#: res/echo-helper.php:68
+msgid "Get Clicked Element HTML ID"
+msgstr ""
+
+#: res/echo-helper.php:70
+msgid "Get Clicked Element XPATH Expression"
+msgstr ""
+
+#: res/echo-helper.php:81
+msgid "Crawled Content:"
+msgstr ""
+
+#: res/echo-helper.php:85
+msgid "Here you can see the crawled webpage content."
+msgstr ""
+
+#: res/echo-logs.php:54
+msgid "System Info:"
+msgstr ""
+
+#: res/echo-logs.php:58
+msgid "Some general system information."
+msgstr ""
+
+#: res/echo-logs.php:66
+msgid "User Agent:"
+msgstr ""
+
+#: res/echo-logs.php:70
+msgid "Web Server:"
+msgstr ""
+
+#: res/echo-logs.php:74
+msgid "PHP Version:"
+msgstr ""
+
+#: res/echo-logs.php:78
+msgid "PHP Max POST Size:"
+msgstr ""
+
+#: res/echo-logs.php:82
+msgid "PHP Max Upload Size:"
+msgstr ""
+
+#: res/echo-logs.php:86
+msgid "PHP Memory Limit:"
+msgstr ""
+
+#: res/echo-logs.php:90
+msgid "PHP DateTime Class:"
+msgstr ""
+
+#: res/echo-logs.php:91 res/echo-logs.php:95
+msgid "Available"
+msgstr ""
+
+#: res/echo-logs.php:91 res/echo-logs.php:95
+msgid "Not available"
+msgstr ""
+
+#: res/echo-logs.php:94
+msgid "PHP Curl:"
+msgstr ""
+
+#: res/echo-logs.php:104
+msgid "Rules Currently Running:"
+msgstr ""
+
+#: res/echo-logs.php:108
+msgid "These rules are currently running on your server."
+msgstr ""
+
+#: res/echo-logs.php:127
+msgid "Current time: "
+msgstr ""
+
+#: res/echo-logs.php:131
+msgid "No rules are running right now"
+msgstr ""
+
+#: res/echo-logs.php:136
+msgid "Are you sure you want to clear the running list?"
+msgstr ""
+
+#: res/echo-logs.php:137
+msgid "Caution! This is for debugging purpose only!"
+msgstr ""
+
+#: res/echo-logs.php:137
+msgid "Clear Running Rules List"
+msgstr ""
+
+#: res/echo-logs.php:145
+msgid "Backup Current Rules To File:"
+msgstr ""
+
+#: res/echo-logs.php:149
+msgid ""
+"Hit this button and you can backup the current rule settings to file. This "
+"is useful if you have many rules created and want to migrate settings to "
+"another server."
+msgstr ""
+
+#: res/echo-logs.php:161
+msgid "Load Rules From File:"
+msgstr ""
+
+#: res/echo-logs.php:165
+msgid ""
+"Here you can upload a previously downloaded backup file and restore the "
+"rules from it."
+msgstr ""
+
+#: res/echo-logs.php:179 res/echo-logs.php:189
+msgid "Restore Plugin Default Settings"
+msgstr ""
+
+#: res/echo-logs.php:183
+msgid ""
+"Hit this button and the plugin settings will be restored to their default "
+"values. Warning! All settings will be lost!"
+msgstr ""
+
+#: res/echo-logs.php:189
+msgid "Are you sure you want to restore the default plugin settings?"
+msgstr ""
+
+#: res/echo-logs.php:195
+msgid "Delete All Posts Generated by this Plugin:"
+msgstr ""
+
+#: res/echo-logs.php:199
+msgid "Hit this button and all posts generated by this plugin will be deleted!"
+msgstr ""
+
+#: res/echo-logs.php:205
+msgid ""
+"Are you sure you want to delete all generated posts? This can take a while, "
+"please wait until it finishes."
+msgstr ""
+
+#: res/echo-logs.php:205
+msgid "Delete All Generated Posts"
+msgstr ""
+
+#: res/echo-logs.php:211
+msgid "Delete All Rules from 'Rss to Posts' Section: "
+msgstr ""
+
+#: res/echo-logs.php:215
+msgid "Hit this button and all rules will be deleted!"
+msgstr ""
+
+#: res/echo-logs.php:226
+msgid "Activity Log:"
+msgstr ""
+
+#: res/echo-logs.php:230
+msgid ""
+"This is the main log of your plugin. Here will be listed every single "
+"instance of the rules you run or are automatically run by schedule jobs (if "
+"you enable logging, in the plugin configuration)."
+msgstr ""
+
+#: res/echo-logs.php:244
+msgid "Log empty"
+msgstr ""
+
+#: res/echo-logs.php:250
+msgid "Are you sure you want to delete all logs?"
+msgstr ""
+
+#: res/echo-logs.php:251
+msgid "Delete Logs"
+msgstr ""
+
+#: res/echo-main.php:918
+#, php-format
+msgid ""
+"Did you see our new <a href=\"%s\" target=\"_blank\">recommendations page</"
+"a>? It will help you increase your passive earnings!"
+msgstr ""
+
+#: res/echo-main.php:926 res/echo-rss.php:15 res/echo-rules-list.php:404
+msgid "Settings saved."
+msgstr ""
+
+#: res/echo-main.php:935
+msgid "Plugin registration failed!"
+msgstr ""
+
+#: res/echo-main.php:944
+msgid "Plugin registration successful!"
+msgstr ""
+
+#: res/echo-main.php:965
+msgid "Main Switch:"
+msgstr ""
+
+#: res/echo-main.php:970
+msgid "Enable or disable this plugin. This acts like a main switch."
+msgstr ""
+
+#: res/echo-main.php:988
+msgid ""
+"This feature of the plugin is disabled! Please enable it from the above "
+"switch."
+msgstr ""
+
+#: res/echo-main.php:991
+#, php-format
+msgid ""
+"Need help configuring this plugin? Please check out it's <a href=\"%s\" "
+"target=\"_blank\">video tutorial</a>."
+msgstr ""
+
+#: res/echo-main.php:993
+#, php-format
+msgid ""
+"Having issues with the plugin? Please be sure to check out our <a href=\"%s"
+"\" target=\"_blank\">knowledge-base</a> before you contact <a href=\"%s\" "
+"target=\"_blank\">our support</a>!"
+msgstr ""
+
+#: res/echo-main.php:994
+#, php-format
+msgid ""
+"Do you enjoy our plugin? Please give it a <a href=\"%s\" target=\"_blank"
+"\">rating</a>  on CodeCanyon, or check <a href=\"%s\" target=\"_blank\">our "
+"website</a>  for other cool plugins."
+msgstr ""
+
+#: res/echo-main.php:995
+msgid "Are you looking for a cool new theme that best fits this plugin?"
+msgstr ""
+
+#: res/echo-main.php:995
+msgid "Click here for our theme related recommendation"
+msgstr ""
+
+#: res/echo-main.php:1013
+msgid ""
+"You are using a NULLED version of the plugin :( - please purchase an "
+"official version for it!"
+msgstr ""
+
+#: res/echo-main.php:1016
+msgid "Plugin Registration Info - Automatic Updates Enabled:"
+msgstr ""
+
+#: res/echo-main.php:1018
+msgid "Item Name:"
+msgstr ""
+
+#: res/echo-main.php:1020
+msgid "Item ID:"
+msgstr ""
+
+#: res/echo-main.php:1023
+msgid "Created At:"
+msgstr ""
+
+#: res/echo-main.php:1026
+msgid "Buyer Name:"
+msgstr ""
+
+#: res/echo-main.php:1029
+msgid "License Type:"
+msgstr ""
+
+#: res/echo-main.php:1032
+msgid "Supported Until:"
+msgstr ""
+
+#: res/echo-main.php:1035
+msgid "Revoke License"
+msgstr ""
+
+#: res/echo-main.php:1043
+msgid ""
+"This is a trial version of the plugin. Automatic updates for this plugin are "
+"disabled. Please activate the plugin from below, so you can benefit of "
+"automatic updates for it!"
+msgstr ""
+
+#: res/echo-main.php:1051
+#, php-format
+msgid ""
+"Please input your Envato purchase code, to enable automatic updates in the "
+"plugin. To get your purchase code, please follow <a href=\"%s\" target="
+"\"_blank\">this tutorial</a>. Info submitted to the registration server "
+"consists of: purchase code, site URL, site name, admin email. All these data "
+"will be used strictly for registration purposes."
+msgstr ""
+
+#: res/echo-main.php:1055
+msgid "Register Envato Purchase Code To Enable Automatic Updates:"
+msgstr ""
+
+#: res/echo-main.php:1057
+msgid "Envato Purchase Code"
+msgstr ""
+
+#: res/echo-main.php:1061
+msgid "Register Purchase Code"
+msgstr ""
+
+#: res/echo-main.php:1077
+msgid "Getting started creating your rules:"
+msgstr ""
+
+#: res/echo-main.php:1081
+msgid "Blog Posts Generator Using RSS Feed Source"
+msgstr ""
+
+#: res/echo-main.php:1083
+msgid "RSS to Post"
+msgstr ""
+
+#: res/echo-main.php:1087
+msgid ""
+"You can start creating your rules which will automatically create posts from "
+"RSS feed sources."
+msgstr ""
+
+#: res/echo-main.php:1094
+msgid "RSS Feed Generator Using Blog Posts Source"
+msgstr ""
+
+#: res/echo-main.php:1096
+msgid "Post to RSS"
+msgstr ""
+
+#: res/echo-main.php:1100
+msgid ""
+"You can start creating your rules which will automatically create RSS feeds "
+"from the posts on your blog."
+msgstr ""
+
+#: res/echo-main.php:1119
+msgid "Scraping Enhancements:"
+msgstr ""
+
+#: res/echo-main.php:1128
+#, php-format
+msgid ""
+"If you wish to use the HeadlessBrowserAPI to render JavaScript generated "
+"content for your scraped pages, enter your API key here. Get one <a "
+"href='%s' target='_blank'>here</a>. If you enter a value here, new options "
+"will become available in the 'Use PhantomJs/Puppeteer/Tor To Parse "
+"JavaScript On Pages' in importing rule settings."
+msgstr ""
+
+#: res/echo-main.php:1132
+msgid "HeadlessBrowserAPI Key (Optional)"
+msgstr ""
+
+#: res/echo-main.php:1137
+msgid "Remaining API Calls For Today: "
+msgstr ""
+
+#: res/echo-main.php:1141 res/echo-rules-list.php:1122
+#: res/echo-rules-list.php:3531
+msgid ""
+"New feature added to this plugin: it is able to use HeadlessBrowserAPI to "
+"scrape with JavaScript rendered content any website from the internet. Also, "
+"the Tor node of the API will be able to scrape .onion sites from the Dark "
+"Net!"
+msgstr ""
+
+#: res/echo-main.php:1148
+msgid "API key"
+msgstr ""
+
+#: res/echo-main.php:1156
+msgid "SimplePie Library Options:"
+msgstr ""
+
+#: res/echo-main.php:1165
+msgid ""
+"Choose if you want to use a custom SimplePie version instead of the built-in "
+"one in your WordPress installation."
+msgstr ""
+
+#: res/echo-main.php:1169
+msgid "Use Custom SimplePie Instead of the Built-In One:"
+msgstr ""
+
+#: res/echo-main.php:1185
+msgid ""
+"Select this checkbox if the feed you are grabbing is failing (and the host "
+"is blocking the User-Agent WordPress uses)."
+msgstr ""
+
+#: res/echo-main.php:1189
+msgid "Use Custom User Agent In SimplePie:"
+msgstr ""
+
+#: res/echo-main.php:1205
+msgid ""
+"Click this option if your feeds are failing to create (this option will "
+"force the detection of a feed at the link you specify - will disable the "
+"built-in feed detection)."
+msgstr ""
+
+#: res/echo-main.php:1209
+msgid "Force Detection of Feeds at The Links You Specify:"
+msgstr ""
+
+#: res/echo-main.php:1225
+msgid ""
+"Click this option if you want to disable the html sanitization/html tag "
+"stripping done by default by SimplePie. Note that SimplePie will strip away "
+"iframes from the feed content, so if you wish to display these, check this "
+"checkbox."
+msgstr ""
+
+#: res/echo-main.php:1229
+msgid "Do Not Sanitize/Strip HTML Tags:"
+msgstr ""
+
+#: res/echo-main.php:1245
+msgid ""
+"Click this option if your to enable feed caching - cache will be set to - "
+"plugin folder/res/cache."
+msgstr ""
+
+#: res/echo-main.php:1249
+msgid "Enable Caching:"
+msgstr ""
+
+#: res/echo-main.php:1265
+msgid ""
+"Click this option if you are experiencing malformed content in your post "
+"generation. Enabling this value may resolve such issues. If you do not have "
+"such issues with generated post content, please leave this checkbox disabled."
+msgstr ""
+
+#: res/echo-main.php:1269
+msgid "Clear Curl Decoding Value:"
+msgstr ""
+
+#: res/echo-main.php:1284
+msgid "Input a feed reading timout. Default is 10 seconds."
+msgstr ""
+
+#: res/echo-main.php:1287
+msgid "Feed Timeout:"
+msgstr ""
+
+#: res/echo-main.php:1292
+msgid "10"
+msgstr ""
+
+#: res/echo-main.php:1302
+#, php-format
+msgid ""
+"Input a comma separated list of custom feed attributes that the plugin "
+"should import and make available for use. The resulting data, will be "
+"available for use in 'Generated Post Content' settings field, next to other "
+"shortcodes, with the name: %%custom_feed_FILEDNAME%%. Example of usage: if "
+"you want to import the &lt;location&gt; tag for feed, you should enter here: "
+"'location'. You will be able to use this data with the shortcode: "
+"%%custom_feed_location%%. If the tag has a custom name space (customns='' "
+"tag in the feed tag name), then you should use this as follows: "
+"custom_feed_name_space_name:custom_tag_name and use the resulting shortcode "
+"as follows: %%custom_feed_CUSTOMFEEDNAME:CUSTOMTAGNAME%%. Example: to fetch "
+"this feed attribute: &lt;jobNumber xmlns=\"crelate\"&gt;147&lt;/"
+"jobNumber&gt;, you should enter: crelate:jobNumber and use the "
+"%%custom_feed_crelate:jobNumber%% shortcode to get it's content. Instead of "
+"the ':' separator you can use a 'Custom Tag Separator' using the settings "
+"field from below. You can also get attributes for custom fields, using this "
+"syntax: field_name*attribute_name. Example: enclosure*url -> and the custom "
+"shortcode will be: %%custom_feed_enclosure*url%%"
+msgstr ""
+
+#: res/echo-main.php:1306
+msgid "Feed Custom Tag Names:"
+msgstr ""
+
+#: res/echo-main.php:1311 res/echo-main.php:1330
+msgid "tag1,tag2,tag3"
+msgstr ""
+
+#: res/echo-main.php:1321
+#, php-format
+msgid ""
+"Input a comma separated list of custom feed item attributes that the plugin "
+"should import and make available for use. The resulting data, will be "
+"available for use in 'Generated Post Content' settings field, next to other "
+"shortcodes, with the name: %%custom_YOURFIELDNAME%%. Example of usage: if "
+"you want to import the &lt;location&gt; tag for feed items, you should enter "
+"here: 'location'. You will be able to use this data with the shortcode: "
+"%%custom_location%%. If the tag has a custom name space (customns='' tag in "
+"the feed tag name), then you should use this as follows: "
+"custom_name_space_name:custom_tag_name and use the resulting shortcode as "
+"follows: %%custom_CUSTOMNAMESPACENAME:CUSTOMTAGNAME%%. Example: to fetch "
+"this feed item attribute: &lt;jobNumber xmlns=\"crelate\"&gt;147&lt;/"
+"jobNumber&gt;, you should enter: crelate:jobNumber and use the "
+"%%custom_crelate:jobNumber%% shortcode to get it's content. Instead of the "
+"':' separator you can use a 'Custom Tag Separator' using the settings field "
+"from below. You can also get attributes for custom fields, using this "
+"syntax: field_name*attribute_name. Example: enclosure*url -> and the custom "
+"shortcode will be: %%custom_enclosure*url%%"
+msgstr ""
+
+#: res/echo-main.php:1325
+msgid "Feed Item Custom Tag Names:"
+msgstr ""
+
+#: res/echo-main.php:1340
+msgid ""
+"Input a separator to use between custom values. The default is : . If you "
+"wish to use the : character in the custom tags, you can change this value."
+msgstr ""
+
+#: res/echo-main.php:1344
+msgid "Custom Tag Separator:"
+msgstr ""
+
+#: res/echo-main.php:1349
+msgid ":"
+msgstr ""
+
+#: res/echo-main.php:1359
+msgid ""
+"Input a separator to use between custom attribute values. The default is * . "
+"If you wish to use the * character in the custom attributes, you can change "
+"this value."
+msgstr ""
+
+#: res/echo-main.php:1363
+msgid "Custom Attribute Separator:"
+msgstr ""
+
+#: res/echo-main.php:1368
+msgid "*"
+msgstr ""
+
+#: res/echo-main.php:1374
+msgid "Post Images Options:"
+msgstr ""
+
+#: res/echo-main.php:1383
+msgid ""
+"Click this option if your want to try to get the featured image from the "
+"scaped post content, if anything else fails. If this feature is activated, "
+"rules can take a bit longer to run."
+msgstr ""
+
+#: res/echo-main.php:1387
+msgid "Try to Get Featured Image from Content:"
+msgstr ""
+
+#: res/echo-main.php:1403
+msgid ""
+"Click this option if your want to save images found in post content locally. "
+"Note that this option may be heavy on your hosting free space."
+msgstr ""
+
+#: res/echo-main.php:1407
+msgid "Copy Images From Content Locally:"
+msgstr ""
+
+#: res/echo-main.php:1423
+msgid ""
+"Click this option if you do not want to attach to generated posts, the "
+"images which were copied locally to your server (from post content)."
+msgstr ""
+
+#: res/echo-main.php:1427
+msgid "Do Not Attach Copied Images From Content To Posts:"
+msgstr ""
+
+#: res/echo-main.php:1443
+msgid ""
+"Click this option if your want to set the featured image from the remote "
+"image location. This settings can save disk space, but beware that if the "
+"remote image gets deleted, your featured image will also be broken."
+msgstr ""
+
+#: res/echo-main.php:1447
+msgid "Do Not Copy Featured Image Locally:"
+msgstr ""
+
+#: res/echo-main.php:1463
+msgid ""
+"Click this option to enable integration with the 'Featured Image from URL' "
+"plugin - https://wordpress.org/plugins/featured-image-from-url/. To enable "
+"this option, you need to deactivate the 'Do Not Copy Featured Image Locally' "
+"checkbox from above."
+msgstr ""
+
+#: res/echo-main.php:1467
+msgid "Enable 'Featured Image from URL' Integration:"
+msgstr ""
+
+#: res/echo-main.php:1483
+msgid ""
+"Click this option if your want to check images if they are not corrupt. If "
+"you have issues with featured image generation, uncheck this option."
+msgstr ""
+
+#: res/echo-main.php:1487
+msgid "Verify Featured Images If Not Corrupt:"
+msgstr ""
+
+#: res/echo-main.php:1503
+msgid ""
+"Click this option if your want to set a generic name for created featured "
+"images."
+msgstr ""
+
+#: res/echo-main.php:1507
+msgid "Set Generic File Name For Featured Images:"
+msgstr ""
+
+#: res/echo-main.php:1523
+msgid ""
+"Click this option if your images are broken (and they contain greek "
+"characters in their names)."
+msgstr ""
+
+#: res/echo-main.php:1527
+msgid "Fix Greek Strings From Image Names:"
+msgstr ""
+
+#: res/echo-main.php:1543
+msgid ""
+"Resize the image that was assigned to be the featured image to the width "
+"specified in this text field (in pixels). If you want to disable this "
+"feature, leave this field blank. This feature only works if you leave 'Do "
+"Not Copy Featured Image Locally' checkbox unchecked."
+msgstr ""
+
+#: res/echo-main.php:1547
+msgid "Featured Image Resize Width:"
+msgstr ""
+
+#: res/echo-main.php:1552
+msgid "Please insert the desire width for featured images"
+msgstr ""
+
+#: res/echo-main.php:1562
+msgid ""
+"Resize the image that was assigned to be the featured image to the height "
+"specified in this text field (in pixels). If you want to disable this "
+"feature, leave this field blank. This feature only works if you leave 'Do "
+"Not Copy Featured Image Locally' checkbox unchecked."
+msgstr ""
+
+#: res/echo-main.php:1566
+msgid "Featured Image Resize Height:"
+msgstr ""
+
+#: res/echo-main.php:1571
+msgid "Please insert the desire height for featured images"
+msgstr ""
+
+#: res/echo-main.php:1581
+msgid ""
+"Set the quality for the image that will be resized. If you leave this field "
+"blank, the maximum quality will be used."
+msgstr ""
+
+#: res/echo-main.php:1585
+msgid "Featured Image Resize Quality:"
+msgstr ""
+
+#: res/echo-main.php:1590
+msgid "Please insert the desire resize quality"
+msgstr ""
+
+#: res/echo-main.php:1600 res/echo-main.php:1619
+msgid ""
+"Resize the iframes that were imported from the custom content. If you want "
+"to disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-main.php:1604
+msgid "Iframe Resize Width:"
+msgstr ""
+
+#: res/echo-main.php:1609
+msgid "Please insert the desire width for iframes"
+msgstr ""
+
+#: res/echo-main.php:1623
+msgid "Iframe Resize Height:"
+msgstr ""
+
+#: res/echo-main.php:1628
+msgid "Please insert the desire height for iframes"
+msgstr ""
+
+#: res/echo-main.php:1634
+msgid "Royalty Free Featured Image Importing Options:"
+msgstr ""
+
+#: res/echo-main.php:1641
+#, php-format
+msgid ""
+"Insert your MorgueFile App ID. Register <a href='%s' target='_blank'>here</"
+"a>. Learn how to get an API key <a href='%s' target='_blank'>here</a>. If "
+"you enter an API Key and an API Secret, you will enable search for images "
+"using the MorgueFile API."
+msgstr ""
+
+#: res/echo-main.php:1645
+msgid "MorgueFile App ID:"
+msgstr ""
+
+#: res/echo-main.php:1652
+msgid "Please insert your MorgueFile API key"
+msgstr ""
+
+#: res/echo-main.php:1662
+#, php-format
+msgid ""
+"Insert your MorgueFile App Secret. Register <a href='%s' "
+"target='_blank'>here</a>. Learn how to get an API key <a href='%s' "
+"target='_blank'>here</a>. If you enter an API Key and an API Secret, you "
+"will enable search for images using the MorgueFile API."
+msgstr ""
+
+#: res/echo-main.php:1666
+msgid "MorgueFile App Secret:"
+msgstr ""
+
+#: res/echo-main.php:1673
+msgid "Please insert your MorgueFile API Secret"
+msgstr ""
+
+#: res/echo-main.php:1687
+#, php-format
+msgid ""
+"Insert your Pexels App ID. Learn how to get an API key <a href='%s' "
+"target='_blank'>here</a>. If you enter an API Key and an API Secret, you "
+"will enable search for images using the Pexels API."
+msgstr ""
+
+#: res/echo-main.php:1691
+msgid "Pexels App ID:"
+msgstr ""
+
+#: res/echo-main.php:1698
+msgid "Please insert your Pexels API key"
+msgstr ""
+
+#: res/echo-main.php:1712
+#, php-format
+msgid ""
+"Insert your Flickr App ID. Learn how to get an API key <a href='%s' "
+"target='_blank'>here</a>. If you enter an API Key and an API Secret, you "
+"will enable search for images using the Flickr API."
+msgstr ""
+
+#: res/echo-main.php:1716
+msgid "Flickr App ID: "
+msgstr ""
+
+#: res/echo-main.php:1719
+msgid "Please insert your Flickr APP ID"
+msgstr ""
+
+#: res/echo-main.php:1727
+msgid "The license id for photos to be searched."
+msgstr ""
+
+#: res/echo-main.php:1731
+msgid "Photo License: "
+msgstr ""
+
+#: res/echo-main.php:1742
+msgid "Do Not Search By Photo Licenses"
+msgstr ""
+
+#: res/echo-main.php:1749
+msgid "All Rights Reserved"
+msgstr ""
+
+#: res/echo-main.php:1756
+msgid "Attribution-NonCommercial-ShareAlike License"
+msgstr ""
+
+#: res/echo-main.php:1763
+msgid "Attribution-NonCommercial License"
+msgstr ""
+
+#: res/echo-main.php:1770
+msgid "Attribution-NonCommercial-NoDerivs License"
+msgstr ""
+
+#: res/echo-main.php:1777
+msgid "Attribution License"
+msgstr ""
+
+#: res/echo-main.php:1784
+msgid "Attribution-ShareAlike License"
+msgstr ""
+
+#: res/echo-main.php:1791
+msgid "Attribution-NoDerivs License"
+msgstr ""
+
+#: res/echo-main.php:1798
+msgid "No known copyright restrictions"
+msgstr ""
+
+#: res/echo-main.php:1805
+msgid "United States Government Work"
+msgstr ""
+
+#: res/echo-main.php:1814
+msgid ""
+"The order in which to sort returned photos. Deafults to date-posted-desc "
+"(unless you are doing a radial geo query, in which case the default sorting "
+"is by ascending distance from the point specified)."
+msgstr ""
+
+#: res/echo-main.php:1818
+msgid "Search Results Order: "
+msgstr ""
+
+#: res/echo-main.php:1828
+msgid "Date Posted Descendant"
+msgstr ""
+
+#: res/echo-main.php:1835
+msgid "Date Posted Ascendent"
+msgstr ""
+
+#: res/echo-main.php:1842
+msgid "Date Taken Ascendent"
+msgstr ""
+
+#: res/echo-main.php:1849
+msgid "Date Taken Descendant"
+msgstr ""
+
+#: res/echo-main.php:1856
+msgid "Interestingness Descendant"
+msgstr ""
+
+#: res/echo-main.php:1863
+msgid "Interestingness Ascendant"
+msgstr ""
+
+#: res/echo-main.php:1870
+msgid "Relevance"
+msgstr ""
+
+#: res/echo-main.php:1886
+#, php-format
+msgid ""
+"Insert your Pixabay App ID. Learn how to get one <a href='%s' "
+"target='_blank'>here</a>. If you enter an API Key here, you will enable "
+"search for images using the Pixabay API."
+msgstr ""
+
+#: res/echo-main.php:1890
+msgid "Pixabay App ID:"
+msgstr ""
+
+#: res/echo-main.php:1897
+msgid "Please insert your Pixabay API key"
+msgstr ""
+
+#: res/echo-main.php:1907 res/echo-main.php:2356
+msgid "Filter results by image type."
+msgstr ""
+
+#: res/echo-main.php:1911
+msgid "Image Types To Search:"
+msgstr ""
+
+#: res/echo-main.php:1920 res/echo-main.php:1980 res/echo-main.php:2368
+#: res/echo-main.php:2404 res/echo-main.php:2466
+msgid "All"
+msgstr ""
+
+#: res/echo-main.php:1924 res/echo-main.php:2373
+msgid "Photo"
+msgstr ""
+
+#: res/echo-main.php:1928 res/echo-main.php:2378
+msgid "Illustration"
+msgstr ""
+
+#: res/echo-main.php:1932 res/echo-main.php:2383
+msgid "Vector"
+msgstr ""
+
+#: res/echo-main.php:1942 res/echo-main.php:2423
+msgid "Order results by a predefined rule."
+msgstr ""
+
+#: res/echo-main.php:1946 res/echo-main.php:2427
+msgid "Results Order: "
+msgstr ""
+
+#: res/echo-main.php:1954 res/echo-main.php:2440
+msgid "Popular"
+msgstr ""
+
+#: res/echo-main.php:1959 res/echo-main.php:2445
+msgid "Latest"
+msgstr ""
+
+#: res/echo-main.php:1968 res/echo-main.php:2454
+msgid "Filter results by image category."
+msgstr ""
+
+#: res/echo-main.php:1972 res/echo-main.php:2458
+msgid "Image Category: "
+msgstr ""
+
+#: res/echo-main.php:1985 res/echo-main.php:2471
+msgid "Fashion"
+msgstr ""
+
+#: res/echo-main.php:1990 res/echo-main.php:2476
+msgid "Nature"
+msgstr ""
+
+#: res/echo-main.php:1995 res/echo-main.php:2481
+msgid "Backgrounds"
+msgstr ""
+
+#: res/echo-main.php:2000 res/echo-main.php:2486
+msgid "Science"
+msgstr ""
+
+#: res/echo-main.php:2005 res/echo-main.php:2491
+msgid "Education"
+msgstr ""
+
+#: res/echo-main.php:2010 res/echo-main.php:2496
+msgid "People"
+msgstr ""
+
+#: res/echo-main.php:2015 res/echo-main.php:2501
+msgid "Feelings"
+msgstr ""
+
+#: res/echo-main.php:2020 res/echo-main.php:2506
+msgid "Religion"
+msgstr ""
+
+#: res/echo-main.php:2025 res/echo-main.php:2511
+msgid "Health"
+msgstr ""
+
+#: res/echo-main.php:2030 res/echo-main.php:2516
+msgid "Places"
+msgstr ""
+
+#: res/echo-main.php:2035 res/echo-main.php:2521
+msgid "Animals"
+msgstr ""
+
+#: res/echo-main.php:2040 res/echo-main.php:2526
+msgid "Industry"
+msgstr ""
+
+#: res/echo-main.php:2045 res/echo-main.php:2531
+msgid "Food"
+msgstr ""
+
+#: res/echo-main.php:2050 res/echo-main.php:2536
+msgid "Computer"
+msgstr ""
+
+#: res/echo-main.php:2055 res/echo-main.php:2541
+msgid "Sports"
+msgstr ""
+
+#: res/echo-main.php:2060 res/echo-main.php:2546
+msgid "Transportation"
+msgstr ""
+
+#: res/echo-main.php:2065 res/echo-main.php:2551
+msgid "Travel"
+msgstr ""
+
+#: res/echo-main.php:2070 res/echo-main.php:2556
+msgid "Buildings"
+msgstr ""
+
+#: res/echo-main.php:2075 res/echo-main.php:2561
+msgid "Business"
+msgstr ""
+
+#: res/echo-main.php:2080 res/echo-main.php:2566
+msgid "Music"
+msgstr ""
+
+#: res/echo-main.php:2089 res/echo-main.php:2575
+msgid "Minimum image width."
+msgstr ""
+
+#: res/echo-main.php:2093 res/echo-main.php:2579
+msgid "Image Min Width: "
+msgstr ""
+
+#: res/echo-main.php:2096 res/echo-main.php:2582
+msgid "Please insert image min width"
+msgstr ""
+
+#: res/echo-main.php:2104
+msgid "Maximum image width."
+msgstr ""
+
+#: res/echo-main.php:2108
+msgid "Image Max Width: "
+msgstr ""
+
+#: res/echo-main.php:2111
+msgid "Please insert image max width"
+msgstr ""
+
+#: res/echo-main.php:2119
+msgid ""
+"A flag indicating that only images suitable for all ages should be returned."
+msgstr ""
+
+#: res/echo-main.php:2123
+msgid "Safe Search: "
+msgstr ""
+
+#: res/echo-main.php:2138
+msgid "Select images that have received an Editor's Choice award."
+msgstr ""
+
+#: res/echo-main.php:2142
+msgid "Editor's Choice: "
+msgstr ""
+
+#: res/echo-main.php:2157
+msgid "Specify default language for regional content."
+msgstr ""
+
+#: res/echo-main.php:2161
+msgid "Filter Language: "
+msgstr ""
+
+#: res/echo-main.php:2169 res/echo-main.php:2435
+msgid "Any"
+msgstr ""
+
+#: res/echo-main.php:2174 res/echo-main.php:4649
+msgid "English"
+msgstr ""
+
+#: res/echo-main.php:2179
+msgid "Czech"
+msgstr ""
+
+#: res/echo-main.php:2184 res/echo-main.php:4669
+msgid "Danish"
+msgstr ""
+
+#: res/echo-main.php:2189 res/echo-main.php:4689
+msgid "German"
+msgstr ""
+
+#: res/echo-main.php:2194 res/echo-main.php:4737
+msgid "Spanish"
+msgstr ""
+
+#: res/echo-main.php:2199 res/echo-main.php:4685
+msgid "French"
+msgstr ""
+
+#: res/echo-main.php:2204 res/echo-main.php:4701
+msgid "Indonesian"
+msgstr ""
+
+#: res/echo-main.php:2209 res/echo-main.php:4705
+msgid "Italian"
+msgstr ""
+
+#: res/echo-main.php:2214
+msgid "Hungarian"
+msgstr ""
+
+#: res/echo-main.php:2219 res/echo-main.php:4673
+msgid "Dutch"
+msgstr ""
+
+#: res/echo-main.php:2224
+msgid "Norvegian"
+msgstr ""
+
+#: res/echo-main.php:2229 res/echo-main.php:4717
+msgid "Polish"
+msgstr ""
+
+#: res/echo-main.php:2234 res/echo-main.php:4721
+msgid "Portuguese"
+msgstr ""
+
+#: res/echo-main.php:2239 res/echo-main.php:4725
+msgid "Romanian"
+msgstr ""
+
+#: res/echo-main.php:2244 res/echo-main.php:4729
+msgid "Slovak"
+msgstr ""
+
+#: res/echo-main.php:2249
+msgid "Finish"
+msgstr ""
+
+#: res/echo-main.php:2254 res/echo-main.php:4741
+msgid "Swedish"
+msgstr ""
+
+#: res/echo-main.php:2259 res/echo-main.php:4745
+msgid "Turkish"
+msgstr ""
+
+#: res/echo-main.php:2264 res/echo-main.php:4749
+msgid "Vietnamese"
+msgstr ""
+
+#: res/echo-main.php:2269
+msgid "Thai"
+msgstr ""
+
+#: res/echo-main.php:2274 res/echo-main.php:4661
+msgid "Bulgarian"
+msgstr ""
+
+#: res/echo-main.php:2279
+msgid "Russian"
+msgstr ""
+
+#: res/echo-main.php:2284 res/echo-main.php:4693
+msgid "Greek"
+msgstr ""
+
+#: res/echo-main.php:2289
+msgid "Japanese"
+msgstr ""
+
+#: res/echo-main.php:2294
+msgid "Korean"
+msgstr ""
+
+#: res/echo-main.php:2299
+msgid "Chinese"
+msgstr ""
+
+#: res/echo-main.php:2313
+msgid ""
+"Select if you want to enable usage of the Unsplash API for getting images."
+msgstr ""
+
+#: res/echo-main.php:2317
+msgid "Enable Unsplash API Usage: "
+msgstr ""
+
+#: res/echo-main.php:2337
+msgid ""
+"Select if you want to enable direct scraping of Pixabay website. This will "
+"generate different results from the API."
+msgstr ""
+
+#: res/echo-main.php:2341
+msgid "Enable Pixabay Direct Website Scraping: "
+msgstr ""
+
+#: res/echo-main.php:2360
+msgid "Image Types To Search: "
+msgstr ""
+
+#: res/echo-main.php:2392
+msgid "Filter results by image orientation."
+msgstr ""
+
+#: res/echo-main.php:2396
+msgid "Image Orientation: "
+msgstr ""
+
+#: res/echo-main.php:2409
+msgid "Horizontal"
+msgstr ""
+
+#: res/echo-main.php:2414
+msgid "Vertical"
+msgstr ""
+
+#: res/echo-main.php:2590
+msgid "Maximum image height."
+msgstr ""
+
+#: res/echo-main.php:2594
+msgid "Image Min Height: "
+msgstr ""
+
+#: res/echo-main.php:2597
+msgid "Please insert image min height"
+msgstr ""
+
+#: res/echo-main.php:2610
+#, php-format
+msgid ""
+"Please set a the image attribution shortcode value. You can use this value, "
+"using the %%image_attribution%% shortcode, in 'Prepend Content With' and "
+"'Append Content With' settings fields. You can use the following shortcodes, "
+"in this settings field: %%image_source_name%%, %%image_source_website%%, "
+"%%image_source_url%%. These will be updated automatically for the respective "
+"image source, from where the imported image is from. This will replace the "
+"%%royalty_free_image_attribution%% shortcode, in 'Generated Post Content' "
+"settings field."
+msgstr ""
+
+#: res/echo-main.php:2614
+#, php-format
+msgid ""
+"Royalty Free Image Attribution Text (%%royalty_free_image_attribution%%): "
+msgstr ""
+
+#: res/echo-main.php:2617
+msgid "Please insert image attribution text pattern"
+msgstr ""
+
+#: res/echo-main.php:2625
+msgid "Do you want to enable broad search for royalty free images?"
+msgstr ""
+
+#: res/echo-main.php:2629
+msgid "Enable broad image search: "
+msgstr ""
+
+#: res/echo-main.php:2644
+msgid ""
+"Do you want to not use article's original image if no royalty free image "
+"found for the post?"
+msgstr ""
+
+#: res/echo-main.php:2648
+msgid "Do Not Use Original Image If No Free Image Found: "
+msgstr ""
+
+#: res/echo-main.php:2663
+msgid ""
+"Do you want to not skip importing the aritcle if no royalty free image found "
+"for the post?"
+msgstr ""
+
+#: res/echo-main.php:2667
+msgid "Skip Importing of Article If No Free Image Found: "
+msgstr ""
+
+#: res/echo-main.php:2680
+msgid "Generated Custom Feed Options:"
+msgstr ""
+
+#: res/echo-main.php:2688
+msgid ""
+"Check this to make the plugin link articles directly to their sources, in "
+"custom feeds this plugin creates. Please note that this feature will have "
+"effect only if the articles from the feeds were created by this plugin."
+msgstr ""
+
+#: res/echo-main.php:2692
+msgid "Link Articles From Generated Feeds Directly to Their Source:"
+msgstr ""
+
+#: res/echo-main.php:2703
+msgid "Translator API Options:"
+msgstr ""
+
+#: res/echo-main.php:2712
+#, php-format
+msgid ""
+"If you wish to use DeepL for translation, you must enter first a DeepL "
+"'Authentication Key'. Get one <a href='%s' target='_blank'>here</a>. If you "
+"enter a value here, new options will become available in the 'Automatically "
+"Translate Content To' and 'Source Language' fields. You can also add a comma "
+"separate list of API keys, a random one will be selected at each run."
+msgstr ""
+
+#: res/echo-main.php:2716
+msgid "DeepL Translator Authentication Key (Optional)"
+msgstr ""
+
+#: res/echo-main.php:2721
+msgid "Auth key (optional)"
+msgstr ""
+
+#: res/echo-main.php:2733
+msgid ""
+"Check this checkbox if the above API key is a DeepL free plan key. If it is "
+"a PRO key, please uncheck this checkbox."
+msgstr ""
+
+#: res/echo-main.php:2737
+msgid "The Above Is A DeepL Free API Key:"
+msgstr ""
+
+#: res/echo-main.php:2753
+#, php-format
+msgid ""
+"If you wish to use Microsoft for translation, you must enter first a "
+"Microsoft 'Access Key'. Learn how to get one <a href='%s' "
+"target='_blank'>here</a>. If you enter a value here, new options will become "
+"available in the 'Automatically Translate Content To' and 'Source Language' "
+"fields."
+msgstr ""
+
+#: res/echo-main.php:2757
+msgid "Microsoft Translator Access Key (Optional)"
+msgstr ""
+
+#: res/echo-main.php:2762
+msgid "Access key (optional)"
+msgstr ""
+
+#: res/echo-main.php:2774
+#, php-format
+msgid ""
+"If you selected a specific region in your Azure Microsoft account, you must "
+"enter it here. Learn more <a href='%s' target='_blank'>here</a>. The default "
+"is global."
+msgstr ""
+
+#: res/echo-main.php:2778
+msgid "Microsoft Translator Region Code (Optional)"
+msgstr ""
+
+#: res/echo-main.php:2783
+msgid "global"
+msgstr ""
+
+#: res/echo-main.php:2795
+#, php-format
+msgid ""
+"If you wish to use the official version of the Google Translator API for "
+"translation, you must enter first a Google API Key. Get one <a href='%s' "
+"target='_blank'>here</a>.  Please enable the 'Cloud Translation API' in <a "
+"href='%s' target='_blank'>Google Cloud Console</a>. Translation will work "
+"even without even without entering an API key here, but in this case, an "
+"unofficial Google Translate API will be used."
+msgstr ""
+
+#: res/echo-main.php:2799
+msgid "Google Translator API Key (Optional)"
+msgstr ""
+
+#: res/echo-main.php:2804
+msgid "API Key (optional)"
+msgstr ""
+
+#: res/echo-main.php:2812
+msgid "Plugin Options:"
+msgstr ""
+
+#: res/echo-main.php:2820
+msgid ""
+"Check this to force the plugin to not crawl content that is disallowed for "
+"crawling by a robots meta tag."
+msgstr ""
+
+#: res/echo-main.php:2824
+msgid "Respect Robots HTML Header For Crawled Pages:"
+msgstr ""
+
+#: res/echo-main.php:2838
+msgid ""
+"Check this to enable XML-RPC pinging for feeds, to start running importing "
+"in the plugin (minimum ping interval is 1 hour)."
+msgstr ""
+
+#: res/echo-main.php:2838
+#, php-format
+msgid "More info: <a href='%s' target='_blank'>here</a>."
+msgstr ""
+
+#: res/echo-main.php:2842
+msgid "Enable XML-RPC Ping to Run Importing for Feeds:"
+msgstr ""
+
+#: res/echo-main.php:2856 res/echo-main.php:3320
+msgid ""
+"Check this to force the plugin not check generated posts in rule settings. "
+"Improves performance if you have 100k posts generated using this plugin."
+msgstr ""
+
+#: res/echo-main.php:2860
+msgid "Do Not Check Generated Posts In Rule Settings:"
+msgstr ""
+
+#: res/echo-main.php:2874
+msgid ""
+"Check this to force the plugin to make draft posts before they would be "
+"fully published. This can help you you use other third party plugins with "
+"the automatically published posts."
+msgstr ""
+
+#: res/echo-main.php:2878
+msgid "Draft Posts First, And Publish Them Afterwards:"
+msgstr ""
+
+#: res/echo-main.php:2892
+msgid ""
+"Select if you want to convert encoding of imported content to UTF-8. Check "
+"this is you get feeds with corrupt characters. For this feature to work, "
+"mbstring PHP extension must be installed."
+msgstr ""
+
+#: res/echo-main.php:2896
+msgid "Convert Encoding Of Imported Content To UTF-8:"
+msgstr ""
+
+#: res/echo-main.php:2910
+msgid ""
+"Select if you wish to apply full content for custom feeds description also "
+"(if you uncheck this, only content will be populated with full post content "
+"- for custom created feeds)."
+msgstr ""
+
+#: res/echo-main.php:2914
+msgid "Apply Full Content Also To Generated Feeds Description:"
+msgstr ""
+
+#: res/echo-main.php:2929
+msgid ""
+"Select a secret word that will be used when you run the plugin manually/by "
+"cron. See details about this below."
+msgstr ""
+
+#: res/echo-main.php:2933
+msgid "Secret Word Used For Manual/Cron Running:"
+msgstr ""
+
+#: res/echo-main.php:2936
+msgid "Input a secret word"
+msgstr ""
+
+#: res/echo-main.php:2943
+msgid ""
+"If you want to schedule the cron event manually in your server, you should "
+"schedule this address:"
+msgstr ""
+
+#: res/echo-main.php:2943
+msgid "You must enter a secret word above, to use this feature."
+msgstr ""
+
+#: res/echo-main.php:2943 res/echo-main.php:5468
+msgid "Example:"
+msgstr ""
+
+#: res/echo-main.php:2954
+msgid ""
+"Click this option to enable the post auto deletion feature after a period of "
+"time (defined by the 'Automatically Delete Post' settings for each rule)."
+msgstr ""
+
+#: res/echo-main.php:2958
+msgid "Enable Post Auto Deletion Feature:"
+msgstr ""
+
+#: res/echo-main.php:2974
+msgid ""
+"Choose if you want to show an extended information metabox under every "
+"plugin generated post."
+msgstr ""
+
+#: res/echo-main.php:2978
+msgid "Show Extended Item Information Metabox in Post:"
+msgstr ""
+
+#: res/echo-main.php:2994
+msgid "Do you want to enable logging for rules?"
+msgstr ""
+
+#: res/echo-main.php:2998
+msgid "Enable Logging for Rules:"
+msgstr ""
+
+#: res/echo-main.php:3014
+msgid ""
+"Do you want to enable detailed logging for rules? Note that this will "
+"dramatically increase the size of the log this plugin generates."
+msgstr ""
+
+#: res/echo-main.php:3018
+msgid "Enable Detailed Logging for Rules:"
+msgstr ""
+
+#: res/echo-main.php:3036
+msgid "Choose if you want to automatically clear logs after a period of time."
+msgstr ""
+
+#: res/echo-main.php:3040
+msgid "Automatically Clear Logs After:"
+msgstr ""
+
+#: res/echo-main.php:3050 res/echo-main.php:4462 res/echo-rules-list.php:4
+#: res/echo-rules-list.php:1195 res/echo-rules-list.php:3673
+msgid "Disabled"
+msgstr ""
+
+#: res/echo-main.php:3055
+msgid "Once a month"
+msgstr ""
+
+#: res/echo-main.php:3060
+msgid "Once a week"
+msgstr ""
+
+#: res/echo-main.php:3065
+msgid "Once a day"
+msgstr ""
+
+#: res/echo-main.php:3070
+msgid "Twice a day"
+msgstr ""
+
+#: res/echo-main.php:3075
+msgid "Once an hour"
+msgstr ""
+
+#: res/echo-main.php:3086
+msgid ""
+"Choose if you want to search Google Archives when you don't have access to "
+"the direct CarreerJet webpage."
+msgstr ""
+
+#: res/echo-main.php:3090
+msgid "Search Google Archives When Direct Page Fetching Fails:"
+msgstr ""
+
+#: res/echo-main.php:3106
+msgid ""
+"If you want to use a custom string for the 'Post Source' meta data assigned "
+"to posts, please input it here. If you will leave this blank, the default "
+"'Post Source' value will be assigned to posts."
+msgstr ""
+
+#: res/echo-main.php:3110
+msgid "Custom 'Post Source' Post Meta Data:"
+msgstr ""
+
+#: res/echo-main.php:3115
+msgid "Input a custom post source string"
+msgstr ""
+
+#: res/echo-main.php:3125
+msgid ""
+"If you want to use a proxy to crawl webpages, input it's address here. "
+"Required format: IP Address/URL:port. You can input a comma separated list "
+"of proxies. If you are using HeadlessBrowserAPI, add 'disabled' into this "
+"field to disable automatic proxy rotation of the API."
+msgstr ""
+
+#: res/echo-main.php:3129
+msgid "Web Proxy Address List:"
+msgstr ""
+
+#: res/echo-main.php:3134
+msgid "Input web proxy url"
+msgstr ""
+
+#: res/echo-main.php:3144
+msgid ""
+"If you want to use a proxy to crawl webpages, and it requires "
+"authentification, input it's authentification details here. Required format: "
+"username:password. You can input a comma separated list of users/passwords. "
+"If a proxy does not have a user/password, please leave it blank in the list. "
+"Example: user1:pass1,user2:pass2,,user4:pass4."
+msgstr ""
+
+#: res/echo-main.php:3148
+msgid "Web Proxy Authentication:"
+msgstr ""
+
+#: res/echo-main.php:3153
+msgid "Input web proxy auth"
+msgstr ""
+
+#: res/echo-main.php:3163
+msgid ""
+"Set the timeout (in seconds) for every rule running. I recommend that you "
+"leave this field at it's default value (3600)."
+msgstr ""
+
+#: res/echo-main.php:3167
+msgid "Timeout for Rule Running (seconds):"
+msgstr ""
+
+#: res/echo-main.php:3172
+msgid "Input rule timeout in seconds"
+msgstr ""
+
+#: res/echo-main.php:3182
+msgid ""
+"Set the timeout (in milliseconds) between each subsequent call to the "
+"crawled website. Increase this value if the website has a anti-crawling "
+"mechanism active. Here you can also input a pair of values, separated by a "
+"comma (ex: 300,500). In this case, a random timeout will be selected, "
+"between the two values you specified. This is a global timeout, will be "
+"applied to all created importing rules, however, this will be overwritten by "
+"the \\'Delay Between Multiple Requests\\' from each importing rule settings"
+msgstr ""
+
+#: res/echo-main.php:3186
+msgid "Delay Between Multiple Requests - Global Settings - (milliseconds):"
+msgstr ""
+
+#: res/echo-main.php:3191
+msgid "Input request delay"
+msgstr ""
+
+#: res/echo-main.php:3201
+msgid ""
+"Define a number of seconds the plugin should wait between the rule running. "
+"Use this to not decrease the use of your server's resources. Leave blank to "
+"disable."
+msgstr ""
+
+#: res/echo-main.php:3205
+msgid "Delay Between Rule Running:"
+msgstr ""
+
+#: res/echo-main.php:3210
+msgid "delay (s)"
+msgstr ""
+
+#: res/echo-main.php:3220
+msgid ""
+"Choose if you want to receive a summary of the rule running in an email."
+msgstr ""
+
+#: res/echo-main.php:3224
+msgid "Send Rule Running Summary in Email:"
+msgstr ""
+
+#: res/echo-main.php:3240
+msgid ""
+"Do you want to send each published post in email to the defined email "
+"address below?"
+msgstr ""
+
+#: res/echo-main.php:3244
+msgid "Send Each Post in Email:"
+msgstr ""
+
+#: res/echo-main.php:3260
+msgid ""
+"Input the email adress where you want to send the report. You can input more "
+"email addresses, separated by commas."
+msgstr ""
+
+#: res/echo-main.php:3264
+msgid "Email Address:"
+msgstr ""
+
+#: res/echo-main.php:3269
+msgid "Input a valid email adress"
+msgstr ""
+
+#: res/echo-main.php:3279
+msgid ""
+"Select if you wish to get only a single daily summary email (instead of one "
+"email for each rule running)."
+msgstr ""
+
+#: res/echo-main.php:3283
+msgid "Send Only A Daily Summary Email:"
+msgstr ""
+
+#: res/echo-main.php:3302
+msgid ""
+"Choose if you want to skip checking for duplicate posts when publishing new "
+"posts (check this if you have 10000+ posts on your blog and you are "
+"experiencing slowdows when the plugin is running. If you check this, "
+"duplicate posts will be posted! So use it only when it is necesarry."
+msgstr ""
+
+#: res/echo-main.php:3306
+msgid "Do Not Check For Duplicate Posts:"
+msgstr ""
+
+#: res/echo-main.php:3324
+msgid "Check Duplicate Posts By Title Instead of Source URL:"
+msgstr ""
+
+#: res/echo-main.php:3336
+msgid ""
+"Check this to force the plugin to not post any duplicate post titles, in any "
+"circumstances!"
+msgstr ""
+
+#: res/echo-main.php:3340
+msgid "Make Sure No Duplicate Post Titles Are Published:"
+msgstr ""
+
+#: res/echo-main.php:3352
+msgid ""
+"Check this to disable additional content created by the plugin for the "
+"backend of the site."
+msgstr ""
+
+#: res/echo-main.php:3356
+msgid "Disable Additional Back-End Content:"
+msgstr ""
+
+#: res/echo-main.php:3370
+msgid ""
+"Input a comma separated list of user roles to list in the 'Post Author' "
+"settings field in the plugin settings. This is useful if you have any custom "
+"user roles your theme or plugins generate, you wish to use in this plugin as "
+"post author."
+msgstr ""
+
+#: res/echo-main.php:3374
+msgid "Additional Post Author Roles List:"
+msgstr ""
+
+#: res/echo-main.php:3377
+msgid "Comma separated author role list"
+msgstr ""
+
+#: res/echo-main.php:3383
+msgid "Post Content Options:"
+msgstr ""
+
+#: res/echo-main.php:3399
+#, php-format
+msgid ""
+"If you wish to shorten outgoing links using shorte.st, please enter your API "
+"token here. To sign up for a new account, click <a href='%s' "
+"target='_blank'>here</a>. To get your API token after you have signed up, "
+"click <a href='%s' target='_blank'>here</a>. To disable URL shortening, "
+"leave this field blank."
+msgstr ""
+
+#: res/echo-main.php:3403
+msgid "Shorte.st API Token"
+msgstr ""
+
+#: res/echo-main.php:3408
+msgid "Shorte.st API token"
+msgstr ""
+
+#: res/echo-main.php:3418
+msgid "Do you want to strip emoticons from imported title?"
+msgstr ""
+
+#: res/echo-main.php:3422
+msgid "Strip Emoticons From Imported Post Titles:"
+msgstr ""
+
+#: res/echo-main.php:3438
+msgid ""
+"Do you want to keep original link sources after translation? If you uncheck "
+"this, links will point to Google Translate version of the linked website."
+msgstr ""
+
+#: res/echo-main.php:3442
+msgid "Keep Original Link Source After Translation:"
+msgstr ""
+
+#: res/echo-main.php:3458
+msgid ""
+"Do you want to not import posts that were failed in the translation process."
+msgstr ""
+
+#: res/echo-main.php:3462
+msgid "Do Not Post Failed Translation Posts:"
+msgstr ""
+
+#: res/echo-main.php:3478
+msgid ""
+"Try to fix imported HTML content (if it is corrupted on the source site)."
+msgstr ""
+
+#: res/echo-main.php:3482
+msgid "Try To Fix Imported HTML:"
+msgstr ""
+
+#: res/echo-main.php:3498 res/echo-rules-list.php:2117
+#: res/echo-rules-list.php:4510
+msgid ""
+"Select if you want to add a 'rel=canonical' meta tag to generated posts, "
+"linking back to the source of the article. This will affect all importing "
+"rules."
+msgstr ""
+
+#: res/echo-main.php:3502
+msgid "Add \"rel=canonical\" Meta Tag To Generated Posts (Global):"
+msgstr ""
+
+#: res/echo-main.php:3518
+msgid ""
+"Select if you want to enable linking of generated post titles to source "
+"articles. You must also enable this from importing rule settings for posts "
+"to be linked to source."
+msgstr ""
+
+#: res/echo-main.php:3522
+msgid "Enable the 'Link Generated Post Titles To Source Articles' Feature:"
+msgstr ""
+
+#: res/echo-main.php:3538
+msgid ""
+"This checkbox will modify the 'Link Generated Post Titles To Source "
+"Articles' feature from above. Instead of changing post URLs to the original "
+"URL, the posts will redirect using a 301 HTTP redirect to the original "
+"source."
+msgstr ""
+
+#: res/echo-main.php:3542
+msgid "Use Post Redirection Instead Of Direct Post Linking:"
+msgstr ""
+
+#: res/echo-main.php:3558
+msgid "Enable this to append media found in feed enclosures to post's content."
+msgstr ""
+
+#: res/echo-main.php:3562
+msgid "Append Media From Feed Enclosure To Post Content:"
+msgstr ""
+
+#: res/echo-main.php:3578
+msgid ""
+"Enable this to append media found in feed enclosures to posts as attachments."
+msgstr ""
+
+#: res/echo-main.php:3582
+msgid "Add Images From Feeds As Post Attachments:"
+msgstr ""
+
+#: res/echo-main.php:3598
+msgid ""
+"Enable this to append post attachments to generated post's content, as a "
+"gallery."
+msgstr ""
+
+#: res/echo-main.php:3602
+msgid "Append To Post Content A Gallery With Post Attachment Images:"
+msgstr ""
+
+#: res/echo-main.php:3618
+msgid "Disable excerpt automatic generation for resulting blog posts."
+msgstr ""
+
+#: res/echo-main.php:3622
+msgid "Disable Automatic Excerpt Generation:"
+msgstr ""
+
+#: res/echo-main.php:3638
+msgid "Select the word count of the automatically generated excerpt."
+msgstr ""
+
+#: res/echo-main.php:3642
+msgid "Excerpt Word Count:"
+msgstr ""
+
+#: res/echo-main.php:3645
+msgid "55"
+msgstr ""
+
+#: res/echo-main.php:3655
+msgid ""
+"Select the user ID you wish to assign to posts that do not have a user ID "
+"extracted from feeds. Default is 1 - admin. This is a global settings, it "
+"will be overwritten by the rule based settings with the same name."
+msgstr ""
+
+#: res/echo-main.php:3659
+msgid "Default Post Author User ID (Global):"
+msgstr ""
+
+#: res/echo-main.php:3662
+msgid "1"
+msgstr ""
+
+#: res/echo-main.php:3672
+msgid ""
+"Choose if you the plugin to generate new categories if the category does not "
+"already exist."
+msgstr ""
+
+#: res/echo-main.php:3676
+msgid "Do Not Generate Inexistent Categories for New Posts:"
+msgstr ""
+
+#: res/echo-main.php:3692
+msgid ""
+"Choose if you don't want the pugin to automatically extract categories from "
+"post titles (in case no category is found for specific feed items."
+msgstr ""
+
+#: res/echo-main.php:3696
+msgid "Do Not Extract Categories From Post Titles:"
+msgstr ""
+
+#: res/echo-main.php:3712
+msgid ""
+"Choose if you want to use only the first category that appears in the feed "
+"items to be used for automatic post category creation."
+msgstr ""
+
+#: res/echo-main.php:3716
+msgid "Create Post Categories Only Using The First Feed Category:"
+msgstr ""
+
+#: res/echo-main.php:3732
+msgid ""
+"Choose if you to skip the first feed category when automatically creating "
+"tags."
+msgstr ""
+
+#: res/echo-main.php:3736
+msgid "Create Post Tags By Skipping the First Feed Category:"
+msgstr ""
+
+#: res/echo-main.php:3752
+msgid ""
+"Select if you want to change the featured images for already imported posts. "
+"This might prevent duplicate image creation in image library."
+msgstr ""
+
+#: res/echo-main.php:3756
+msgid "Do Not Change Featured Images for Updated Posts:"
+msgstr ""
+
+#: res/echo-main.php:3772
+msgid ""
+"Choose if you want to strip featured image from the generated post content."
+msgstr ""
+
+#: res/echo-main.php:3776
+msgid "Strip Featured Image From Generated Post Content:"
+msgstr ""
+
+#: res/echo-main.php:3792
+msgid ""
+"Choose if you want to strip links from the generated post final content "
+"(including links that are added by you using shortcodes)."
+msgstr ""
+
+#: res/echo-main.php:3796
+msgid "Strip Links From Generated Post Final Content:"
+msgstr ""
+
+#: res/echo-main.php:3812
+msgid ""
+"Choose if you want to strip links from the generated post content (this will "
+"strip links only from the imported content and will leave links that are "
+"added by you, using shortcodes)."
+msgstr ""
+
+#: res/echo-main.php:3816
+msgid "Strip Links From Generated Post Imported Content:"
+msgstr ""
+
+#: res/echo-main.php:3832
+msgid "Enable this to open all links from post content in a new tab."
+msgstr ""
+
+#: res/echo-main.php:3836
+msgid "Open All Links From Post In a New Tab (target=\"_blank\"):"
+msgstr ""
+
+#: res/echo-main.php:3852
+msgid "Enable this to add rel='nofollow' to all links from the post's content."
+msgstr ""
+
+#: res/echo-main.php:3856
+msgid "Add Rel=\"nofollow\" to All Links From Posts:"
+msgstr ""
+
+#: res/echo-main.php:3872
+msgid "Choose if you want to strip javascript from the crawled post content."
+msgstr ""
+
+#: res/echo-main.php:3876
+msgid "Strip JavaScript From Crawled Content:"
+msgstr ""
+
+#: res/echo-main.php:3892
+msgid ""
+"Click this option to keep filters used by WordPress to sanitize and filter "
+"post content at publish time."
+msgstr ""
+
+#: res/echo-main.php:3896
+msgid "Do Not Remove WordPress Post Content Filters When Publishing Posts:"
+msgstr ""
+
+#: res/echo-main.php:3912
+#, php-format
+msgid ""
+"Input the width of the screenshot that will be generated for crawled pages. "
+"This will affect the content generated by the %%item_show_screenshot%% "
+"shortcode. The default is 600."
+msgstr ""
+
+#: res/echo-main.php:3916
+msgid "Page Screenshot Width:"
+msgstr ""
+
+#: res/echo-main.php:3919
+msgid "600"
+msgstr ""
+
+#: res/echo-main.php:3929
+#, php-format
+msgid ""
+"Input the height of the screenshot that will be generated for crawled pages. "
+"This will affect the content generated by the %%item_show_screenshot%% "
+"shortcode. The default is 450."
+msgstr ""
+
+#: res/echo-main.php:3933
+msgid "Page Screenshot Height:"
+msgstr ""
+
+#: res/echo-main.php:3936
+msgid "450"
+msgstr ""
+
+#: res/echo-main.php:3946
+msgid ""
+"Input the attributes you want to set for each internal link from content."
+msgstr ""
+
+#: res/echo-main.php:3950
+msgid "Add Attributes to Internal Links:"
+msgstr ""
+
+#: res/echo-main.php:3953
+msgid "Internal link paramenters"
+msgstr ""
+
+#: res/echo-main.php:3963
+msgid ""
+"Input the attributes you want to set for each external link from content."
+msgstr ""
+
+#: res/echo-main.php:3967
+msgid "Add Attributes to External Links:"
+msgstr ""
+
+#: res/echo-main.php:3970
+msgid "External link paramenters"
+msgstr ""
+
+#: res/echo-main.php:3980
+msgid ""
+"Append this string to all links from the post content. Great value for "
+"affiliates! This settings will be overwritten by the same named settings "
+"from individual rule settings (if not blank)."
+msgstr ""
+
+#: res/echo-main.php:3984
+msgid "Append This String To All Links From Content:"
+msgstr ""
+
+#: res/echo-main.php:3987
+msgid "Append string to links"
+msgstr ""
+
+#: res/echo-main.php:3997
+#, php-format
+msgid ""
+"Set the date format for the %%item_pub_date%% shortcode. Example: Y-m-d H:i:"
+"s . You can read more about date formats, <a href='%s' target='_blank'>here</"
+"a>. To leave this at it's default value, leave this field blank."
+msgstr ""
+
+#: res/echo-main.php:4001
+#, php-format
+msgid "Date Format for the %%item_pub_date%% Shortcode:"
+msgstr ""
+
+#: res/echo-main.php:4004
+msgid "Add a date format"
+msgstr ""
+
+#: res/echo-main.php:4014
+msgid ""
+"Do you want to replace all URLs from generated posts content with this "
+"predefined URL?"
+msgstr ""
+
+#: res/echo-main.php:4018 res/echo-rules-list.php:953
+msgid "Replace All URLs from Content With This URL:"
+msgstr ""
+
+#: res/echo-main.php:4021
+msgid "URL replacement"
+msgstr ""
+
+#: res/echo-main.php:4031
+#, php-format
+msgid ""
+"Insert the desired text to be show for the 'Read More' buttons. Exemple: for "
+"the %%item_read_more_button%% shortcode or for the excerpt."
+msgstr ""
+
+#: res/echo-main.php:4035 res/echo-rules-list.php:1040
+msgid "'Read More' Button Text:"
+msgstr ""
+
+#: res/echo-main.php:4040
+msgid "Please insert the text to be show for the 'Read More' links"
+msgstr ""
+
+#: res/echo-main.php:4050
+#, php-format
+msgid ""
+"Input a comma separated list of words which will be replace the "
+"%%conditional_words%% which can be used in the 'Generated Post Title' or the "
+"'Generated Post Content' settings fields. This shortcode will be replaced "
+"with the first word from this list, that will be found in the imported post "
+"content."
+msgstr ""
+
+#: res/echo-main.php:4054
+#, php-format
+msgid "Conditional Word List (%%conditional_words%% shortcode):"
+msgstr ""
+
+#: res/echo-main.php:4059
+msgid "Conditional words list"
+msgstr ""
+
+#: res/echo-main.php:4065 res/echo-rules-list.php:1752
+#: res/echo-rules-list.php:4199
+msgid "Posting Restrictions Options:"
+msgstr ""
+
+#: res/echo-main.php:4074
+msgid ""
+"Set the minimum word count for post titles. Items that have less than this "
+"count will not be published. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-main.php:4078
+msgid "Minimum Title Word Count (Skip Post Otherwise):"
+msgstr ""
+
+#: res/echo-main.php:4083
+msgid "Input the minimum word count for the title"
+msgstr ""
+
+#: res/echo-main.php:4093
+msgid ""
+"Set the maximum word count for post titles. Items that have more than this "
+"count will not be published. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-main.php:4097
+msgid "Maximum Title Word Count (Skip Post Otherwise):"
+msgstr ""
+
+#: res/echo-main.php:4102
+msgid "Input the maximum word count for the title"
+msgstr ""
+
+#: res/echo-main.php:4112
+msgid ""
+"Set the minimum word count for post content. Items that have less than this "
+"count will not be published. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-main.php:4116
+msgid "Minimum Content Word Count (Skip Post Otherwise):"
+msgstr ""
+
+#: res/echo-main.php:4121
+msgid "Input the minimum word count for the content"
+msgstr ""
+
+#: res/echo-main.php:4131
+msgid ""
+"Set the maximum word count for post content. Items that have more than this "
+"count will not be published. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-main.php:4135
+msgid "Maximum Content Word Count (Skip Post Otherwise):"
+msgstr ""
+
+#: res/echo-main.php:4140
+msgid "Input the maximum word count for the content"
+msgstr ""
+
+#: res/echo-main.php:4150
+msgid ""
+"Do you want to skip posts that have these words in their featured image "
+"names? To disable this feature, leave this field blank. You can also use "
+"wildcards in the expressions."
+msgstr ""
+
+#: res/echo-main.php:4154
+msgid "Skip Posts With These Words In Their Featured Image Names:"
+msgstr ""
+
+#: res/echo-main.php:4159
+msgid "Select the words of images to skip"
+msgstr ""
+
+#: res/echo-main.php:4169
+msgid "Choose if you want to skip posts that do not have images."
+msgstr ""
+
+#: res/echo-main.php:4173
+msgid "Skip Posts That Do Not Have Images:"
+msgstr ""
+
+#: res/echo-main.php:4189
+msgid "Set the required words list that will apply to all plugin rules."
+msgstr ""
+
+#: res/echo-main.php:4193
+msgid "Global Required Words List:"
+msgstr ""
+
+#: res/echo-main.php:4198
+msgid "Please insert the global required words list"
+msgstr ""
+
+#: res/echo-main.php:4208
+msgid ""
+"Choose if you want to require only one word from the 'Required Words List' "
+"for the post to be accepted."
+msgstr ""
+
+#: res/echo-main.php:4212
+msgid "Require Only One Word From The 'Required Words List':"
+msgstr ""
+
+#: res/echo-main.php:4228
+msgid "Set the banned words list that will apply to all plugin rules."
+msgstr ""
+
+#: res/echo-main.php:4232
+msgid "Global Banned Words List:"
+msgstr ""
+
+#: res/echo-main.php:4237
+msgid "Please insert the global banned words list"
+msgstr ""
+
+#: res/echo-main.php:4247
+msgid "Choose if you want to skip posts that are older than a selected date."
+msgstr ""
+
+#: res/echo-main.php:4251
+msgid "Skip Posts Older Than a Selected Date:"
+msgstr ""
+
+#: res/echo-main.php:4267
+msgid "Select the date prior which you want to skip posts."
+msgstr ""
+
+#: res/echo-main.php:4271
+msgid "Select the Date for Old Posts:"
+msgstr ""
+
+#: res/echo-main.php:4276 res/echo-main.php:4364
+msgid "Day:"
+msgstr ""
+
+#: res/echo-main.php:4310 res/echo-main.php:4398
+msgid "Month:"
+msgstr ""
+
+#: res/echo-main.php:4312 res/echo-main.php:4400
+msgid "January"
+msgstr ""
+
+#: res/echo-main.php:4313 res/echo-main.php:4401
+msgid "February"
+msgstr ""
+
+#: res/echo-main.php:4314 res/echo-main.php:4402
+msgid "March"
+msgstr ""
+
+#: res/echo-main.php:4315 res/echo-main.php:4403
+msgid "April"
+msgstr ""
+
+#: res/echo-main.php:4316 res/echo-main.php:4404
+msgid "May"
+msgstr ""
+
+#: res/echo-main.php:4317 res/echo-main.php:4405
+msgid "June"
+msgstr ""
+
+#: res/echo-main.php:4318 res/echo-main.php:4406
+msgid "July"
+msgstr ""
+
+#: res/echo-main.php:4319 res/echo-main.php:4407
+msgid "August"
+msgstr ""
+
+#: res/echo-main.php:4320 res/echo-main.php:4408
+msgid "September"
+msgstr ""
+
+#: res/echo-main.php:4321 res/echo-main.php:4409
+msgid "October"
+msgstr ""
+
+#: res/echo-main.php:4322 res/echo-main.php:4410
+msgid "November"
+msgstr ""
+
+#: res/echo-main.php:4323 res/echo-main.php:4411
+msgid "December"
+msgstr ""
+
+#: res/echo-main.php:4325 res/echo-main.php:4413
+msgid "Year:"
+msgstr ""
+
+#: res/echo-main.php:4325 res/echo-main.php:4413
+msgid "year"
+msgstr ""
+
+#: res/echo-main.php:4335
+msgid "Choose if you want to skip posts that are newer than a selected date."
+msgstr ""
+
+#: res/echo-main.php:4339
+msgid "Skip Posts Newer Than a Selected Date:"
+msgstr ""
+
+#: res/echo-main.php:4355
+msgid "Select the date after which you want to skip posts."
+msgstr ""
+
+#: res/echo-main.php:4359
+msgid "Select the Date for New Posts:"
+msgstr ""
+
+#: res/echo-main.php:4419
+msgid "Text Spinning Options:"
+msgstr ""
+
+#: res/echo-main.php:4425
+msgid "Don't have an 'TLDRThis' account yet? Click here to get one:"
+msgstr ""
+
+#: res/echo-main.php:4425 res/echo-main.php:4428 res/echo-main.php:4431
+#: res/echo-main.php:4434 res/echo-main.php:4437
+msgid "get a new account now!"
+msgstr ""
+
+#: res/echo-main.php:4428
+msgid "Don't have an 'The Best Spinner' account yet? Click here to get one:"
+msgstr ""
+
+#: res/echo-main.php:4431
+msgid "Don't have an 'WordAI' account yet? Click here to get one:"
+msgstr ""
+
+#: res/echo-main.php:4434
+msgid "Don't have an 'SpinRewriter' account yet? Click here to get one:"
+msgstr ""
+
+#: res/echo-main.php:4437
+msgid "Don't have an 'SpinnerChief' account yet? Click here to get one:"
+msgstr ""
+
+#: res/echo-main.php:4447
+msgid ""
+"Do you want to randomize text by changing words of a text with synonyms "
+"using one of the listed methods? Note that this is an experimental feature "
+"and can in some instances drastically increase the rule running time!"
+msgstr ""
+
+#: res/echo-main.php:4451
+msgid "Summarize / Spin Text Using Word Synonyms:"
+msgstr ""
+
+#: res/echo-main.php:4470 res/echo-main.php:4478 res/echo-main.php:4486
+#: res/echo-main.php:4494
+msgid "High Quality - Paid"
+msgstr ""
+
+#: res/echo-main.php:4501
+msgid "Built-in - Medium Quality - Free"
+msgstr ""
+
+#: res/echo-main.php:4508
+msgid "TLDRThis - Text Summarizer - Paid"
+msgstr ""
+
+#: res/echo-main.php:4517
+msgid "Select the confidence level for used synonyms in SpinRewriter."
+msgstr ""
+
+#: res/echo-main.php:4521
+msgid "Synonym Confidence Level: "
+msgstr ""
+
+#: res/echo-main.php:4531
+msgid "High"
+msgstr ""
+
+#: res/echo-main.php:4538
+msgid "Medium"
+msgstr ""
+
+#: res/echo-main.php:4545
+msgid "Low"
+msgstr ""
+
+#: res/echo-main.php:4554
+msgid "Set the minimum content length for TLDRThis summarizer."
+msgstr ""
+
+#: res/echo-main.php:4558
+msgid "TLDRThis Minimum Content Length: "
+msgstr ""
+
+#: res/echo-main.php:4561
+msgid "Minimum length"
+msgstr ""
+
+#: res/echo-main.php:4569
+msgid "Set the maximum content length for TLDRThis summarizer."
+msgstr ""
+
+#: res/echo-main.php:4573
+msgid "TLDRThis Maximum Content Length: "
+msgstr ""
+
+#: res/echo-main.php:4576
+msgid "Maximum length"
+msgstr ""
+
+#: res/echo-main.php:4585
+msgid ""
+"Input the words that you do not want to be spinned. You can input more "
+"words, separated by commas. Ex: dog, cat, cow"
+msgstr ""
+
+#: res/echo-main.php:4589
+msgid "Do Not Spin These Words:"
+msgstr ""
+
+#: res/echo-main.php:4594
+msgid "Select the words that should not be spinned"
+msgstr ""
+
+#: res/echo-main.php:4604
+msgid ""
+"Set WordAI spinning uniqueness. Depend on how conservative vs adventurous "
+"you want your rewrite to be."
+msgstr ""
+
+#: res/echo-main.php:4608
+msgid "WordAI Spinning Uniqueness:"
+msgstr ""
+
+#: res/echo-main.php:4617
+msgid "More Conservative"
+msgstr ""
+
+#: res/echo-main.php:4621
+msgid "Regular"
+msgstr ""
+
+#: res/echo-main.php:4625
+msgid "More Adventurous"
+msgstr ""
+
+#: res/echo-main.php:4636
+msgid "Select the language of the content that will be processed."
+msgstr ""
+
+#: res/echo-main.php:4640
+msgid "SpinnerChief Spinning Language:"
+msgstr ""
+
+#: res/echo-main.php:4653
+msgid "Arabic"
+msgstr ""
+
+#: res/echo-main.php:4657
+msgid "Belarusian"
+msgstr ""
+
+#: res/echo-main.php:4665
+msgid "Croatian"
+msgstr ""
+
+#: res/echo-main.php:4677
+msgid "Filipino"
+msgstr ""
+
+#: res/echo-main.php:4681
+msgid "Finnish"
+msgstr ""
+
+#: res/echo-main.php:4697
+msgid "Hebrew"
+msgstr ""
+
+#: res/echo-main.php:4709
+msgid "Lithuanian"
+msgstr ""
+
+#: res/echo-main.php:4713
+msgid "Norwegian"
+msgstr ""
+
+#: res/echo-main.php:4733
+msgid "Slovenian"
+msgstr ""
+
+#: res/echo-main.php:4762
+msgid "Insert your user name on the selected primium spinner service"
+msgstr ""
+
+#: res/echo-main.php:4766
+msgid "Premium Spinner Service User Name/Email:"
+msgstr ""
+
+#: res/echo-main.php:4771
+msgid "Please insert your premium spin service user name"
+msgstr ""
+
+#: res/echo-main.php:4781
+msgid "Insert your user password on the selected premium spinner service."
+msgstr ""
+
+#: res/echo-main.php:4785
+msgid "Premium Spinner Service Password/API Key:"
+msgstr ""
+
+#: res/echo-main.php:4790
+msgid "Please insert your premium spin service password"
+msgstr ""
+
+#: res/echo-main.php:4800
+msgid ""
+"Choose if you want to spin and translate only imported content, or the "
+"entire content from the 'Generated Post Content' settings field."
+msgstr ""
+
+#: res/echo-main.php:4804
+msgid "Spin And Translate Only Imported Content:"
+msgstr ""
+
+#: res/echo-main.php:4820
+msgid "Insert your words, separated by comma, that you not want to be spinned."
+msgstr ""
+
+#: res/echo-main.php:4824
+msgid "Protected Terms:"
+msgstr ""
+
+#: res/echo-main.php:4829
+msgid "Please insert your protected terms"
+msgstr ""
+
+#: res/echo-main.php:4839
+msgid "Choose if you don't want to spin the article title."
+msgstr ""
+
+#: res/echo-main.php:4843
+msgid "Do Not Spin The Title:"
+msgstr ""
+
+#: res/echo-main.php:4865
+msgid "Headless Browser Settings:"
+msgstr ""
+
+#: res/echo-main.php:4874
+#, php-format
+msgid ""
+"Set the path on your local server of the phantomjs executable. If you leave "
+"this field blank, the default 'phantomjs' call will be used. <a href='%s' "
+"target='_blank'>How to install PhantomJs?</a>"
+msgstr ""
+
+#: res/echo-main.php:4878
+msgid "PhantomJS Path On Server:"
+msgstr ""
+
+#: res/echo-main.php:4885 res/echo-rules-list.php:3540
+msgid ""
+"INFO: PhantomJS not found - please install it on your server or configure "
+"the path to it in plugin's 'Main Settings'!"
+msgstr ""
+
+#: res/echo-main.php:4885 res/echo-rules-list.php:3540
+msgid "How to install PhantomJs?"
+msgstr ""
+
+#: res/echo-main.php:4889
+msgid ""
+"INFO: PhantomJS cannot run - shell exec is not enabled on your server. "
+"Please enable it and retry using this feature of the plugin."
+msgstr ""
+
+#: res/echo-main.php:4893
+msgid ""
+"INFO: PhantomJS cannot run - shell exec is not allowed to run on your server "
+"(in disable_functions list in php.ini). Please enable it and retry using "
+"this feature of the plugin."
+msgstr ""
+
+#: res/echo-main.php:4897 res/echo-rules-list.php:3544
+msgid "INFO: PhantomJS OK"
+msgstr ""
+
+#: res/echo-main.php:4905
+msgid "Path to phantomjs"
+msgstr ""
+
+#: res/echo-main.php:4915
+msgid ""
+"Set the timeout (in milliseconds) for every phantomjs running. I recommend "
+"that you leave this field at it's default value (15000). If you leave this "
+"field blank, the default value will be used."
+msgstr ""
+
+#: res/echo-main.php:4919
+msgid "Timeout for PhantomJs Execution:"
+msgstr ""
+
+#: res/echo-main.php:4924
+msgid "Input phantomjs timeout in milliseconds"
+msgstr ""
+
+#: res/echo-main.php:4934
+#, php-format
+msgid ""
+"Choose if you want to use HeadlessBrowserAPI to generate the screenshot for "
+"the page, using the %%item_show_screenshot%% and %%item_screenshot_url%% "
+"shortcodes."
+msgstr ""
+
+#: res/echo-main.php:4938
+#, php-format
+msgid ""
+"Use HeadlessBrowserAPI to Generate Screenshots (%%item_show_screenshot%%):"
+msgstr ""
+
+#: res/echo-main.php:4954
+#, php-format
+msgid ""
+"Choose if you want to use phantomjs to generate the screenshot for the page, "
+"using the %%item_show_screenshot%% and %%item_screenshot_url%% shortcodes."
+msgstr ""
+
+#: res/echo-main.php:4958
+#, php-format
+msgid "Use PhantomJs to Generate Screenshots (%%item_show_screenshot%%):"
+msgstr ""
+
+#: res/echo-main.php:4974
+#, php-format
+msgid ""
+"Choose if you want to use puppeteer to generate the screenshot for the page, "
+"using the %%item_show_screenshot%% and %%item_screenshot_url%% shortcodes."
+msgstr ""
+
+#: res/echo-main.php:4978
+#, php-format
+msgid "Use Puppeteer to Generate Screenshots (%%item_show_screenshot%%):"
+msgstr ""
+
+#: res/echo-main.php:5001
+msgid "Post Meta Options:"
+msgstr ""
+
+#: res/echo-main.php:5009 res/echo-main.php:5027 res/echo-main.php:5045
+#: res/echo-main.php:5063 res/echo-main.php:5081 res/echo-main.php:5099
+#: res/echo-main.php:5117 res/echo-main.php:5135 res/echo-main.php:5153
+#: res/echo-main.php:5171 res/echo-main.php:5189 res/echo-main.php:5207
+#: res/echo-main.php:5223
+msgid "Skip saving this post meta for posts?"
+msgstr ""
+
+#: res/echo-main.php:5013
+msgid "Skip Saving 'echo_enable_pingbacks' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5031
+msgid "Skip Saving 'echo_comment_status' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5049
+msgid "Skip Saving 'echo_extra_categories' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5067
+msgid "Skip Saving 'echo_extra_tags' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5085
+msgid "Skip Saving 'echo_source_feed' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5103
+msgid "Skip Saving 'echo_timestamp' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5121
+msgid "Skip Saving 'echo_post_date' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5139
+msgid "Skip Saving 'echo_feed_title' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5157
+msgid "Skip Saving 'echo_feed_description' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5175
+msgid "Skip Saving 'feed_logo' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5193
+msgid "Skip Saving 'echo_author' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5211
+msgid "Skip Saving 'echo_author_link' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5227
+msgid "Skip Saving 'echo_author_email' Post Meta"
+msgstr ""
+
+#: res/echo-main.php:5236
+msgid "Plugin Uninstallation Options:"
+msgstr ""
+
+#: res/echo-main.php:5244
+msgid ""
+"Do you want to completely remove plugin generated data and settings when "
+"uninstalling it?"
+msgstr ""
+
+#: res/echo-main.php:5248
+msgid "Remove Plugin Options And Settings After Uninstall"
+msgstr ""
+
+#: res/echo-main.php:5259
+msgid "Random Sentence Generator Settings:"
+msgstr ""
+
+#: res/echo-main.php:5266 res/echo-main.php:5279
+#, php-format
+msgid ""
+"Insert some sentences from which you want to get one at random. You can also "
+"use variables defined below. %something ==> is a variable. Each sentence "
+"must be separated by a new line. Spintax supported."
+msgstr ""
+
+#: res/echo-main.php:5270
+#, php-format
+msgid "First List of Possible Sentences (%%random_sentence%%):"
+msgstr ""
+
+#: res/echo-main.php:5272
+msgid "Please insert the first list of sentences"
+msgstr ""
+
+#: res/echo-main.php:5283
+#, php-format
+msgid "Second List of Possible Sentences (%%random_sentence2%%):"
+msgstr ""
+
+#: res/echo-main.php:5285
+msgid "Please insert the second list of sentences"
+msgstr ""
+
+#: res/echo-main.php:5292
+msgid ""
+"Insert some variables you wish to be exchanged for different instances of "
+"one sentence. Please format this list as follows:<br/>\n"
+"               Variablename => Variables (seperated by semicolon)<br/"
+">Example:<br/>adjective => clever;interesting;smart;huge;astonishing;"
+"unbelievable;nice;adorable;beautiful;elegant;fancy;glamorous;magnificent;"
+"helpful;awesome<br/>"
+msgstr ""
+
+#: res/echo-main.php:5297
+msgid "List of Possible Variables:"
+msgstr ""
+
+#: res/echo-main.php:5299
+msgid "Please insert the list of variables"
+msgstr ""
+
+#: res/echo-main.php:5302
+msgid "Custom HTML Code/ Ad Code:"
+msgstr ""
+
+#: res/echo-main.php:5309
+#, php-format
+msgid ""
+"Insert a custom HTML code that will replace the %%custom_html%% variable. "
+"This can be anything, even an Ad code."
+msgstr ""
+
+#: res/echo-main.php:5313
+msgid "Custom HTML Code #1:"
+msgstr ""
+
+#: res/echo-main.php:5315
+msgid "Custom HTML #1"
+msgstr ""
+
+#: res/echo-main.php:5322
+#, php-format
+msgid ""
+"Insert a custom HTML code that will replace the %%custom_html2%% variable. "
+"This can be anything, even an Ad code."
+msgstr ""
+
+#: res/echo-main.php:5326
+msgid "Custom HTML Code #2:"
+msgstr ""
+
+#: res/echo-main.php:5328
+msgid "Custom HTML #2"
+msgstr ""
+
+#: res/echo-main.php:5332
+msgid "Affiliate Keyword Replacer Tool Settings:"
+msgstr ""
+
+#: res/echo-main.php:5338 res/echo-rss.php:27 res/echo-rules-list.php:417
+#: res/echo-rules-list.php:1155 res/echo-rules-list.php:1197
+#: res/echo-rules-list.php:1707 res/echo-rules-list.php:3623
+#: res/echo-rules-list.php:3685 res/echo-rules-list.php:4156
+msgid "ID"
+msgstr ""
+
+#: res/echo-main.php:5342
+msgid "This is the ID of the rule."
+msgstr ""
+
+#: res/echo-main.php:5348 res/echo-rss.php:83 res/echo-rules-list.php:475
+msgid "Del"
+msgstr ""
+
+#: res/echo-main.php:5352 res/echo-rss.php:86 res/echo-rules-list.php:479
+msgid "Do you want to delete this rule?"
+msgstr ""
+
+#: res/echo-main.php:5358
+msgid "Search Keyword"
+msgstr ""
+
+#: res/echo-main.php:5362
+msgid "This keyword will be replaced with a link you define."
+msgstr ""
+
+#: res/echo-main.php:5368
+msgid "Replacement Keyword"
+msgstr ""
+
+#: res/echo-main.php:5372
+msgid ""
+"This keyword will replace the search keyword you define. Leave this field "
+"blank if you only want to add an URL to the specified keyword."
+msgstr ""
+
+#: res/echo-main.php:5378
+msgid "Link to Add"
+msgstr ""
+
+#: res/echo-main.php:5382
+msgid ""
+"Define the link you want to appear the defined keyword. Leave this field "
+"blank if you only want to replace the specified keyword without linking from "
+"it."
+msgstr ""
+
+#: res/echo-main.php:5388
+msgid "Target Content"
+msgstr ""
+
+#: res/echo-main.php:5392
+msgid ""
+"Select if you want to make this rule target post title, content or both."
+msgstr ""
+
+#: res/echo-main.php:5444
+msgid "Please insert the keyword to be replaced"
+msgstr ""
+
+#: res/echo-main.php:5445
+msgid "Please insert the keyword to replace the search keyword"
+msgstr ""
+
+#: res/echo-main.php:5446
+msgid "Please insert the link to be added to the keyword"
+msgstr ""
+
+#: res/echo-main.php:5449 res/echo-main.php:5519 res/echo-rules-list.php:1803
+#: res/echo-rules-list.php:4239
+msgid "Content"
+msgstr ""
+
+#: res/echo-main.php:5450 res/echo-main.php:5524 res/echo-rules-list.php:1804
+#: res/echo-rules-list.php:4245
+msgid "Title"
+msgstr ""
+
+#: res/echo-main.php:5451 res/echo-main.php:5529
+msgid "Content and Title"
+msgstr ""
+
+#: res/echo-main.php:5464 res/echo-rss.php:233 res/echo-rules-list.php:2408
+msgid "Save Settings"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "Available shortcodes (and also Gutenberg blocks):"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "to display an automatically updating feed item list in your pages"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "to include a list that contains only posts imported by this plugin:"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "to include a WordPress like post listing. Usage:"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "and"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid ""
+"to include an input field where users can include their feeds to be imported "
+"to the blog. Example:"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "Input your URL"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "Create a new user name"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "Create a new password"
+msgstr ""
+
+#: res/echo-main.php:5467
+msgid "A new RSS URL user submission was just sent. Please check."
+msgstr ""
+
+#: res/echo-main.php:5469
+msgid "Example 2:"
+msgstr ""
+
+#: res/echo-main.php:5470
+msgid "Example 3:"
+msgstr ""
+
+#: res/echo-main.php:5470
+msgid "Please check plugin's documentation for more info."
+msgstr ""
+
+#: res/echo-main.php:5471
+msgid ""
+"Also, the plugin allows visitors to submit their own RSS feeds, using the "
+"[echo-display-input] shortcode. Possible parameters:"
+msgstr ""
+
+#: res/echo-main.php:5503
+msgid "Input the keyword to be replaced. This field is required"
+msgstr ""
+
+#: res/echo-main.php:5504
+msgid "Input the replacement word"
+msgstr ""
+
+#: res/echo-main.php:5505
+msgid "Input the URL to be added"
+msgstr ""
+
+#: res/echo-offer.php:11
+msgid "Our Recommendations"
+msgstr ""
+
+#: res/echo-offer.php:15
+msgid ""
+"Some general recommendations, to help boost the ROI of this plugin and your "
+"website."
+msgstr ""
+
+#: res/echo-offer.php:24
+msgid "Import premium unique content for more organic traffic:"
+msgstr ""
+
+#: res/echo-offer.php:25
+msgid ""
+"To import good quality unique content, we recommend that you use a premium "
+"text spinning service with the plugin (can be configured from 'Main "
+"Settings' page)"
+msgstr ""
+
+#: res/echo-offer.php:25 res/echo-offer.php:44
+msgid "tutorial video"
+msgstr ""
+
+#: res/echo-offer.php:26
+msgid "Supported premium spinners:"
+msgstr ""
+
+#: res/echo-offer.php:30 res/echo-offer.php:34 res/echo-offer.php:38
+msgid "Sign up now"
+msgstr ""
+
+#: res/echo-offer.php:43
+msgid "Earn a side income from your blog:"
+msgstr ""
+
+#: res/echo-offer.php:44
+msgid "To earn a side income using our plugins, you can try using"
+msgstr ""
+
+#: res/echo-offer.php:44
+msgid "Shorte.st link shortener"
+msgstr ""
+
+#: res/echo-offer.php:44
+msgid "It can be configured from plugin's 'Main Settings'"
+msgstr ""
+
+#: res/echo-offer.php:47
+msgid "Create a multilingual blog:"
+msgstr ""
+
+#: res/echo-offer.php:48
+msgid "To create a multilingual blog, we recommend that you use"
+msgstr ""
+
+#: res/echo-offer.php:48
+msgid ""
+"If you just wish to import content in a language, and translate it to "
+"another language automatically, our plugins also support Google Translate to "
+"achieve this."
+msgstr ""
+
+#: res/echo-offer.php:51
+msgid "Like our plugin? Want more?"
+msgstr ""
+
+#: res/echo-offer.php:52
+msgid "Check our"
+msgstr ""
+
+#: res/echo-offer.php:52
+msgid "plugin portfolio from CodeCanyon"
+msgstr ""
+
+#: res/echo-offer.php:52
+msgid ""
+"We release periodically new plugins that complement our existing ones, so "
+"this list of plugins is worth following. We also have a private plugin "
+"marketplace, check it"
+msgstr ""
+
+#: res/echo-offer.php:52
+msgid "here"
+msgstr ""
+
+#: res/echo-offer.php:55
+msgid "All our plugins, at a Mega price:"
+msgstr ""
+
+#: res/echo-offer.php:56
+msgid "If you enjoy our work and want to get more of it, check our"
+msgstr ""
+
+#: res/echo-offer.php:56
+#, php-format
+msgid ""
+"which is possibly the largest plugin bundle on CodeCanyon. It includes all "
+"our plugins (and also all our future plugins), at a 95% discount - so it is "
+"really a great deal."
+msgstr ""
+
+#: res/echo-offer.php:59
+msgid "Learn more about WordPress (beginners to advanced):"
+msgstr ""
+
+#: res/echo-offer.php:60
+msgid ""
+"To learn more about WordPress (or maybe WordPress plugin development), check"
+msgstr ""
+
+#: res/echo-offer.php:60
+msgid "our online courses on"
+msgstr ""
+
+#: res/echo-offer.php:60
+msgid ""
+"They provide great value for starters with WordPress, but also for WordPress "
+"junior developers. You can also become our"
+msgstr ""
+
+#: res/echo-offer.php:60
+msgid "affiliate on Teachable"
+msgstr ""
+
+#: res/echo-offer.php:60
+msgid "to earn income from course sales you generate."
+msgstr ""
+
+#: res/echo-offer.php:63
+msgid ""
+"Learn more about how to create your first internet business (or even earn "
+"with it):"
+msgstr ""
+
+#: res/echo-offer.php:64
+msgid ""
+"To learn more about how to start your own internet business from scratch, "
+"check"
+msgstr ""
+
+#: res/echo-offer.php:64
+msgid "our e-book on this subject"
+msgstr ""
+
+#: res/echo-offer.php:64
+msgid "You can also become our"
+msgstr ""
+
+#: res/echo-offer.php:64
+msgid "affiliate on Clickbank"
+msgstr ""
+
+#: res/echo-offer.php:64
+msgid "to earn income from e-book sales you generate."
+msgstr ""
+
+#: res/echo-offer.php:67
+msgid "If you are looking for a cool theme:"
+msgstr ""
+
+#: res/echo-offer.php:68
+msgid ""
+"If you are looking for a cool new theme that best fits this plugin, we "
+"recommend"
+msgstr ""
+
+#: res/echo-offer.php:68
+msgid "Divi theme"
+msgstr ""
+
+#: res/echo-offer.php:68 rss-feed-post-generator-echo.php:8234
+msgid "by"
+msgstr ""
+
+#: res/echo-offer.php:71
+msgid "Earn more by becoming our affiliate:"
+msgstr ""
+
+#: res/echo-offer.php:72
+msgid ""
+"You can also become our affiliate (for CodeCanyon items and also for private "
+"marketplace items), to earn from the sales you generate for our plugins"
+msgstr ""
+
+#: res/echo-offer.php:72
+msgid "more info here"
+msgstr ""
+
+#: res/echo-offer.php:75
+msgid "Check the video tutorials for our plugins:"
+msgstr ""
+
+#: res/echo-offer.php:76
+msgid "For video tutorials, subscribe to our"
+msgstr ""
+
+#: res/echo-offer.php:76
+msgid "YouTube channel"
+msgstr ""
+
+#: res/echo-offer.php:76
+msgid "we post periodically new video tutorials over there also."
+msgstr ""
+
+#: res/echo-offer.php:79
+msgid "Check our blog and get a free e-book:"
+msgstr ""
+
+#: res/echo-offer.php:80
+msgid "For more updates, tips and tricks follow our"
+msgstr ""
+
+#: res/echo-offer.php:80
+msgid "blog"
+msgstr ""
+
+#: res/echo-offer.php:80
+msgid ""
+"subscribe to our newsletter from our blog, and as a bonus, you will get the "
+"'YouTube Caption Scraper' plugin, for free!"
+msgstr ""
+
+#: res/echo-offer.php:83
+msgid "Our social networks (for more tips and news):"
+msgstr ""
+
+#: res/echo-offer.php:84
+msgid "Follow us for even more:"
+msgstr ""
+
+#: res/echo-rss.php:30 res/echo-rules-list.php:421
+msgid "This is the ID of the rule. "
+msgstr ""
+
+#: res/echo-rss.php:34
+msgid "Generated Feed Type"
+msgstr ""
+
+#: res/echo-rss.php:37
+msgid "Select if you want to create a RSS feed or an Atom feed."
+msgstr ""
+
+#: res/echo-rss.php:41
+msgid "Generated RSS Feed Name"
+msgstr ""
+
+#: res/echo-rss.php:44
+msgid ""
+"Insert your feed name. This will be also part of the feed URL. Ex: "
+"yourdomain.com/?feed=feedname. Another URL that will be generated for your "
+"feed is: yourdomain.com/feedname. If you do not specify a value for this "
+"field, the 'echo-feed' default value will be used."
+msgstr ""
+
+#: res/echo-rss.php:48
+msgid "Feed Post Count"
+msgstr ""
+
+#: res/echo-rss.php:51
+msgid "How many posts do you want to show in your feed?"
+msgstr ""
+
+#: res/echo-rss.php:55
+msgid "Full Content"
+msgstr ""
+
+#: res/echo-rss.php:58
+msgid ""
+"Choose if you want to show full post content in feeds or only the post "
+"excerpt."
+msgstr ""
+
+#: res/echo-rss.php:62
+msgid "Feed Update Period"
+msgstr ""
+
+#: res/echo-rss.php:65
+msgid "Choose the update period for the generated feed."
+msgstr ""
+
+#: res/echo-rss.php:69
+msgid "Advanced Feed Query (for advanced users only!)"
+msgstr ""
+
+#: res/echo-rss.php:72
+#, php-format
+msgid ""
+"Warning! This is for advanced users only! If used improperly, this can break "
+"your feed! Do not set this if you do not know what you are doing. Set the "
+"advanced query parameters for what posts to show. Learn more about these "
+"parameters <a href='%s' target='_blank'>here</a>. Example: to show in feed "
+"only posts from a specific category, insert: "
+"&category_name=<PUT_YOU_CATEGORY_HERE>"
+msgstr ""
+
+#: res/echo-rss.php:76 res/echo-rules-list.php:465
+msgid "More Options"
+msgstr ""
+
+#: res/echo-rss.php:79
+msgid "More settings."
+msgstr ""
+
+#: res/echo-rss.php:97 res/echo-rss.php:314
+msgid "RSS 2.0"
+msgstr ""
+
+#: res/echo-rss.php:98 res/echo-rss.php:320
+msgid "Atom 1.0"
+msgstr ""
+
+#: res/echo-rss.php:104 res/echo-rss.php:336
+msgid "Hourly"
+msgstr ""
+
+#: res/echo-rss.php:105 res/echo-rss.php:342
+msgid "Daily"
+msgstr ""
+
+#: res/echo-rss.php:106 res/echo-rss.php:348
+msgid "Weekly"
+msgstr ""
+
+#: res/echo-rss.php:107 res/echo-rss.php:354
+msgid "Monthly"
+msgstr ""
+
+#: res/echo-rss.php:108 res/echo-rss.php:360
+msgid "Yearly"
+msgstr ""
+
+#: res/echo-rss.php:117 res/echo-rules-list.php:544
+msgid "New Rule"
+msgstr ""
+
+#: res/echo-rss.php:117 res/echo-rss.php:369 res/echo-rules-list.php:544
+#: res/echo-rules-list.php:2944
+msgid "Advanced Settings"
+msgstr ""
+
+#: res/echo-rss.php:124 res/echo-rss.php:374 res/echo-rules-list.php:577
+#: res/echo-rules-list.php:2984
+msgid "Posting Options:"
+msgstr ""
+
+#: res/echo-rss.php:133 res/echo-rss.php:378
+msgid "Set the URL parameter to be added to each items from the RSS feeds."
+msgstr ""
+
+#: res/echo-rss.php:137
+msgid "Add URL Parameter to Feed Items:"
+msgstr ""
+
+#: res/echo-rss.php:150
+msgid ""
+"Run regex on feed content. To disable this feature, leave this field blank. "
+"You can add multiple Regex expressions, each on a different line."
+msgstr ""
+
+#: res/echo-rss.php:154
+msgid "Run Regex On Feed Content:"
+msgstr ""
+
+#: res/echo-rss.php:167 res/echo-rss.php:201 res/echo-rss.php:402
+#: res/echo-rss.php:426 res/echo-rules-list.php:1431
+#: res/echo-rules-list.php:1465 res/echo-rules-list.php:3897
+#: res/echo-rules-list.php:3921
+msgid ""
+"Replace the above regex matches with this regex expression. If you want to "
+"strip matched content, leave this field blank. You can add multiple "
+"replacement expressions, each on a different line (in this case, each will "
+"match the corresponding expression from the above Regex field."
+msgstr ""
+
+#: res/echo-rss.php:171 res/echo-rules-list.php:1435
+msgid "Replace Matches From Regex:"
+msgstr ""
+
+#: res/echo-rss.php:184 res/echo-rss.php:414 res/echo-rules-list.php:1448
+#: res/echo-rules-list.php:3909
+msgid ""
+"Run regex on post title. To disable this feature, leave this field blank. "
+"You can add multiple Regex expressions, each on a different line."
+msgstr ""
+
+#: res/echo-rss.php:188 res/echo-rules-list.php:1452
+msgid "Run Regex On Title:"
+msgstr ""
+
+#: res/echo-rss.php:205 res/echo-rules-list.php:1469
+msgid "Replace Title Matches From Regex:"
+msgstr ""
+
+#: res/echo-rss.php:234 res/echo-rules-list.php:2411
+msgid "Nested Shortcodes also supported!"
+msgstr ""
+
+#: res/echo-rss.php:234 res/echo-rules-list.php:2411
+msgid "Confused about rule running status icons?"
+msgstr ""
+
+#: res/echo-rss.php:234 res/echo-rules-list.php:2411
+msgid "More info"
+msgstr ""
+
+#: res/echo-rss.php:236 res/echo-rules-list.php:2416
+msgid "In Progress"
+msgstr ""
+
+#: res/echo-rss.php:236 res/echo-rules-list.php:2416
+msgid "Importing is Running"
+msgstr ""
+
+#: res/echo-rss.php:237 res/echo-rules-list.php:2420
+msgid "Success"
+msgstr ""
+
+#: res/echo-rss.php:237 res/echo-rules-list.php:2420
+msgid "New Posts Created"
+msgstr ""
+
+#: res/echo-rss.php:238 res/echo-rules-list.php:2424
+msgid "Failed"
+msgstr ""
+
+#: res/echo-rss.php:238 res/echo-rules-list.php:2424
+msgid "An Error Occurred."
+msgstr ""
+
+#: res/echo-rss.php:238 res/echo-rules-list.php:2424
+msgid "Please check 'Activity and Logging' plugin menu for details."
+msgstr ""
+
+#: res/echo-rss.php:239 res/echo-rules-list.php:2428
+msgid "No Change - No New Posts Created"
+msgstr ""
+
+#: res/echo-rss.php:239 res/echo-rules-list.php:2428
+msgid "Possible reasons:"
+msgstr ""
+
+#: res/echo-rss.php:239 res/echo-rules-list.php:2434
+msgid ""
+"Already all posts are published that match your search and posts will be "
+"posted when new content will be available"
+msgstr ""
+
+#: res/echo-rss.php:239 res/echo-rules-list.php:2435
+msgid "Some restrictions you defined in the plugin's 'Main Settings'"
+msgstr ""
+
+#: res/echo-rss.php:239 res/echo-rules-list.php:2435
+msgid ""
+"example: 'Minimum Content Word Count', 'Maximum Content Word Count', "
+"'Minimum Title Word Count', 'Maximum Title Word Count', 'Banned Words List', "
+"'Reuired Words List', 'Skip Posts Without Images'"
+msgstr ""
+
+#: res/echo-rss.php:239 res/echo-rules-list.php:2435
+msgid "prevent posting of new posts."
+msgstr ""
+
+#: res/echo-rss.php:244
+msgid "Where can I find the generated feeds? Check out:"
+msgstr ""
+
+#: res/echo-rss.php:244
+msgid "to find them!"
+msgstr ""
+
+#: res/echo-rss.php:369 res/echo-rules-list.php:2944
+msgid "Rule"
+msgstr ""
+
+#: res/echo-rss.php:381
+msgid "Add URL Parameter to Feed Items"
+msgstr ""
+
+#: res/echo-rss.php:390 res/echo-rules-list.php:1414
+#: res/echo-rules-list.php:3885
+msgid ""
+"Run regex on post content. To disable this feature, leave this field blank. "
+"You can add multiple Regex expressions, each on a different line."
+msgstr ""
+
+#: res/echo-rss.php:393 res/echo-rules-list.php:3888
+msgid "Run Regex On Content"
+msgstr ""
+
+#: res/echo-rss.php:405 res/echo-rules-list.php:3900
+msgid "Replace Matches From Regex"
+msgstr ""
+
+#: res/echo-rss.php:417 res/echo-rules-list.php:3912
+msgid "Run Regex On Title"
+msgstr ""
+
+#: res/echo-rss.php:429 res/echo-rules-list.php:3924
+msgid "Replace Title Matches From Regex"
+msgstr ""
+
+#: res/echo-rules-list.php:5
+msgid "Afrikaans (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:6
+msgid "Albanian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:7
+msgid "Arabic (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:8
+msgid "Amharic (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:9
+msgid "Armenian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:10
+msgid "Belarusian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:11
+msgid "Bulgarian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:12
+msgid "Catalan (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:13
+msgid "Chinese Simplified (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:14
+msgid "Croatian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:15
+msgid "Czech (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:16
+msgid "Danish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:17
+msgid "Dutch (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:18
+msgid "English (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:19
+msgid "Estonian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:20
+msgid "Filipino (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:21
+msgid "Finnish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:22
+msgid "French (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:23
+msgid "Galician (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:24
+msgid "German (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:25
+msgid "Greek (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:26
+msgid "Hebrew (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:27
+msgid "Hindi (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:28
+msgid "Hungarian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:29
+msgid "Icelandic (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:30
+msgid "Indonesian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:31
+msgid "Irish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:32
+msgid "Italian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:33
+msgid "Japanese (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:34
+msgid "Korean (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:35
+msgid "Latvian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:36
+msgid "Lithuanian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:37
+msgid "Norwegian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:38
+msgid "Macedonian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:39
+msgid "Malay (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:40
+msgid "Maltese (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:41
+msgid "Persian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:42
+msgid "Polish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:43
+msgid "Portuguese (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:44
+msgid "Romanian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:45
+msgid "Russian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:46
+msgid "Serbian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:47
+msgid "Slovak (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:48
+msgid "Slovenian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:49
+msgid "Spanish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:50 res/echo-rules-list.php:105
+msgid "Swahili (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:51
+msgid "Swedish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:52
+msgid "Thai (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:53
+msgid "Turkish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:54
+msgid "Ukrainian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:55
+msgid "Vietnamese (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:56
+msgid "Welsh (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:57
+msgid "Yiddish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:58
+msgid "Tamil (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:59
+msgid "Azerbaijani (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:60
+msgid "Kannada (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:61
+msgid "Basque (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:62
+msgid "Bengali (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:63
+msgid "Latin (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:64
+msgid "Chinese Traditional (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:65
+msgid "Esperanto (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:66
+msgid "Georgian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:67
+msgid "Telugu (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:68
+msgid "Gujarati (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:69
+msgid "Haitian Creole (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:70
+msgid "Urdu (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:72
+msgid "Burmese (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:73
+msgid "Bosnian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:74
+msgid "Cebuano (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:75
+msgid "Chichewa (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:76
+msgid "Corsican (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:77
+msgid "Frisian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:78
+msgid "Scottish Gaelic (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:79
+msgid "Hausa (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:80
+msgid "Hawaian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:81
+msgid "Hmong (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:82
+msgid "Igbo (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:83
+msgid "Javanese (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:84
+msgid "Kazakh (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:85
+msgid "Khmer (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:86
+msgid "Kurdish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:87
+msgid "Kyrgyz (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:88
+msgid "Lao (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:89
+msgid "Luxembourgish (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:90
+msgid "Malagasy (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:91
+msgid "Malayalam (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:92
+msgid "Maori (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:93
+msgid "Marathi (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:94
+msgid "Mongolian (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:95
+msgid "Nepali (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:96
+msgid "Pashto (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:97
+msgid "Punjabi (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:98
+msgid "Samoan (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:99
+msgid "Sesotho (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:100
+msgid "Shona (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:101
+msgid "Sindhi (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:102
+msgid "Sinhala (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:103
+msgid "Somali (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:104
+msgid "Sundanese (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:106
+msgid "Tajik (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:107
+msgid "Uzbek (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:108
+msgid "Xhosa (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:109
+msgid "Yoruba (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:110
+msgid "Zulu (Google Translate)"
+msgstr ""
+
+#: res/echo-rules-list.php:427
+msgid "RSS Feed URL"
+msgstr ""
+
+#: res/echo-rules-list.php:431
+msgid "Input the URL of the RSS feed you want to fetch."
+msgstr ""
+
+#: res/echo-rules-list.php:437
+msgid "Schedule"
+msgstr ""
+
+#: res/echo-rules-list.php:444
+msgid ""
+"Select the interval in minutes after which you want this rule to run. "
+"Defined in minutes."
+msgstr ""
+
+#: res/echo-rules-list.php:448
+msgid ""
+"Select the interval in hours after which you want this rule to run. Defined "
+"in hours."
+msgstr ""
+
+#: res/echo-rules-list.php:455
+msgid "Max # Posts"
+msgstr ""
+
+#: res/echo-rules-list.php:459
+msgid "Select the maximum number of posts that this rule can create at once."
+msgstr ""
+
+#: res/echo-rules-list.php:469
+msgid "Shows advanced settings for this rule."
+msgstr ""
+
+#: res/echo-rules-list.php:485
+msgid "Active"
+msgstr ""
+
+#: res/echo-rules-list.php:489
+msgid ""
+"Do you want to enable this rule? You can deactivate any rule (you don't have "
+"to delete them to deactivate them)."
+msgstr ""
+
+#: res/echo-rules-list.php:497
+msgid "Info"
+msgstr ""
+
+#: res/echo-rules-list.php:501
+msgid "The number of items (posts, pages) this rule has generated so far."
+msgstr ""
+
+#: res/echo-rules-list.php:507
+msgid "Actions"
+msgstr ""
+
+#: res/echo-rules-list.php:511
+msgid ""
+"Do you want to run this rule now? Note that only one instance of a rule is "
+"allowed at once."
+msgstr ""
+
+#: res/echo-rules-list.php:551 res/echo-rules-list.php:2949
+msgid "Feed Parsing Options:"
+msgstr ""
+
+#: res/echo-rules-list.php:558 res/echo-rules-list.php:2953
+msgid ""
+"Select the feed parsing method to use. If you leave this at it\\'s default "
+"value, the parsing option will be used which is defined in the plugin\\' "
+"\\'Main Settings\\' menu, using the \\'Use Custom SimplePie Instead of the "
+"Built-In One\\' checkbox."
+msgstr ""
+
+#: res/echo-rules-list.php:561
+msgid "Feed Parsing Method To Use:"
+msgstr ""
+
+#: res/echo-rules-list.php:567 res/echo-rules-list.php:2965
+msgid "Default"
+msgstr ""
+
+#: res/echo-rules-list.php:568 res/echo-rules-list.php:2970
+msgid "Use Custom SimplePie Library"
+msgstr ""
+
+#: res/echo-rules-list.php:569 res/echo-rules-list.php:2975
+msgid "Use WordPress built-in SimplePie"
+msgstr ""
+
+#: res/echo-rules-list.php:570 res/echo-rules-list.php:2980
+msgid "Echo RSS Feed Parser (Experimental)"
+msgstr ""
+
+#: res/echo-rules-list.php:586
+#, php-format
+msgid ""
+"Set the title of the generated posts for user rules. You can use the "
+"following shortcodes: %%item_pub_date%%, %%item_screenshot_url%%, "
+"%%item_show_screenshot%%, %%custom_html%%, %%custom_html2%%, "
+"%%random_sentence%%, %%random_sentence2%%, %%item_title%%, %%item_description"
+"%%, %%item_excerpt%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%royalty_free_image_attribution%%, %%conditional_words%%, %%item_url_domain"
+"%%, %%item_url%%, %%item_cat%%, %%item_tags%%, %%item_random_tag%%, "
+"%%item_read_more_button%%, %%item_show_image%%, %%item_image_URL%%, "
+"%%feed_title%%, %%feed_description%%, %%feed_logo%%, %%feed_url%%, %%author"
+"%%, %%author_link%%, %%author_email%%"
+msgstr ""
+
+#: res/echo-rules-list.php:590
+msgid "Generated Post Title:"
+msgstr ""
+
+#: res/echo-rules-list.php:603
+#, php-format
+msgid ""
+"Set the content of the generated posts for user rules. You can use the "
+"following shortcodes: %%item_pub_date%%, %%item_screenshot_url%%, "
+"%%item_show_screenshot%%, %%custom_html%%, %%custom_html2%%, "
+"%%random_sentence%%, %%random_sentence2%%, %%item_title%%, %%item_description"
+"%%, %%item_excerpt%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%royalty_free_image_attribution%%, %%conditional_words%%, %%item_url_domain"
+"%%, %%item_url%%, %%item_cat%%, %%item_tags%%, %%item_random_tag%%, "
+"%%item_read_more_button%%, %%item_show_image%%, %%item_image_URL%%, "
+"%%feed_title%%, %%feed_description%%, %%feed_logo%%, %%feed_url%%, %%author"
+"%%, %%author_link%%, %%author_email%%. If you defined custom tag names in "
+"the 'Feed Item Custom Tag Names' settings field in plugin's 'Main Settings', "
+"you will also be able to use a shortcode for each inserted field name, in "
+"this format: %%custom_*field_name*%%"
+msgstr ""
+
+#: res/echo-rules-list.php:607
+msgid "Generated Post Content:"
+msgstr ""
+
+#: res/echo-rules-list.php:620 res/echo-rules-list.php:3012
+msgid ""
+"Select the status that you want for the automatically generated posts to "
+"have."
+msgstr ""
+
+#: res/echo-rules-list.php:624
+msgid "Generated Post Status:"
+msgstr ""
+
+#: res/echo-rules-list.php:628 res/echo-rules-list.php:3023
+msgid "Pending -> Moderate"
+msgstr ""
+
+#: res/echo-rules-list.php:629 res/echo-rules-list.php:3029
+msgid "Draft -> Moderate"
+msgstr ""
+
+#: res/echo-rules-list.php:630 res/echo-rules-list.php:3035
+#: res/echo-shortcode.php:315
+msgid "Published"
+msgstr ""
+
+#: res/echo-rules-list.php:631 res/echo-rules-list.php:3041
+msgid "Private"
+msgstr ""
+
+#: res/echo-rules-list.php:632 res/echo-rules-list.php:3047
+msgid "Trash"
+msgstr ""
+
+#: res/echo-rules-list.php:643 res/echo-rules-list.php:3053
+msgid "Select the type (post/page) for your automatically generated item."
+msgstr ""
+
+#: res/echo-rules-list.php:647
+msgid "Generated Post Type:"
+msgstr ""
+
+#: res/echo-rules-list.php:672
+msgid ""
+"Select the author that you want to assign for the automatically generated "
+"posts.\t"
+msgstr ""
+
+#: res/echo-rules-list.php:676
+msgid "Generated Post Author:"
+msgstr ""
+
+#: res/echo-rules-list.php:679 res/echo-rules-list.php:3081
+msgid "Random user"
+msgstr ""
+
+#: res/echo-rules-list.php:680
+msgid "Import source author"
+msgstr ""
+
+#: res/echo-rules-list.php:698
+msgid ""
+"If your template supports 'Post Formats', than you can select one here. If "
+"not, leave this at it's default value."
+msgstr ""
+
+#: res/echo-rules-list.php:702
+msgid "Generated Post Format:"
+msgstr ""
+
+#: res/echo-rules-list.php:706 res/echo-rules-list.php:3118
+msgid "Standard"
+msgstr ""
+
+#: res/echo-rules-list.php:707 res/echo-rules-list.php:3124
+msgid "Aside"
+msgstr ""
+
+#: res/echo-rules-list.php:708 res/echo-rules-list.php:3130
+msgid "Gallery"
+msgstr ""
+
+#: res/echo-rules-list.php:709 res/echo-rules-list.php:3136
+msgid "Link"
+msgstr ""
+
+#: res/echo-rules-list.php:710 res/echo-rules-list.php:3142
+msgid "Image"
+msgstr ""
+
+#: res/echo-rules-list.php:711 res/echo-rules-list.php:3148
+msgid "Quote"
+msgstr ""
+
+#: res/echo-rules-list.php:712 res/echo-rules-list.php:3154
+msgid "Status"
+msgstr ""
+
+#: res/echo-rules-list.php:713 res/echo-rules-list.php:3160
+msgid "Video"
+msgstr ""
+
+#: res/echo-rules-list.php:714 res/echo-rules-list.php:3166
+msgid "Audio"
+msgstr ""
+
+#: res/echo-rules-list.php:715 res/echo-rules-list.php:3172
+msgid "Chat"
+msgstr ""
+
+#: res/echo-rules-list.php:726 res/echo-rules-list.php:3178
+msgid ""
+"Select the post category that you want for the automatically generated posts "
+"to have. To select more categories, hold down the CTRL key."
+msgstr ""
+
+#: res/echo-rules-list.php:730
+msgid "Additional Post Category:"
+msgstr ""
+
+#: res/echo-rules-list.php:734 res/echo-rules-list.php:3200
+msgid "Do Not Add a Category"
+msgstr ""
+
+#: res/echo-rules-list.php:762 res/echo-rules-list.php:3217
+msgid ""
+"Input a list of categories that you want to remove from the list of "
+"automatic categories. Input more categories, separated by comma. Ex: "
+"remove1, remove2, remove3"
+msgstr ""
+
+#: res/echo-rules-list.php:766
+msgid "Categories To Remove:"
+msgstr ""
+
+#: res/echo-rules-list.php:779
+msgid "Do you want to automatically add post categories from the Envato items?"
+msgstr ""
+
+#: res/echo-rules-list.php:783
+msgid "Auto Post Categories:"
+msgstr ""
+
+#: res/echo-rules-list.php:796 res/echo-rules-list.php:3245
+msgid ""
+"Select the auto created categories parent category id. If you leave this "
+"field blank, automatically created categories will be a root category (no "
+"parent)."
+msgstr ""
+
+#: res/echo-rules-list.php:800
+msgid "Auto Created Categories Parent Category ID:"
+msgstr ""
+
+#: res/echo-rules-list.php:813
+msgid ""
+"This feature will try to remove the WordPress's default post category. This "
+"may fail in case no additional categories are added, because WordPress "
+"requires at least one post category for every post."
+msgstr ""
+
+#: res/echo-rules-list.php:817
+msgid "Remove WP Default Post Category:"
+msgstr ""
+
+#: res/echo-rules-list.php:830
+msgid "Do you want to automatically add post tags from the Envato items?"
+msgstr ""
+
+#: res/echo-rules-list.php:834
+msgid "Auto Post Tags:"
+msgstr ""
+
+#: res/echo-rules-list.php:847
+#, php-format
+msgid ""
+"Select the post tags that you want for the automatically generated posts to "
+"have. You can also use the following shortcodes here: %%item_pub_date%%, "
+"%%item_screenshot_url%%, %%item_show_screenshot%%, %%custom_html%%, "
+"%%custom_html2%%, %%random_sentence%%, %%random_sentence2%%, %%item_title%%, "
+"%%item_description%%, %%item_excerpt%%, %%item_content%%, "
+"%%item_content_plain_text%%, %%royalty_free_image_attribution%%, "
+"%%conditional_words%%, %%item_url_domain%%, %%item_url%%, %%item_cat%%, "
+"%%item_tags%%, %%item_random_tag%%, %%item_read_more_button%%, "
+"%%item_show_image%%, %%item_image_URL%%, %%feed_title%%, %%feed_description"
+"%%, %%feed_logo%%, %%feed_url%%, %%author%%, %%author_link%%, %%author_email"
+"%%"
+msgstr ""
+
+#: res/echo-rules-list.php:851
+msgid "Additional Post Tags:"
+msgstr ""
+
+#: res/echo-rules-list.php:864 res/echo-rules-list.php:3303
+msgid ""
+"This feature will copy the source post URL slug (regardless of the title of "
+"the created post)."
+msgstr ""
+
+#: res/echo-rules-list.php:868
+msgid "Copy Source Post URL Slug:"
+msgstr ""
+
+#: res/echo-rules-list.php:881 res/echo-rules-list.php:3320
+msgid "This feature will create sticky posts."
+msgstr ""
+
+#: res/echo-rules-list.php:885
+msgid "Create Sticky Posts:"
+msgstr ""
+
+#: res/echo-rules-list.php:898 res/echo-rules-list.php:3337
+msgid "Do you want to strip images from generated post content?"
+msgstr ""
+
+#: res/echo-rules-list.php:902
+msgid "Strip Images From Post Content:"
+msgstr ""
+
+#: res/echo-rules-list.php:915 res/echo-rules-list.php:3352
+msgid "Do you want to strip links from generated post content?"
+msgstr ""
+
+#: res/echo-rules-list.php:919
+msgid "Strip Links From Post Content:"
+msgstr ""
+
+#: res/echo-rules-list.php:932
+msgid ""
+"Select if you want to link generated post titles to source articles. This "
+"will overwrite the same named settings from 'Main Settings' page."
+msgstr ""
+
+#: res/echo-rules-list.php:936
+msgid "Link Generated Post Titles To Source Articles:"
+msgstr ""
+
+#: res/echo-rules-list.php:949
+msgid ""
+"Do you want to replace all URLs from generated posts content with this "
+"predefined URL? This will overwrite the same named settings from 'Main "
+"Settings' page."
+msgstr ""
+
+#: res/echo-rules-list.php:966 res/echo-rules-list.php:3396
+msgid ""
+"Do you want to to set the post published date as the date grabbed from the "
+"feed article? If you disable this feature, the date when the rule is run "
+"will be used."
+msgstr ""
+
+#: res/echo-rules-list.php:970
+msgid "Get Post Publish Date From Feed:"
+msgstr ""
+
+#: res/echo-rules-list.php:983 res/echo-rules-list.php:3413
+msgid ""
+"Input the number of hours to add/substract from the date - it can change the "
+"timezone of the imported date."
+msgstr ""
+
+#: res/echo-rules-list.php:987
+msgid "Add Hours To The Imported Date (Optional):"
+msgstr ""
+
+#: res/echo-rules-list.php:1002 res/echo-rules-list.php:3426
+msgid "Do you want to enable comments for the generated posts?"
+msgstr ""
+
+#: res/echo-rules-list.php:1006
+msgid "Enable Comments:"
+msgstr ""
+
+#: res/echo-rules-list.php:1019
+msgid "Do you want to enable pingbacks/trackbacks for the generated posts?"
+msgstr ""
+
+#: res/echo-rules-list.php:1023
+msgid "Enable Pingbacks/Trackbacks:"
+msgstr ""
+
+#: res/echo-rules-list.php:1036
+msgid ""
+"Set the text to be shown for the 'Read More' link. If you leave this field "
+"blank, the global setting will take effect, defined in the plugin's 'Main "
+"Settings' -> ''Read More' Button Text'."
+msgstr ""
+
+#: res/echo-rules-list.php:1053
+#, php-format
+msgid ""
+"Set the custom fields that will be set for generated posts. The syntax for "
+"this field is the following: custom_field_name1 => custom_field_value1, "
+"custom_field_name2 => custom_field_value2, ... . In custom_field_valueX, you "
+"can use shortcodes, same like in post content. You can also assign the data "
+"to array custom fields, using this format: array_field[index_name1] => "
+"custom_field_value1, array_field[index_name2] => custom_field_value2. "
+"Example (without quotes): 'title_custom_field => %%item_title%%'. You can "
+"use the following shortcodes: %%item_pub_date%%, %%item_screenshot_url%%, "
+"%%item_show_screenshot%%, %%custom_html%%, %%custom_html2%%, "
+"%%random_sentence%%, %%random_sentence2%%, %%item_title%%, %%item_description"
+"%%, %%item_excerpt%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%royalty_free_image_attribution%%, %%conditional_words%%, %%item_url_domain"
+"%%, %%item_url%%, %%item_cat%%, %%item_tags%%, %%item_random_tag%%, "
+"%%item_read_more_button%%, %%item_show_image%%, %%item_image_URL%%, "
+"%%feed_title%%, %%feed_description%%, %%feed_logo%%, %%feed_url%%, %%author"
+"%%, %%author_link%%, %%author_email%%. If you defined custom tag names in "
+"the 'Feed Item Custom Tag Names' settings field in plugin's 'Main Settings', "
+"you will also be able to use a shortcode for each inserted field name, in "
+"this format: %%custom_*field_name*%%"
+msgstr ""
+
+#: res/echo-rules-list.php:1057
+msgid "Post Custom Fields:"
+msgstr ""
+
+#: res/echo-rules-list.php:1070
+#, php-format
+msgid ""
+"Set the custom taxonomies that will be set for generated posts. The syntax "
+"for this field is the following: custom_taxonomy_name1 => "
+"custom_taxonomy_value1A, custom_taxonomy_value1B; custom_taxonomy_name2 => "
+"custom_taxonomy_value2A, custom_taxonomy_value2B; ... . In "
+"custom_taxonomy_valueX, you can use shortcodes. Example (without quotes): "
+"'cats_taxonomy_field => manualtax1, %%item_pub_date%%; tags_taxonomy_field "
+"=> manualtax2, %%item_pub_date%%'. You can use the following shortcodes: "
+"%%item_pub_date%%, %%item_screenshot_url%%, %%item_show_screenshot%%, "
+"%%custom_html%%, %%custom_html2%%, %%random_sentence%%, "
+"%%random_sentence2%%, %%item_title%%, %%item_description%%, %%item_excerpt"
+"%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%royalty_free_image_attribution%%, %%conditional_words%%, %%item_url_domain"
+"%%, %%item_url%%, %%item_cat%%, %%item_tags%%, %%item_random_tag%%, "
+"%%item_read_more_button%%, %%item_show_image%%, %%item_image_URL%%, "
+"%%feed_title%%, %%feed_description%%, %%feed_logo%%, %%feed_url%%, %%author"
+"%%, %%author_link%%, %%author_email%%. If you defined custom tag names in "
+"the 'Feed Item Custom Tag Names' settings field in plugin's 'Main Settings', "
+"you will also be able to use a shortcode for each inserted field name, in "
+"this format: %%custom_*field_name*%%"
+msgstr ""
+
+#: res/echo-rules-list.php:1074
+msgid "Post Custom Taxonomies:"
+msgstr ""
+
+#: res/echo-rules-list.php:1083 res/echo-rules-list.php:3491
+msgid "Full Article Content Importing Options:"
+msgstr ""
+
+#: res/echo-rules-list.php:1090
+#, php-format
+msgid ""
+"Do you want to try to get full article content from the linked URL? This "
+"will replace the content of the %%item_content%% shortcode. To enable auto "
+"detection, leave the 'Search Query String' field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1093
+msgid "Try to Get Full Article Content:"
+msgstr ""
+
+#: res/echo-rules-list.php:1104 res/echo-rules-list.php:3511
+msgid ""
+"Do you want to also try to get the title of articles from the scraped HTML "
+"articles, instead of using the article titles found in the RSS feeds?"
+msgstr ""
+
+#: res/echo-rules-list.php:1107
+msgid "Try to Get Title From Source Article:"
+msgstr ""
+
+#: res/echo-rules-list.php:1118
+msgid ""
+"Do you want to try to use PhantomJS to try to parse JavaScript from crawled "
+"pages (for pages that create dynamic content, on page load, using "
+"JavaScript)? Please note that for this to work, you must have PhantomJs "
+"installed on your server. You can configure the path to PhantomJS from your "
+"server, from plugin's 'Main Settings'."
+msgstr ""
+
+#: res/echo-rules-list.php:1121
+msgid "Content Scraping Method To Use:"
+msgstr ""
+
+#: res/echo-rules-list.php:1130 res/echo-rules-list.php:3555
+msgid "WordPress (Default)"
+msgstr ""
+
+#: res/echo-rules-list.php:1131 res/echo-rules-list.php:3560
+msgid "Use PhantomJS"
+msgstr ""
+
+#: res/echo-rules-list.php:1132 res/echo-rules-list.php:3565
+msgid "Use Puppeteer"
+msgstr ""
+
+#: res/echo-rules-list.php:1133 res/echo-rules-list.php:1134
+#: res/echo-rules-list.php:1135 res/echo-rules-list.php:3572
+#: res/echo-rules-list.php:3581 res/echo-rules-list.php:3590
+msgid ""
+"This option is disabled. To enable it, add a HeadlessBrowserAPI Key in the "
+"plugin's 'Main Settings' menu."
+msgstr ""
+
+#: res/echo-rules-list.php:1133 res/echo-rules-list.php:3574
+msgid "Puppeteer (HeadlessBrowserAPI)"
+msgstr ""
+
+#: res/echo-rules-list.php:1133 res/echo-rules-list.php:1134
+#: res/echo-rules-list.php:1135
+msgid ""
+" - to enable, add a HeadlessBrowserAPI key in the plugin's 'Main Settings'"
+msgstr ""
+
+#: res/echo-rules-list.php:1134 res/echo-rules-list.php:3583
+msgid "Tor (HeadlessBrowserAPI)"
+msgstr ""
+
+#: res/echo-rules-list.php:1135 res/echo-rules-list.php:3592
+msgid "PhantomJS (HeadlessBrowserAPI)"
+msgstr ""
+
+#: res/echo-rules-list.php:1144
+#, php-format
+msgid ""
+"Select the query type you want to search for the article full content. "
+"XPath: <a href='%s' target='_blank'>More info/tutorial</a>."
+msgstr ""
+
+#: res/echo-rules-list.php:1147
+msgid "Full Content Query Type:"
+msgstr ""
+
+#: res/echo-rules-list.php:1153 res/echo-rules-list.php:1323
+#: res/echo-rules-list.php:3611 res/echo-rules-list.php:3816
+msgid "Auto Detect"
+msgstr ""
+
+#: res/echo-rules-list.php:1154 res/echo-rules-list.php:1196
+#: res/echo-rules-list.php:1706 res/echo-rules-list.php:3617
+#: res/echo-rules-list.php:3679 res/echo-rules-list.php:4150
+msgid "Visual Selector"
+msgstr ""
+
+#: res/echo-rules-list.php:1156 res/echo-rules-list.php:1198
+#: res/echo-rules-list.php:1708 res/echo-rules-list.php:3629
+#: res/echo-rules-list.php:3691 res/echo-rules-list.php:4162
+msgid "Class"
+msgstr ""
+
+#: res/echo-rules-list.php:1157 res/echo-rules-list.php:1199
+#: res/echo-rules-list.php:1709 res/echo-rules-list.php:3635
+#: res/echo-rules-list.php:3697 res/echo-rules-list.php:4168
+msgid "XPath"
+msgstr ""
+
+#: res/echo-rules-list.php:1158 res/echo-rules-list.php:1200
+#: res/echo-rules-list.php:1710 res/echo-rules-list.php:3641
+#: res/echo-rules-list.php:3703 res/echo-rules-list.php:4174
+msgid "Regex"
+msgstr ""
+
+#: res/echo-rules-list.php:1169
+#, php-format
+msgid ""
+"Input the search query for full content searching. This can be the ID or "
+"class name you want to search, the <a href='%s' target='_blank'>regex "
+"expression</a> you want to apply for or the XPath Expression you want to "
+"query for. <a href='%s' target='_blank'>More info/tutorial</a>. If you leave "
+"this field blank, content will be automatically detected for you."
+msgstr ""
+
+#: res/echo-rules-list.php:1173 res/echo-rules-list.php:3650
+msgid "Search Query String (Optional)"
+msgstr ""
+
+#: res/echo-rules-list.php:1173 res/echo-rules-list.php:1215
+#: res/echo-rules-list.php:1725 res/echo-rules-list.php:3650
+#: res/echo-rules-list.php:3712 res/echo-rules-list.php:4183
+msgid "Help!"
+msgstr ""
+
+#: res/echo-rules-list.php:1186 res/echo-rules-list.php:3660
+#, php-format
+msgid ""
+"Select the query type you want to search for the post tags. XPath: <a "
+"href='%s' target='_blank'>More info/tutorial</a>."
+msgstr ""
+
+#: res/echo-rules-list.php:1189
+msgid "Post Tags Query Type (Optional):"
+msgstr ""
+
+#: res/echo-rules-list.php:1211
+#, php-format
+msgid ""
+"Input the search query for post tag searching. This can be the ID or class "
+"name you want to search, the <a href='%s' target='_blank'>regex expression</"
+"a> you want to apply for or the XPath Expression you want to query for. <a "
+"href='%s' target='_blank'>More info/tutorial</a>."
+msgstr ""
+
+#: res/echo-rules-list.php:1215 res/echo-rules-list.php:3712
+msgid "Post Tags Query String (Optional)"
+msgstr ""
+
+#: res/echo-rules-list.php:1230
+msgid ""
+"Input the correct HTML attribute where the image src is found for lazy "
+"loaded images that are scraped from the full content. The attribute "
+"containing the actual image URL ex: \"data-src\" or \"data-original\""
+msgstr ""
+
+#: res/echo-rules-list.php:1234 res/echo-rules-list.php:3725
+msgid "Lazy Loading Images HTML Tag"
+msgstr ""
+
+#: res/echo-rules-list.php:1249 res/echo-rules-list.php:3735
+msgid ""
+"Select the cookie values you want to send with each request. The syntax for "
+"this field is the following: cookie_key1=cookie_value1; "
+"cookie_key2=cookie_value2 . To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1253
+msgid "Set Custom Cookies For The Request:"
+msgstr ""
+
+#: res/echo-rules-list.php:1266 res/echo-rules-list.php:3747
+#, php-format
+msgid ""
+"This works only if you configured phantomjs usage, from the Main Settings of "
+"the plugin. Choose if you want to use phantomjs to generate the screenshot "
+"for the page you are crawling and attach it to the generated post, "
+"regardless if you use the %%item_show_screenshot%% and %%item_screenshot_url"
+"%% shortcodes."
+msgstr ""
+
+#: res/echo-rules-list.php:1270 res/echo-rules-list.php:3750
+msgid "Attach Screenshot to All Generated Posts"
+msgstr ""
+
+#: res/echo-rules-list.php:1281 res/echo-rules-list.php:3763
+msgid ""
+"Do you want to get only one element or all elements that fit the defined "
+"rule?"
+msgstr ""
+
+#: res/echo-rules-list.php:1284
+msgid "Get Only The First Found Element:"
+msgstr ""
+
+#: res/echo-rules-list.php:1297 res/echo-rules-list.php:3780
+msgid ""
+"Do you want to get only the inner content of the div or the full div (with "
+"tags you searched for)?"
+msgstr ""
+
+#: res/echo-rules-list.php:1300
+msgid "Get Only The Inner Div Content:"
+msgstr ""
+
+#: res/echo-rules-list.php:1313 res/echo-rules-list.php:3797
+msgid "Select the source page encoding"
+msgstr ""
+
+#: res/echo-rules-list.php:1316
+msgid "Source Article Encoding:"
+msgstr ""
+
+#: res/echo-rules-list.php:1322 res/echo-rules-list.php:3810
+msgid "Feature Disabled"
+msgstr ""
+
+#: res/echo-rules-list.php:1338 res/echo-rules-list.php:3829
+msgid "Post Customization Options:"
+msgstr ""
+
+#: res/echo-rules-list.php:1347 res/echo-rules-list.php:3832
+msgid ""
+"Strip HTML elements from final content that have this IDs. You can insert "
+"more IDs, separeted by comma. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1351
+msgid "Strip HTML Elements by ID:"
+msgstr ""
+
+#: res/echo-rules-list.php:1364 res/echo-rules-list.php:3844
+msgid ""
+"Strip HTML elements from final content that have this class. You can insert "
+"more classes, separeted by comma. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1368
+msgid "Strip HTML Elements by Class:"
+msgstr ""
+
+#: res/echo-rules-list.php:1379
+msgid "Do you want to strip HTML from Article Content?"
+msgstr ""
+
+#: res/echo-rules-list.php:1382
+msgid "Strip HTML From Content:"
+msgstr ""
+
+#: res/echo-rules-list.php:1397 res/echo-rules-list.php:3873
+msgid ""
+"Set a list of allowed HTML tags, if \\'Strip HTML From Full Content\\' "
+"checkbox is enabled. Ex: &lt;br&gt;&lt;a&gt;"
+msgstr ""
+
+#: res/echo-rules-list.php:1401
+msgid "Alllowed HTML Tags (If Strip HTML Enabled):"
+msgstr ""
+
+#: res/echo-rules-list.php:1418
+msgid "Run Regex On Content:"
+msgstr ""
+
+#: res/echo-rules-list.php:1482 res/echo-rules-list.php:3933
+msgid ""
+"Select if you wish to run the above Regex before or after spinning/"
+"translation."
+msgstr ""
+
+#: res/echo-rules-list.php:1486
+msgid "Run The Above Regex Before Spinning/Translation:"
+msgstr ""
+
+#: res/echo-rules-list.php:1497 res/echo-rules-list.php:3950
+msgid ""
+"Set the maximum word count for the title. To disable this feature, leave "
+"this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1500
+msgid "Limit Title Word Count:"
+msgstr ""
+
+#: res/echo-rules-list.php:1513 res/echo-rules-list.php:3962
+msgid ""
+"Set the maximum word count for the article. If you set this value, a \"Read "
+"More\" link will be automatically appended to the end of the article for "
+"articles that where shortened. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1516
+msgid "Limit Article Word Count:"
+msgstr ""
+
+#: res/echo-rules-list.php:1531 res/echo-rules-list.php:3974
+#, php-format
+msgid ""
+"Select a percentage of the grabbed content that will be included in the "
+"article. This is useful when the author states that you can legally get up "
+"to 25% of the full article. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1535
+msgid "Percentage Of The Content To Keep:"
+msgstr ""
+
+#: res/echo-rules-list.php:1550 res/echo-rules-list.php:3987
+msgid ""
+"Set a default post author ID, for posts which don't have an author assinged "
+"in the RSS feeds. This will overwrite the global settings with the same name "
+"from the plugin's 'Main Settings' menu."
+msgstr ""
+
+#: res/echo-rules-list.php:1554
+msgid "Default Post Author User ID:"
+msgstr ""
+
+#: res/echo-rules-list.php:1569
+msgid ""
+"Select if you wish to add rel='nofollow' to links generated from this feed."
+msgstr ""
+
+#: res/echo-rules-list.php:1573
+msgid "Add Rel=\"nofollow\" to Links From This Feed:"
+msgstr ""
+
+#: res/echo-rules-list.php:1586
+msgid ""
+"Select if you wish to capitalize the first letter of each word from the "
+"generated post title."
+msgstr ""
+
+#: res/echo-rules-list.php:1590
+msgid "Capitalize Each Word from the Title:"
+msgstr ""
+
+#: res/echo-rules-list.php:1599 res/echo-rules-list.php:4031
+msgid "Featured Image Options:"
+msgstr ""
+
+#: res/echo-rules-list.php:1608 res/echo-rules-list.php:4034
+msgid ""
+"Do you want to set featured image for generated post (to the first image "
+"that was found in the post)?"
+msgstr ""
+
+#: res/echo-rules-list.php:1612
+msgid "Enable Featured Image Importing:"
+msgstr ""
+
+#: res/echo-rules-list.php:1625
+msgid ""
+"Do you want to replace the imported article's image with a royalty free "
+"image? Please note that for this feature to function you must configure the "
+"plugin (add API keys) in the plugin's 'Main Settings' menu -> 'Royalty Free "
+"Featured Image Importing Options' section."
+msgstr ""
+
+#: res/echo-rules-list.php:1629
+msgid "Replace Article Image With Royalty Free Image:"
+msgstr ""
+
+#: res/echo-rules-list.php:1640 res/echo-rules-list.php:4067
+msgid ""
+"Do you want to skip checking the feed image when searching for a featured "
+"image for the generated article?."
+msgstr ""
+
+#: res/echo-rules-list.php:1643
+msgid "Skip Checking Feed Image:"
+msgstr ""
+
+#: res/echo-rules-list.php:1654 res/echo-rules-list.php:4083
+msgid ""
+"Do you want to skip checking the og image meta tag when searching for a "
+"featured image for the generated article?."
+msgstr ""
+
+#: res/echo-rules-list.php:1657
+msgid "Skip Checking OG:Image Meta:"
+msgstr ""
+
+#: res/echo-rules-list.php:1668 res/echo-rules-list.php:4099
+msgid ""
+"Do you want to skip checking the post content when searching for a featured "
+"image for the generated article?."
+msgstr ""
+
+#: res/echo-rules-list.php:1671
+msgid "Skip Checking Post Content Image:"
+msgstr ""
+
+#: res/echo-rules-list.php:1682 res/echo-rules-list.php:4115
+msgid "Do you want to skip the first image got from the content?."
+msgstr ""
+
+#: res/echo-rules-list.php:1685
+msgid "Don't Use First Image From Content:"
+msgstr ""
+
+#: res/echo-rules-list.php:1696
+#, php-format
+msgid ""
+"Select the query type you want to search for the article featured image. "
+"XPath: <a href='%s' target='_blank'>More info/tutorial</a>."
+msgstr ""
+
+#: res/echo-rules-list.php:1699
+msgid "Featured Image Query Type:"
+msgstr ""
+
+#: res/echo-rules-list.php:1705 res/echo-rules-list.php:4144
+msgid "Auto Detect (Modify Using Above Checkboxes)"
+msgstr ""
+
+#: res/echo-rules-list.php:1721
+#, php-format
+msgid ""
+"Input the search query for featured image searching. This can be the ID or "
+"class name you want to search, the <a href='%s' target='_blank'>regex "
+"expression</a> you want to apply for or the XPath Expression you want to "
+"query for. <a href='%s' target='_blank'>More info/tutorial</a>. If you leave "
+"this field blank, the featured will be automatically detected for you."
+msgstr ""
+
+#: res/echo-rules-list.php:1725 res/echo-rules-list.php:4183
+msgid "Featured Image Search Query String (Optional)"
+msgstr ""
+
+#: res/echo-rules-list.php:1739
+msgid ""
+"Insert a comma separated list of links to valid images that will be set "
+"randomly for the featured image for the posts that do not have a valid image "
+"attached or if you disabled automatic featured image generation. You can "
+"also insert a list of image attachment IDs. To disable this feature, leave "
+"this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1743
+msgid "Default Featured Image List:"
+msgstr ""
+
+#: res/echo-rules-list.php:1761
+msgid ""
+"Do not include posts that's title or content contains at least one of these "
+"words. Separate words by comma. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1765
+msgid "Banned Words List:"
+msgstr ""
+
+#: res/echo-rules-list.php:1778
+msgid ""
+"Include only posts that's title or content contains at least one of these "
+"words. Separate words by comma. To disable this feature, leave this field "
+"blank. If you wish to input a keyword that must be required in all cases "
+"(AND), please use it in this format: &&keyword. Example: granny, dad, &&mom. "
+"This translates into: (granny OR dad) AND MOM"
+msgstr ""
+
+#: res/echo-rules-list.php:1782
+msgid "Required Words List:"
+msgstr ""
+
+#: res/echo-rules-list.php:1795 res/echo-rules-list.php:4226
+msgid "Select where you wish to match required and banned words."
+msgstr ""
+
+#: res/echo-rules-list.php:1799
+msgid "Match Required and Banned Words On:"
+msgstr ""
+
+#: res/echo-rules-list.php:1805 res/echo-rules-list.php:4251
+msgid "Title & Content"
+msgstr ""
+
+#: res/echo-rules-list.php:1815
+msgid ""
+"Do not include posts that's author name matches these words. Separate "
+"authors by comma. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1819
+msgid "Banned Authors List:"
+msgstr ""
+
+#: res/echo-rules-list.php:1832
+msgid ""
+"Include only posts that's author name matches these words. Separate words by "
+"comma. To disable this feature, leave this field blank. If you wish to input "
+"a keyword that must be required in all cases (AND), please use it in this "
+"format: &&keyword. Example: granny, dad, &&mom. This translates into: "
+"(granny OR dad) AND MOM"
+msgstr ""
+
+#: res/echo-rules-list.php:1836
+msgid "Required Authors List:"
+msgstr ""
+
+#: res/echo-rules-list.php:1849
+msgid ""
+"Do not include posts that's category name matches these words. Separate "
+"categories by comma. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1853
+msgid "Banned Feed Item Category List:"
+msgstr ""
+
+#: res/echo-rules-list.php:1866
+msgid ""
+"Include only posts that's category name matches these words. Separate "
+"categories by comma. To disable this feature, leave this field blank. If you "
+"wish to input a keyword that must be required in all cases (AND), please use "
+"it in this format: &&keyword. Example: granny, dad, &&mom. This translates "
+"into: (granny OR dad) AND MOM"
+msgstr ""
+
+#: res/echo-rules-list.php:1870
+msgid "Required Feed Item Category List:"
+msgstr ""
+
+#: res/echo-rules-list.php:1883
+#, php-format
+msgid ""
+"Skip posts that are older than this date. Accepted values for this field are "
+"listed: <a href=\\'%s\\' target=\\'_blank\\'>here</a>, <a href=\\'%s\\' "
+"target=\\'_blank\\'>here</a>, <a href=\\'%s\\' target=\\'_blank\\'>here</a> "
+"and <a href=\\'http://php.net/manual/en/datetime.formats.compound.php\\' "
+"target=\\'_blank\\'>here</a>. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1887
+msgid "Skip Posts Older Than This Date:"
+msgstr ""
+
+#: res/echo-rules-list.php:1900
+#, php-format
+msgid ""
+"Skip posts that are newer than this date. Accepted values for this field are "
+"listed: <a href=\\'%s\\' target=\\'_blank\\'>here</a>, <a href=\\'%s\\' "
+"target=\\'_blank\\'>here</a>, <a href=\\'http://php.net/manual/en/datetime."
+"formats.time.php\\' target=\\'_blank\\'>here</a> and <a href=\\'%s\\' target="
+"\\'_blank\\'>here</a>. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:1904
+msgid "Skip Posts Newer Than This Date:"
+msgstr ""
+
+#: res/echo-rules-list.php:1913
+msgid "Translation/Spinning Options:"
+msgstr ""
+
+#: res/echo-rules-list.php:1920 res/echo-rules-list.php:4329
+msgid ""
+"Do you want to automatically translate generated content using Google "
+"Translate?"
+msgstr ""
+
+#: res/echo-rules-list.php:1923
+msgid "Automatically Translate Content To:"
+msgstr ""
+
+#: res/echo-rules-list.php:1923 res/echo-rules-list.php:4332
+msgid "Info:"
+msgstr ""
+
+#: res/echo-rules-list.php:1923 res/echo-rules-list.php:4332
+msgid "for translation, the plugin also supports WPML."
+msgstr ""
+
+#: res/echo-rules-list.php:1923 res/echo-rules-list.php:4332
+msgid "Get WPML now!"
+msgstr ""
+
+#: res/echo-rules-list.php:1967 res/echo-rules-list.php:4376
+msgid ""
+"If you use the above translate feature and want to translate not english "
+"articles to other languages, please select their original language here."
+msgstr ""
+
+#: res/echo-rules-list.php:1970
+msgid "Source Articles Language:"
+msgstr ""
+
+#: res/echo-rules-list.php:2016 res/echo-rules-list.php:4423
+msgid ""
+"Enter a 2 letter language code that will be assigned as the WPML/Polylang "
+"language for posts. Example: for German, input: de"
+msgstr ""
+
+#: res/echo-rules-list.php:2020
+msgid "Assign WPML/Polylang Language to Posts:"
+msgstr ""
+
+#: res/echo-rules-list.php:2031
+msgid ""
+"Do you want to not spin articles generated by this rule? This will have "
+"effect only if you have set up a global text spinning setting, in the "
+"plugin's 'Main Settings'."
+msgstr ""
+
+#: res/echo-rules-list.php:2034
+msgid "Do Not Spin/Summarize Posts Generated By This Rule:"
+msgstr ""
+
+#: res/echo-rules-list.php:2043 res/echo-rules-list.php:4448
+msgid "Miscellaneous Options:"
+msgstr ""
+
+#: res/echo-rules-list.php:2052
+msgid ""
+"Do you want to set a custom user agent string to the requests made to this "
+"specific feed source? This will overwrite the settings made from the 'Main "
+"Settings' menu -> 'Use Custom User Agent In SimplePie'."
+msgstr ""
+
+#: res/echo-rules-list.php:2056
+msgid "User-Agent String To Use:"
+msgstr ""
+
+#: res/echo-rules-list.php:2069 res/echo-rules-list.php:4464
+msgid ""
+"Do you want to try to detect final redirect URLs for feed items (useful for "
+"some feeds that have redirects in their item URLs)."
+msgstr ""
+
+#: res/echo-rules-list.php:2073
+msgid "Try to Detect Final Redirect URL from Feeds:"
+msgstr ""
+
+#: res/echo-rules-list.php:2086 res/echo-rules-list.php:4481
+#, php-format
+msgid ""
+"Do you want to automatically delete generated posts after a period of time? "
+"Accepted values for this field are listed: <a href='%s' "
+"target='_blank'>here</a>, <a href='%s' target='_blank'>here</a>, <a "
+"href='%s' target='_blank'>here</a> and <a href='%s' target='_blank'>here</"
+"a>. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:2090
+msgid "Automatically Delete Post:"
+msgstr ""
+
+#: res/echo-rules-list.php:2101 res/echo-rules-list.php:4493
+msgid ""
+"Select if you want to update the post when it is found as it is already "
+"posted (by title). If you uncheck this value, if duplicate post found, no "
+"action will be taken."
+msgstr ""
+
+#: res/echo-rules-list.php:2104
+msgid "Update Post If It Is Already Posted:"
+msgstr ""
+
+#: res/echo-rules-list.php:2120
+msgid "Add \"rel=canonical\" Meta Tag To Generated Posts:"
+msgstr ""
+
+#: res/echo-rules-list.php:2133
+msgid ""
+"Do you want to use the proxy set in the 'Main Settings' menu of the plugin? "
+"If you disable this, the server's IP address will be used instead, for this "
+"rule."
+msgstr ""
+
+#: res/echo-rules-list.php:2136
+msgid "Use Proxy From Main Settings Plugin Menu:"
+msgstr ""
+
+#: res/echo-rules-list.php:2166
+msgid "No info."
+msgstr ""
+
+#: res/echo-rules-list.php:2176 res/echo-rules-list.php:4685
+msgid "Select an Action"
+msgstr ""
+
+#: res/echo-rules-list.php:2177 res/echo-rules-list.php:4686
+msgid "Run This Rule Now"
+msgstr ""
+
+#: res/echo-rules-list.php:2178 res/echo-rules-list.php:4687
+msgid "Move All Posts To Trash"
+msgstr ""
+
+#: res/echo-rules-list.php:2179 res/echo-rules-list.php:4688
+msgid "Duplicate This Rule"
+msgstr ""
+
+#: res/echo-rules-list.php:2180 res/echo-rules-list.php:4689
+msgid "Permanently Delete All Posts"
+msgstr ""
+
+#: res/echo-rules-list.php:2403
+msgid "First Page"
+msgstr ""
+
+#: res/echo-rules-list.php:2403
+msgid "Previous Page"
+msgstr ""
+
+#: res/echo-rules-list.php:2403
+msgid "Page"
+msgstr ""
+
+#: res/echo-rules-list.php:2403
+msgid "of"
+msgstr ""
+
+#: res/echo-rules-list.php:2403
+msgid "Rules Per Page:"
+msgstr ""
+
+#: res/echo-rules-list.php:2403
+msgid "Next Page"
+msgstr ""
+
+#: res/echo-rules-list.php:2403
+msgid "Last Page"
+msgstr ""
+
+#: res/echo-rules-list.php:2956
+msgid "Feed Parsing Method To Use"
+msgstr ""
+
+#: res/echo-rules-list.php:2988
+#, php-format
+msgid ""
+"Set the title of the generated posts for user rules. You can use the "
+"following shortcodes:  %%item_pub_date%%, %%item_screenshot_url%%, "
+"%%item_show_screenshot%%, %%custom_html%%, %%custom_html2%%, "
+"%%random_sentence%%, %%random_sentence2%%, %%item_title%%, %%item_description"
+"%%, %%item_excerpt%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%royalty_free_image_attribution%%, %%conditional_words%%, %%item_url_domain"
+"%%, %%item_url%%, %%item_cat%%, %%item_tags%%, %%item_random_tag%%, "
+"%%item_read_more_button%%, %%item_show_image%%, %%item_image_URL%%, "
+"%%feed_title%%, %%feed_description%%, %%feed_logo%%, %%feed_url%%, %%author"
+"%%, %%author_link%%, %%author_email%%"
+msgstr ""
+
+#: res/echo-rules-list.php:2991
+msgid "Generated Post Title"
+msgstr ""
+
+#: res/echo-rules-list.php:3000
+#, php-format
+msgid ""
+"Set the content of the generated posts for user rules. You can use the "
+"following shortcodes: %%item_pub_date%%, %%item_screenshot_url%%, "
+"%%item_show_screenshot%%, %%custom_html%%, %%custom_html2%%, "
+"%%random_sentence%%, %%random_sentence2%%, %%item_title%%, %%item_description"
+"%%, %%item_excerpt%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%royalty_free_image_attribution%%, %%conditional_words%%, %%item_url_domain"
+"%%, %%item_url%%, %%item_cat%%, %%item_tags%%, %%item_random_tag%%, "
+"%%item_read_more_button%%, %%item_show_image%%, %%item_image_URL%%, "
+"%%feed_title%%, %%feed_description%%, %%feed_logo%%, %%feed_url%%, %%author"
+"%%, %%author_link%%, %%author_email%%. If you defined custom tag names in "
+"the \\'Feed Item Custom Tag Names\\' settings field in plugin\\'s \\'Main "
+"Settings\\', you will also be able to use a shortcode for each inserted "
+"field name, in this format: %%custom_*field_name*%%"
+msgstr ""
+
+#: res/echo-rules-list.php:3003
+msgid "Generated Post Content"
+msgstr ""
+
+#: res/echo-rules-list.php:3015
+msgid "Generated Post Status"
+msgstr ""
+
+#: res/echo-rules-list.php:3056
+msgid "Generated Post Type"
+msgstr ""
+
+#: res/echo-rules-list.php:3071
+msgid ""
+"Select the author that you want to assign for the automatically generated "
+"posts."
+msgstr ""
+
+#: res/echo-rules-list.php:3074
+msgid "Generated Post Author"
+msgstr ""
+
+#: res/echo-rules-list.php:3086
+msgid "Import feed author"
+msgstr ""
+
+#: res/echo-rules-list.php:3107
+msgid ""
+"If your template supports \"Post Formats\", than you can select one here. If "
+"not, leave this at it's default value."
+msgstr ""
+
+#: res/echo-rules-list.php:3110
+msgid "Generated Post Format"
+msgstr ""
+
+#: res/echo-rules-list.php:3181
+msgid "Additional Post Category"
+msgstr ""
+
+#: res/echo-rules-list.php:3220
+msgid "Categories To Remove"
+msgstr ""
+
+#: res/echo-rules-list.php:3229
+msgid "Do you want to automatically add post categories from the feed items?"
+msgstr ""
+
+#: res/echo-rules-list.php:3232
+msgid "Auto Post Categories"
+msgstr ""
+
+#: res/echo-rules-list.php:3248
+msgid "Auto Created Categories Parent Category ID"
+msgstr ""
+
+#: res/echo-rules-list.php:3257
+msgid ""
+"This feature will try to remove the WordPress\\'s default post category. "
+"This may fail in case no additional categories are added, because WordPress "
+"requires at least one post category for every post."
+msgstr ""
+
+#: res/echo-rules-list.php:3260
+msgid "Remove WP Default Post Category"
+msgstr ""
+
+#: res/echo-rules-list.php:3274
+msgid "Do you want to automatically add post tags from the feed items?"
+msgstr ""
+
+#: res/echo-rules-list.php:3277
+msgid "Auto Post Tags"
+msgstr ""
+
+#: res/echo-rules-list.php:3291
+#, php-format
+msgid ""
+"Select the post tags that you want for the automatically generated posts to "
+"have.  You can also use the following shortcodes here: %%item_pub_date%%, "
+"%%item_screenshot_url%%, %%item_show_screenshot%%, %%custom_html%%, "
+"%%custom_html2%%, %%random_sentence%%, %%random_sentence2%%, %%item_title%%, "
+"%%item_description%%, %%item_excerpt%%, %%item_content%%, "
+"%%item_content_plain_text%%, %%royalty_free_image_attribution%%, "
+"%%conditional_words%%, %%item_url_domain%%, %%item_url%%, %%item_cat%%, "
+"%%item_tags%%, %%item_random_tag%%, %%item_read_more_button%%, "
+"%%item_show_image%%, %%item_image_URL%%, %%feed_title%%, %%feed_description"
+"%%, %%feed_logo%%, %%feed_url%%, %%author%%, %%author_link%%, %%author_email"
+"%%"
+msgstr ""
+
+#: res/echo-rules-list.php:3294
+msgid "Additional Post Tags"
+msgstr ""
+
+#: res/echo-rules-list.php:3306
+msgid "Copy Source Post URL Slug"
+msgstr ""
+
+#: res/echo-rules-list.php:3323
+msgid "Create Sticky Posts"
+msgstr ""
+
+#: res/echo-rules-list.php:3340
+msgid "Strip Images From Post Content"
+msgstr ""
+
+#: res/echo-rules-list.php:3355
+msgid "Strip Links From Post Content"
+msgstr ""
+
+#: res/echo-rules-list.php:3367
+msgid ""
+"Select if you want to link generated post titles to source articles. This "
+"will overwrite the same named settings from \\'Main Settings\\' page."
+msgstr ""
+
+#: res/echo-rules-list.php:3370
+msgid "Link Generated Post Titles To Source Articles"
+msgstr ""
+
+#: res/echo-rules-list.php:3384
+msgid ""
+"Do you want to replace all URLs from generated posts content with this "
+"predefined URL? This will overwrite the same named settings from \\'Main "
+"Settings\\' page."
+msgstr ""
+
+#: res/echo-rules-list.php:3387
+msgid "Replace All URLs from Content With This URL"
+msgstr ""
+
+#: res/echo-rules-list.php:3399
+msgid "Get Post Publish Date From Feed"
+msgstr ""
+
+#: res/echo-rules-list.php:3416
+msgid "Add Hours To The Imported Date (Optional)"
+msgstr ""
+
+#: res/echo-rules-list.php:3429
+msgid "Enable Comments"
+msgstr ""
+
+#: res/echo-rules-list.php:3443
+msgid "Do you want to enable pingbacks and trackbacks for the generated posts?"
+msgstr ""
+
+#: res/echo-rules-list.php:3446
+msgid "Enable Pingbacks/Trackbacks"
+msgstr ""
+
+#: res/echo-rules-list.php:3460
+msgid ""
+"Set the text to be shown for the \\'Read More\\' link. If you leave this "
+"field blank, the global setting will take effect, defined in the plugin\\'s "
+"\\'Main Settings\\' -> \\'\\'Read More\\' Button Text\\'."
+msgstr ""
+
+#: res/echo-rules-list.php:3463
+msgid "'Read More' Button Text"
+msgstr ""
+
+#: res/echo-rules-list.php:3472
+#, php-format
+msgid ""
+"Set the custom fields that will be set for generated posts. The syntax for "
+"this field is the following: custom_field_name1 => custom_field_value1, "
+"custom_field_name2 => custom_field_value2, ... . In custom_field_valueX, you "
+"can use shortcodes, same like in post content. You can also assign the data "
+"to array custom fields, using this format: array_field[index_name1] => "
+"custom_field_value1, array_field[index_name2] => custom_field_value2. "
+"Example (without quotes): \\'title_custom_field => %%item_title%%\\'. You "
+"can use the following shortcodes: %%item_pub_date%%, %%item_screenshot_url"
+"%%, %%item_show_screenshot%%, %%custom_html%%, %%custom_html2%%, "
+"%%random_sentence%%, %%random_sentence2%%, %%item_title%%, %%item_description"
+"%%, %%item_excerpt%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%royalty_free_image_attribution%%, %%conditional_words%%, %%item_url_domain"
+"%%, %%item_url%%, %%item_cat%%, %%item_tags%%, %%item_random_tag%%, "
+"%%item_read_more_button%%, %%item_show_image%%, %%item_image_URL%%, "
+"%%feed_title%%, %%feed_description%%, %%feed_logo%%, %%feed_url%%, %%author"
+"%%, %%author_link%%, %%author_email%%. If you defined custom tag names in "
+"the \\'Feed Item Custom Tag Names\\' settings field in plugin\\'s \\'Main "
+"Settings\\', you will also be able to use a shortcode for each inserted "
+"field name, in this format: %%custom_*field_name*%%"
+msgstr ""
+
+#: res/echo-rules-list.php:3475
+msgid "Post Custom Fields"
+msgstr ""
+
+#: res/echo-rules-list.php:3484
+#, php-format
+msgid ""
+"Set the custom taxonomies that will be set for generated posts. The syntax "
+"for this field is the following: custom_taxonomy_name1 => "
+"custom_taxonomy_value1A, custom_taxonomy_value1B; custom_taxonomy_name2 => "
+"custom_taxonomy_value2A, custom_taxonomy_value2B; ... . In "
+"custom_taxonomy_valueX, you can use shortcodes. Example (without quotes): "
+"\\'cats_taxonomy_field => manualtax1, %%item_title%%; tags_taxonomy_field => "
+"manualtax2, %%item_pub_date%%\\'. You can use the following shortcodes: "
+"%%item_pub_date%%, %%item_screenshot_url%%, %%item_show_screenshot%%, "
+"%%custom_html%%, %%custom_html2%%, %%random_sentence%%, "
+"%%random_sentence2%%, %%item_title%%, %%item_description%%, %%item_excerpt"
+"%%, %%item_content%%, %%item_content_plain_text%%, "
+"%%royalty_free_image_attribution%%, %%conditional_words%%, %%item_url_domain"
+"%%, %%item_url%%, %%item_cat%%, %%item_tags%%, %%item_random_tag%%, "
+"%%item_read_more_button%%, %%item_show_image%%, %%item_image_URL%%, "
+"%%feed_title%%, %%feed_description%%, %%feed_logo%%, %%feed_url%%, %%author"
+"%%, %%author_link%%, %%author_email%%. If you defined custom tag names in "
+"the \\'Feed Item Custom Tag Names\\' settings field in plugin\\'s \\'Main "
+"Settings\\', you will also be able to use a shortcode for each inserted "
+"field name, in this format: %%custom_*field_name*%%"
+msgstr ""
+
+#: res/echo-rules-list.php:3487
+msgid "Post Custom Taxonomies"
+msgstr ""
+
+#: res/echo-rules-list.php:3495
+#, php-format
+msgid ""
+"Do you want to try to get full article content from the linked URL? This "
+"will replace the content of the %%item_content%% shortcode. To enable auto "
+"detection, leave the \\'Search Query String\\' field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:3498
+msgid "Try to Get Full Article Content"
+msgstr ""
+
+#: res/echo-rules-list.php:3514
+msgid "Try to Get Title From Source Article"
+msgstr ""
+
+#: res/echo-rules-list.php:3527
+msgid ""
+"Do you want to try to use PhantomJS to try to parse JavaScript from crawled "
+"pages (for pages that create dynamic content, on page load, using "
+"JavaScript)? Please note that for this to work, you must have PhantomJs "
+"installed on your server. You can configure the path to PhantomJS from your "
+"server, from plugin\\'s \\'Main Settings\\'."
+msgstr ""
+
+#: res/echo-rules-list.php:3530
+msgid "Content Scraping Method To Use"
+msgstr ""
+
+#: res/echo-rules-list.php:3598
+#, php-format
+msgid ""
+"Select the query type you want to search for the article full content. "
+"XPath: <a href=\"%s\" target=\"_blank\">More info/tutorial</a>."
+msgstr ""
+
+#: res/echo-rules-list.php:3601
+msgid "Full Content Query Type"
+msgstr ""
+
+#: res/echo-rules-list.php:3647
+#, php-format
+msgid ""
+"Input the search query for full content searching. This can be the ID or "
+"class name you want to search for, the <a href=\"%s\" target=\"_blank"
+"\">regex expression</a> you want to apply or the XPath Expression you want "
+"to query for. <a href=\"%s\" target=\"_blank\">More info/tutorial</a>. If "
+"you leave this field blank, content will be automatically detected for you."
+msgstr ""
+
+#: res/echo-rules-list.php:3663
+msgid "Post Tags Query Type (Optional)"
+msgstr ""
+
+#: res/echo-rules-list.php:3709
+#, php-format
+msgid ""
+"Input the search query for post tag searching. This can be the ID or class "
+"name you want to search for, the <a href=\"%s\" target=\"_blank\">regex "
+"expression</a> you want to apply or the XPath Expression you want to query "
+"for. <a href=\"%s\" target=\"_blank\">More info/tutorial</a>."
+msgstr ""
+
+#: res/echo-rules-list.php:3722
+msgid ""
+"Input the correct HTML attribute where the image src is found for lazy "
+"loaded images that are scraped from the full content. The attribute "
+"containing the actual image URL ex: \\\"data-src\\\" or \\\"data-original\\\""
+msgstr ""
+
+#: res/echo-rules-list.php:3738
+msgid "Set Custom Cookies For The Request"
+msgstr ""
+
+#: res/echo-rules-list.php:3766
+msgid "Get Only The First Found Element"
+msgstr ""
+
+#: res/echo-rules-list.php:3783
+msgid "Get Only The Inner Div Content"
+msgstr ""
+
+#: res/echo-rules-list.php:3800
+msgid "Source Article Encoding"
+msgstr ""
+
+#: res/echo-rules-list.php:3835
+msgid "Strip HTML Elements by ID"
+msgstr ""
+
+#: res/echo-rules-list.php:3847
+msgid "Strip HTML Elements by Class"
+msgstr ""
+
+#: res/echo-rules-list.php:3856
+msgid "Do you want to strip HTML from Content?"
+msgstr ""
+
+#: res/echo-rules-list.php:3859
+msgid "Strip HTML From Content"
+msgstr ""
+
+#: res/echo-rules-list.php:3876
+msgid "Alllowed HTML Tags (If Strip HTML Enabled)"
+msgstr ""
+
+#: res/echo-rules-list.php:3936
+msgid "Run The Above Regex Before Spinning/Translation"
+msgstr ""
+
+#: res/echo-rules-list.php:3953
+msgid "Limit Title Word Count"
+msgstr ""
+
+#: res/echo-rules-list.php:3965
+msgid "Limit Article Word Count"
+msgstr ""
+
+#: res/echo-rules-list.php:3977
+msgid "Percentage Of The Content To Keep"
+msgstr ""
+
+#: res/echo-rules-list.php:3990
+msgid "Default Post Author User ID"
+msgstr ""
+
+#: res/echo-rules-list.php:4000
+msgid ""
+"Select if you wish to add rel=\\'nofollow\\' to links generated from this "
+"feed."
+msgstr ""
+
+#: res/echo-rules-list.php:4003
+msgid "Add Rel=\"nofollow\" to Links From This Feed"
+msgstr ""
+
+#: res/echo-rules-list.php:4017
+msgid ""
+"Select if you wish to capitalize the first letter of each word from the "
+"generated post title"
+msgstr ""
+
+#: res/echo-rules-list.php:4020
+msgid "Capitalize Each Word from the Title"
+msgstr ""
+
+#: res/echo-rules-list.php:4037
+msgid "Enable Featured Image Importing"
+msgstr ""
+
+#: res/echo-rules-list.php:4051
+msgid ""
+"Do you want to replace the imported article\\'s image with a royalty free "
+"image? Please note that for this feature to function you must configure the "
+"plugin (add API keys) in the plugin\\'s \\'Main Settings\\' menu -> "
+"\\'Royalty Free Featured Image Importing Options\\' section."
+msgstr ""
+
+#: res/echo-rules-list.php:4054
+msgid "Replace Article Image With Royalty Free Image"
+msgstr ""
+
+#: res/echo-rules-list.php:4070
+msgid "Skip Checking Feed Image"
+msgstr ""
+
+#: res/echo-rules-list.php:4086
+msgid "Skip Checking OG:Image Meta"
+msgstr ""
+
+#: res/echo-rules-list.php:4102
+msgid "Skip Checking Post Content Image"
+msgstr ""
+
+#: res/echo-rules-list.php:4118
+msgid "Don't Use First Image From Content"
+msgstr ""
+
+#: res/echo-rules-list.php:4131
+#, php-format
+msgid ""
+"Select the query type you want to search for the featured image. XPath: <a "
+"href=\"%s\" target=\"_blank\">More info/tutorial</a>."
+msgstr ""
+
+#: res/echo-rules-list.php:4134
+msgid "Featured Image Query Type"
+msgstr ""
+
+#: res/echo-rules-list.php:4180
+#, php-format
+msgid ""
+"Input the search query for featured image searching. This can be the ID or "
+"class name you want to search for, the <a href=\"%s\" target=\"_blank"
+"\">regex expression</a> you want to apply or the XPath Expression you want "
+"to query for. <a href=\"%s\" target=\"_blank\">More info/tutorial</a>. If "
+"you leave this field blank, the featured image will be automatically "
+"detected for you."
+msgstr ""
+
+#: res/echo-rules-list.php:4192
+msgid ""
+"Insert a comma separated list of links to valid images that will be set "
+"randomly for the featured image for the posts that do not have a valid image "
+"attached or if you disabled automatical featured image generation. You can "
+"also insert a list of image attachment IDs. To disable this feature, leave "
+"this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:4195
+msgid "Default Featured Image List"
+msgstr ""
+
+#: res/echo-rules-list.php:4202
+msgid ""
+"Do not include posts that\\'s title or content contains at least one of "
+"these words. Separate words by comma. To disable this feature, leave this "
+"field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:4205
+msgid "Banned Words List"
+msgstr ""
+
+#: res/echo-rules-list.php:4214
+msgid ""
+"Do not include posts that\\'s title or content does not contain at least one "
+"of these words. Separate words by comma. To disable this feature, leave this "
+"field blank. If you wish to input a keyword that must be required in all "
+"cases (AND), please use it in this format: &&keyword. Example: granny, dad, "
+"&&mom. This translates into: (granny OR dad) AND MOM"
+msgstr ""
+
+#: res/echo-rules-list.php:4217
+msgid "Required Words List"
+msgstr ""
+
+#: res/echo-rules-list.php:4229
+msgid "Match Required and Banned Words On"
+msgstr ""
+
+#: res/echo-rules-list.php:4257
+msgid ""
+"Do not include posts that\\'s author contains at least one of these words. "
+"Separate words by comma. To disable this feature, leave this field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:4260
+msgid "Banned Authors List"
+msgstr ""
+
+#: res/echo-rules-list.php:4269
+msgid ""
+"Do not include posts that\\'s author does not contain at least one of these "
+"words. Separate words by comma. To disable this feature, leave this field "
+"blank. If you wish to input a keyword that must be required in all cases "
+"(AND), please use it in this format: &&keyword. Example: granny, dad, &&mom. "
+"This translates into: (granny OR dad) AND MOM"
+msgstr ""
+
+#: res/echo-rules-list.php:4272
+msgid "Required Authors List"
+msgstr ""
+
+#: res/echo-rules-list.php:4281
+msgid ""
+"Do not include posts that\\'s category contains at least one of these words. "
+"Separate categories by comma. To disable this feature, leave this field "
+"blank."
+msgstr ""
+
+#: res/echo-rules-list.php:4284
+msgid "Banned Feed Item Categories List"
+msgstr ""
+
+#: res/echo-rules-list.php:4293
+msgid ""
+"Do not include posts that\\'s category does not contain at least one of "
+"these words. Separate categories by comma. To disable this feature, leave "
+"this field blank. If you wish to input a keyword that must be required in "
+"all cases (AND), please use it in this format: &&keyword. Example: granny, "
+"dad, &&mom. This translates into: (granny OR dad) AND MOM"
+msgstr ""
+
+#: res/echo-rules-list.php:4296
+msgid "Required Feed Item Categories List"
+msgstr ""
+
+#: res/echo-rules-list.php:4305
+#, php-format
+msgid ""
+"Skip posts that are older than this date. Accepted values for this field are "
+"listed: <a href='%s' target='_blank'>here</a>, <a href='%s' "
+"target='_blank'>here</a>, <a href='%s' target='_blank'>here</a> and <a "
+"href='%s' target='_blank'>here</a>. To disable this feature, leave this "
+"field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:4308
+msgid "Skip Posts Older Than This Date"
+msgstr ""
+
+#: res/echo-rules-list.php:4317
+#, php-format
+msgid ""
+"Skip posts that are newer than this date. Accepted values for this field are "
+"listed: <a href='%s' target='_blank'>here</a>, <a href='%s' "
+"target='_blank'>here</a>, <a href='%s' target='_blank'>here</a> and <a "
+"href='%s' target='_blank'>here</a>. To disable this feature, leave this "
+"field blank."
+msgstr ""
+
+#: res/echo-rules-list.php:4320
+msgid "Skip Posts Newer Than This Date"
+msgstr ""
+
+#: res/echo-rules-list.php:4332
+msgid "Automatically Translate Content To"
+msgstr ""
+
+#: res/echo-rules-list.php:4379
+msgid "Source Articles Language"
+msgstr ""
+
+#: res/echo-rules-list.php:4426
+msgid "Assign WPML/Polylang Language to Posts"
+msgstr ""
+
+#: res/echo-rules-list.php:4435
+msgid ""
+"Do you want to not spin articles generated by this rule? This will have "
+"effect only if you have set up a global text spinning setting, in the plugin"
+"\\'s \\'Main Settings\\'."
+msgstr ""
+
+#: res/echo-rules-list.php:4438
+msgid "Do Not Spin/Summarize Posts Generated By This Rule"
+msgstr ""
+
+#: res/echo-rules-list.php:4452
+msgid ""
+"Do you want to set a custom user agent string to the requests made to this "
+"specific feed source? This will overwrite the settings made from the \"Main "
+"Settings\" menu -> \"Use Custom User Agent In SimplePie\""
+msgstr ""
+
+#: res/echo-rules-list.php:4455
+msgid "User-Agent String To Use"
+msgstr ""
+
+#: res/echo-rules-list.php:4467
+msgid "Try to Detect Final Redirect URL from Feeds"
+msgstr ""
+
+#: res/echo-rules-list.php:4484
+msgid "Automatically Delete Post"
+msgstr ""
+
+#: res/echo-rules-list.php:4496
+msgid "Update Post If It Is Already Posted"
+msgstr ""
+
+#: res/echo-rules-list.php:4513
+msgid "Add \"rel=canonical\" Meta Tag To Generated Posts"
+msgstr ""
+
+#: res/echo-rules-list.php:4527
+msgid ""
+"Do you want to use the proxy set in the \\'Main Settings\\' menu of the "
+"plugin? If you disable this, the server\\'s IP address will be used instead, "
+"for this rule."
+msgstr ""
+
+#: res/echo-rules-list.php:4530
+msgid "Use Proxy From Main Settings Plugin Menu"
+msgstr ""
+
+#: res/echo-rules-list.php:4564 res/echo-rules-list.php:4568
+msgid ""
+"Shortcode for this rule<br/>(to cross-post from this plugin in other "
+"plugins):"
+msgstr ""
+
+#: res/echo-rules-list.php:4564 res/echo-rules-list.php:4568
+msgid "Posts Generated:"
+msgstr ""
+
+#: res/echo-rules-list.php:4564
+msgid "post count checking disabled from plugin settings"
+msgstr ""
+
+#: res/echo-rules-list.php:4573 res/echo-rules-list.php:4577
+msgid "View Generated Posts"
+msgstr ""
+
+#: res/echo-rules-list.php:4580
+msgid "Last Run: "
+msgstr ""
+
+#: res/echo-rules-list.php:4589
+msgid "Next Run: "
+msgstr ""
+
+#: res/echo-rules-list.php:4601
+msgid "WP-CRON Disabled. Rules will not automatically run!"
+msgstr ""
+
+#: res/echo-rules-list.php:4621
+msgctxt "Date Time Format1"
+msgid "Y-m-d H:i:s"
+msgstr ""
+
+#: res/echo-rules-list.php:4642
+msgid "Rule Disabled"
+msgstr ""
+
+#: res/echo-rules-list.php:4645
+msgid "Local Time: "
+msgstr ""
+
+#: res/echo-shortcode.php:231
+msgid "Loading RSS Feed"
+msgstr ""
+
+#: res/echo-shortcode.php:290
+msgid "Read more"
+msgstr ""
+
+#: res/echo-shortcode.php:306
+msgid "Source"
+msgstr ""
+
+#: res/other/plugin-dash.php:18
+msgid "Recommended Plugins For You"
+msgstr ""
+
+#: res/other/plugin-dash.php:47 res/other/plugin-dash.php:149
+msgid "Error getting content: "
+msgstr ""
+
+#: res/other/plugin-dash.php:54 res/other/plugin-dash.php:156
+msgid "Apparently, there are no updates to show!"
+msgstr ""
+
+#: res/other/plugin-dash.php:70 res/other/plugin-dash.php:172
+msgid "Learn more"
+msgstr ""
+
+#: res/other/plugin-dash.php:87
+msgid "FAQ"
+msgstr ""
+
+#: res/other/plugin-dash.php:87 rss-feed-post-generator-echo.php:1024
+msgid "Support"
+msgstr ""
+
+#: res/other/plugin-dash.php:87
+msgid "View More"
+msgstr ""
+
+#: res/other/plugin-dash.php:87 res/other/plugin-dash.php:189
+msgid "Don't show this widget"
+msgstr ""
+
+#: res/other/plugin-dash.php:119
+msgid "Latest News"
+msgstr ""
+
+#: res/other/plugin-dash.php:189
+msgid "+ More"
+msgstr ""
+
+#: res/other/plugin-dash.php:232
+msgid "Highlighted"
+msgstr ""
+
+#: res/other/plugin-dash.php:238
+msgid "A selection of plugins, highlighted for you."
+msgstr ""
+
+#: res/other/plugin-dash.php:425
+msgid "Download Now"
+msgstr ""
+
+#: res/other/plugin-dash.php:426
+msgid "More information about"
+msgstr ""
+
+#: res/other/plugin-dash.php:426
+msgid "More Details"
+msgstr ""
+
+#: res/other/plugin-dash.php:459 res/other/plugin-dash.php:480
+msgid "Click here to get the plugin"
+msgstr ""
+
+#: res/other/plugin-dash.php:460
+msgid "Download the plugin here"
+msgstr ""
+
+#: res/other/plugin-dash.php:479
+msgid ""
+"Just download the plugin from CodeCanyon and install it to your site in a "
+"few seconds."
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:154
+msgid "thumbnail"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:299
+#, php-format
+msgid ""
+"The plugin is not registered. Automatic updating is disabled. Please "
+"purchase a license for it from <a href=\"%s\" target=\"_blank\">here</a> and "
+"register  the plugin from the 'Main Settings' menu using your purchase code. "
+"<a href=\"%s\" target=\"_blank\">How I find my purchase code?</a>"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:327
+msgid "Activate Plugin License"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:335
+msgid "Main Settings"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:340
+msgid "RSS to Post Rules"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:343
+msgid "Post to RSS Rules"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:346
+msgid "RSS Feed Search"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:350
+msgid "Crawling Helper"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:353
+msgid "Tips & Tricks"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:355
+msgid "Activity & Logging"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:1031
+msgid "Settings"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:1050
+msgid "Echo Auto Generated Post Information"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:1514
+msgid "Echo Cron"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:1518
+msgid "Once A Minute"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:1522
+msgid "Once Weekly"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:1526
+msgid "Once Monthly"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:2395
+msgid "Thanks for the ping."
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:2398
+msgid "Not enough time has passed since your last ping."
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:2402
+msgid ""
+"Your blog is not registered with our service. Please contact the "
+"administrator for details."
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:5287 rss-feed-post-generator-echo.php:10203
+msgid "Read More"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:8234
+msgid "Powered by the"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:9223
+msgid "Post Parent Rule:"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:9224
+msgid "Post Original Title:"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:9226
+msgid "Featured Image:"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:9229
+msgid "Item Source URL:"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:9236
+msgid "This is not an automatically generated post."
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10289
+msgctxt "taxonomy general name"
+msgid "Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10290
+msgctxt "taxonomy singular name"
+msgid "Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10291
+msgid "Search Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10292
+msgid "Popular Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10293
+msgid "All Post Sources"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10296
+msgid "Edit Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10297
+msgid "Update Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10298
+msgid "Add New Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10299
+msgid "New Post Source Name"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10300
+msgid "Separate Post Source with commas"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10301
+msgid "Add or remove Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10302
+msgid "Choose from the most used Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10303
+msgid "No Post Sources found."
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:10304
+msgid "Post Source"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:13607
+msgid ""
+"Please enable curl PHP extension. Please contact your hosting provider's "
+"support to help you in this matter."
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:13612
+msgid "You are not allowed to activate plugins!"
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:13620
+#, php-format
+msgid ""
+"This plugin can not be activated because it requires a PHP version greater "
+"than %1$s. Please update your PHP version before you activate it."
+msgstr ""
+
+#: rss-feed-post-generator-echo.php:13626
+#, php-format
+msgid ""
+"This plugin can not be activated because it requires a WordPress version "
+"greater than %1$s. Please go to Dashboard -> Updates to get the latest "
+"version of WordPress."
+msgstr ""
+
+#: update-checker/Puc/v4/Plugin/UpdateChecker.php:363
+#: update-checker/Puc/v4p8/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: update-checker/Puc/v4/Plugin/UpdateChecker.php:409
+msgid "This plugin is up to date."
+msgstr ""
+
+#: update-checker/Puc/v4/Plugin/UpdateChecker.php:411
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: update-checker/Puc/v4/Plugin/UpdateChecker.php:413
+#: update-checker/Puc/v4p8/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: update-checker/Puc/v4/Vcs/PluginUpdateChecker.php:83
+#: update-checker/Puc/v4p8/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: update-checker/Puc/v4p8/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: update-checker/Puc/v4p8/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: update-checker/Puc/v4p8/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: update-checker/Puc/v4p8/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: update-checker/Puc/v4p8/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Echo RSS Feed Post Generator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "//1.envato.market/coderevolution"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin will generate content for you, even in your sleep using RSS "
+"feeds."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CodeRevolution"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "//coderevolution.ro"
+msgstr ""

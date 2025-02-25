@@ -1,0 +1,3287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BookingPress - Service Package Addon v1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2025-02-05 05:22:00+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: bookingpress-package.php:0
+#@ bookingpress-package
+msgid "BookingPress - Service Package Addon"
+msgstr "BookingPress - Додатковий пакет послуг"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: bookingpress-package.php:0
+#@ bookingpress-package
+msgid "https://www.bookingpressplugin.com/"
+msgstr "https://www.bookingpressplugin.com/"
+
+#. translators: plugin header field 'Description'
+#: bookingpress-package.php:0
+#@ bookingpress-package
+msgid "Extension for the BookingPress plugin to create packages of services."
+msgstr "Розширення для плагіна BookingPress для створення пакетів послуг."
+
+#. translators: plugin header field 'Author'
+#: bookingpress-package.php:0
+#@ bookingpress-package
+msgid "Repute InfoSystems"
+msgstr "Repute InfoSystems"
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:183
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:190
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:340
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:348
+#: core/classes/class.bookingpress-package-customize.php:692
+#: core/classes/class.bookingpress-package-customize.php:699
+#: core/classes/class.bookingpress-package-customize.php:838
+#: core/classes/class.bookingpress-package-order.php:123
+#: core/classes/class.bookingpress-package-order.php:130
+#: core/classes/class.bookingpress-package-order.php:156
+#: core/classes/class.bookingpress-package-order.php:331
+#: core/classes/class.bookingpress-package-order.php:339
+#: core/classes/class.bookingpress-package-order.php:496
+#: core/classes/class.bookingpress-package-order.php:566
+#: core/classes/class.bookingpress-package-order.php:609
+#: core/classes/class.bookingpress-package-order.php:652
+#: core/classes/class.bookingpress-package-order.php:659
+#: core/classes/class.bookingpress-package-order.php:703
+#: core/classes/class.bookingpress-package-order.php:710
+#: core/classes/class.bookingpress-package-order.php:722
+#: core/classes/class.bookingpress-package-order.php:760
+#: core/classes/class.bookingpress-package-order.php:768
+#: core/classes/class.bookingpress-package-order.php:801
+#: core/classes/class.bookingpress-package-order.php:1941
+#: core/classes/class.bookingpress-package-order.php:1949
+#: core/classes/class.bookingpress-package-order.php:1982
+#: core/classes/class.bookingpress-package-order.php:2998
+#: core/classes/class.bookingpress-package-order.php:3035
+#: core/classes/class.bookingpress-package-order.php:3087
+#: core/classes/class.bookingpress-package-order.php:3108
+#: core/classes/class.bookingpress-package-order.php:3361
+#: core/classes/class.bookingpress-package-order.php:3411
+#: core/classes/class.bookingpress-package-order.php:3453
+#: core/classes/class.bookingpress-package-order.php:3485
+#: core/classes/class.bookingpress-package-order.php:3498
+#: core/classes/class.bookingpress-package-order.php:3527
+#: core/classes/class.bookingpress-package-order.php:3537
+#: core/classes/class.bookingpress-package-order.php:3674
+#: core/classes/class.bookingpress-package.php:1192
+#: core/classes/class.bookingpress-package.php:1199
+#: core/classes/class.bookingpress-package.php:1253
+#: core/classes/class.bookingpress-package.php:1275
+#: core/classes/class.bookingpress-package.php:1309
+#: core/classes/class.bookingpress-package.php:1346
+#: core/classes/class.bookingpress-package.php:1420
+#: core/classes/class.bookingpress-package.php:1430
+#: core/classes/class.bookingpress-package.php:1587
+#: core/classes/class.bookingpress-package.php:1595
+#: core/classes/class.bookingpress-package.php:1681
+#: core/classes/class.bookingpress-package.php:1688
+#: core/classes/class.bookingpress-package.php:1747
+#: core/classes/class.bookingpress-package.php:1755
+#: core/classes/class.bookingpress-package.php:1871
+#: core/classes/class.bookingpress-package.php:1878
+#: core/classes/class.bookingpress-package.php:1973
+#: core/classes/class.bookingpress-package.php:1981
+#: core/classes/class.bookingpress-package.php:2003
+#: core/classes/class.bookingpress-package.php:2498
+#: core/classes/class.bookingpress-package.php:2537
+#: core/classes/class.bookingpress-package.php:2588
+#: core/classes/class.bookingpress-package.php:2636
+#: core/classes/class.bookingpress-package.php:2649
+#: core/classes/class.bookingpress-package.php:2664
+#: core/classes/class.bookingpress-package.php:2721
+#: core/classes/class.bookingpress-package.php:2732
+#: core/classes/class.bookingpress-package.php:2748
+#: core/classes/class.bookingpress-package.php:2756
+#: core/classes/class.bookingpress-package.php:2791
+#: core/classes/class.bookingpress-package.php:2816
+#: core/classes/class.bookingpress-package.php:2937
+#: core/classes/class.bookingpress-package.php:2961
+#: core/classes/class.bookingpress-package.php:2974
+#: core/classes/class.bookingpress-package.php:3010
+#: core/classes/class.bookingpress-package.php:3053
+#: core/classes/class.bookingpress-package.php:3063
+#: core/classes/class.bookingpress-package.php:3079
+#: core/classes/class.bookingpress-package.php:3103
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:177
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:247
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:308
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1026
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1036
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:153
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:373
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:381
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:393
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:404
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:421
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:481
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:491
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:510
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:523
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:649
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:664
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:674
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:685
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:713
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:735
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:755
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:789
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:857
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:865
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:904
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1357
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1548
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1665
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2049
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2083
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2103
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2229
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2244
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2254
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2265
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2293
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2315
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2335
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2399
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2617
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2661
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2836
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2978
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:3179
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:4114
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:5190
+#@ bookingpress-package
+msgid "Error"
+msgstr "Помилка"
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:184
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:341
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1027
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:482
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:511
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:524
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1552
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1669
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2050
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2084
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2104
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2623
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2664
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2844
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2979
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:5191
+#@ bookingpress-package
+msgid "Sorry, Your request can not be processed due to security reason."
+msgstr "На жаль, ваш запит не може бути оброблений з міркувань безпеки."
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:191
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1037
+#@ bookingpress-package
+msgid "Package appointments are not available."
+msgstr "Пакет записів недоступний."
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:221
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1081
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1157
+#@ bookingpress-package
+msgid "Only "
+msgstr "Тільки"
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:221
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1081
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1157
+#@ bookingpress-package
+msgid " appointments are available in this package."
+msgstr "зустрічі доступні в цьому пакеті."
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:224
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1084
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1160
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1161
+#@ bookingpress-package
+msgid "All appointments are booked in this package."
+msgstr "Усі зустрічі заброньовані в цьому пакеті."
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:234
+#: core/classes/class.bookingpress-package-customize.php:799
+#: core/classes/class.bookingpress-package-order.php:147
+#: core/classes/class.bookingpress-package-order.php:346
+#: core/classes/class.bookingpress-package-order.php:511
+#: core/classes/class.bookingpress-package-order.php:676
+#: core/classes/class.bookingpress-package-order.php:732
+#: core/classes/class.bookingpress-package-order.php:775
+#: core/classes/class.bookingpress-package-order.php:2160
+#: core/classes/class.bookingpress-package-order.php:2281
+#: core/classes/class.bookingpress-package-order.php:3097
+#: core/classes/class.bookingpress-package.php:1247
+#: core/classes/class.bookingpress-package.php:1286
+#: core/classes/class.bookingpress-package.php:1465
+#: core/classes/class.bookingpress-package.php:1659
+#: core/classes/class.bookingpress-package.php:1718
+#: core/classes/class.bookingpress-package.php:1776
+#: core/classes/class.bookingpress-package.php:1948
+#: core/classes/class.bookingpress-package.php:2072
+#: core/classes/class.bookingpress-package.php:2080
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:235
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1092
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1175
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:454
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:919
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1372
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1617
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1628
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1641
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1743
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2632
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2810
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2949
+#@ bookingpress-package
+msgid "Success"
+msgstr "Успіх"
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:238
+#@ bookingpress-package
+msgid "Package Succesfully Applied"
+msgstr "Пакет успішно застосовано"
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:349
+#@ bookingpress-package
+msgid "Something Wrong."
+msgstr "Щось не так."
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:517
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1814
+#@ bookingpress-package
+msgid "Package Redemption"
+msgstr "Погашення пакета"
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:533
+#: core/views/package_order.php:840
+#: core/views/package_order.php:843
+#@ bookingpress-package
+msgid "Select Package"
+msgstr "Виберіть Пакет"
+
+#: core/classes/class.bookingpress-package-appointment-booking-backend.php:539
+#: core/classes/class.bookingpress-package.php:3648
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1812
+#@ bookingpress-package
+msgid "Redeem"
+msgstr "Викупити"
+
+#: core/classes/class.bookingpress-package-customize.php:52
+#: core/classes/class.bookingpress-package-customize.php:1361
+#@ bookingpress-package
+msgid "Package Form Label"
+msgstr "Етикетка форми пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:53
+#: core/classes/class.bookingpress-package-customize.php:1365
+#@ bookingpress-package
+msgid "Package search placeholder"
+msgstr "Заповнювач пошуку пакетів"
+
+#: core/classes/class.bookingpress-package-customize.php:54
+#: core/classes/class.bookingpress-package-customize.php:1369
+#@ bookingpress-package
+msgid "Search button"
+msgstr "Кнопка пошуку"
+
+#: core/classes/class.bookingpress-package-customize.php:55
+#: core/classes/class.bookingpress-package-customize.php:1373
+#@ bookingpress-package
+msgid "No Package Found"
+msgstr "Пакунок не знайдено"
+
+#: core/classes/class.bookingpress-package-customize.php:56
+#: core/classes/class.bookingpress-package-customize.php:1377
+#@ bookingpress-package
+msgid "Buy now button"
+msgstr "Кнопка \\\"Купити зараз\\\"."
+
+#: core/classes/class.bookingpress-package-customize.php:57
+#: core/classes/class.bookingpress-package-customize.php:1381
+#@ bookingpress-package
+msgid "Services Includes text"
+msgstr "Послуги Включає текст"
+
+#: core/classes/class.bookingpress-package-customize.php:58
+#: core/classes/class.bookingpress-package-customize.php:1385
+#@ bookingpress-package
+msgid "Services Show More text"
+msgstr "Послуги Показати більше текст"
+
+#: core/classes/class.bookingpress-package-customize.php:59
+#: core/classes/class.bookingpress-package-customize.php:1389
+#@ bookingpress-package
+msgid "Services Show Less text"
+msgstr "Послуги Показати менше тексту"
+
+#: core/classes/class.bookingpress-package-customize.php:60
+#: core/classes/class.bookingpress-package-customize.php:1397
+#@ bookingpress-package
+msgid "Package Description Show Less"
+msgstr "Опис пакета Показати менше"
+
+#: core/classes/class.bookingpress-package-customize.php:61
+#: core/classes/class.bookingpress-package-customize.php:1393
+#@ bookingpress-package
+msgid "Package Description Read More"
+msgstr "Опис пакета Детальніше"
+
+#: core/classes/class.bookingpress-package-customize.php:62
+#: core/classes/class.bookingpress-package-customize.php:1401
+#@ bookingpress-package
+msgid "Go back button"
+msgstr "Кнопка повернення"
+
+#: core/classes/class.bookingpress-package-customize.php:63
+#: core/classes/class.bookingpress-package-customize.php:1406
+#@ bookingpress-package
+msgid "Package month label"
+msgstr "Місяць пакету"
+
+#: core/classes/class.bookingpress-package-customize.php:64
+#: core/classes/class.bookingpress-package-customize.php:1410
+#@ bookingpress-package
+msgid "Package months label"
+msgstr "Пакет місяців етикетки"
+
+#: core/classes/class.bookingpress-package-customize.php:65
+#: core/classes/class.bookingpress-package-customize.php:1414
+#@ bookingpress-package
+msgid "Package year label"
+msgstr "Етикетка року упаковки"
+
+#: core/classes/class.bookingpress-package-customize.php:66
+#: core/classes/class.bookingpress-package-customize.php:1422
+#@ bookingpress-package
+msgid "Package day label"
+msgstr "Пакет день етикетки"
+
+#: core/classes/class.bookingpress-package-customize.php:67
+#: core/classes/class.bookingpress-package-customize.php:1426
+#@ bookingpress-package
+msgid "Package days label"
+msgstr "Пакет днів етикетки"
+
+#: core/classes/class.bookingpress-package-customize.php:74
+#: core/classes/class.bookingpress-package-customize.php:1432
+#@ bookingpress-package
+msgid "User details step"
+msgstr "Крок інформації про користувача"
+
+#: core/classes/class.bookingpress-package-customize.php:79
+#: core/classes/class.bookingpress-package-customize.php:1437
+#@ bookingpress-package
+msgid "Login form title"
+msgstr "Назва форми входу"
+
+#: core/classes/class.bookingpress-package-customize.php:80
+#: core/classes/class.bookingpress-package-customize.php:1441
+#@ bookingpress-package
+msgid "Username / Email field label"
+msgstr "Мітка поля імені користувача/електронної пошти"
+
+#: core/classes/class.bookingpress-package-customize.php:81
+#: core/classes/class.bookingpress-package-customize.php:1445
+#@ bookingpress-package
+msgid "Username / Email field Placeholder"
+msgstr "Поле імені користувача/електронної пошти"
+
+#: core/classes/class.bookingpress-package-customize.php:82
+#: core/classes/class.bookingpress-package-customize.php:1449
+#@ bookingpress-package
+msgid "Password label"
+msgstr "Мітка пароля"
+
+#: core/classes/class.bookingpress-package-customize.php:83
+#: core/classes/class.bookingpress-package-customize.php:1453
+#@ bookingpress-package
+msgid "Password field Placeholder"
+msgstr "Заповнювач поля пароля"
+
+#: core/classes/class.bookingpress-package-customize.php:84
+#: core/classes/class.bookingpress-package-customize.php:1457
+#@ bookingpress-package
+msgid "User name required field label"
+msgstr "Обов’язкова мітка поля імені користувача"
+
+#: core/classes/class.bookingpress-package-customize.php:85
+#: core/classes/class.bookingpress-package-customize.php:1461
+#@ bookingpress-package
+msgid "Password required field label"
+msgstr "Мітка поля, яка вимагає пароля"
+
+#: core/classes/class.bookingpress-package-customize.php:86
+#: core/classes/class.bookingpress-package-customize.php:1465
+#@ bookingpress-package
+msgid "Remember Me field label"
+msgstr "Мітка поля \\\"Запам'ятати мене\\\"."
+
+#: core/classes/class.bookingpress-package-customize.php:87
+#: core/classes/class.bookingpress-package-customize.php:1469
+#@ bookingpress-package
+msgid "Login button label"
+msgstr "Мітка кнопки входу"
+
+#: core/classes/class.bookingpress-package-customize.php:88
+#: core/classes/class.bookingpress-package-customize.php:1473
+#@ bookingpress-package
+msgid "Forgot Password link label"
+msgstr "Мітка посилання \\\"Забув пароль\\\"."
+
+#: core/classes/class.bookingpress-package-customize.php:89
+#: core/classes/class.bookingpress-package-customize.php:101
+#: core/classes/class.bookingpress-package-customize.php:1477
+#: core/classes/class.bookingpress-package-customize.php:1510
+#@ bookingpress-package
+msgid "Error message label"
+msgstr "Мітка повідомлення про помилку"
+
+#: core/classes/class.bookingpress-package-customize.php:90
+#: core/classes/class.bookingpress-package-customize.php:1481
+#@ bookingpress-package
+msgid "SignUp link label"
+msgstr "Мітка посилання для реєстрації"
+
+#: core/classes/class.bookingpress-package-customize.php:91
+#: core/classes/class.bookingpress-package-customize.php:1485
+#@ bookingpress-package
+msgid "Don't have an account label"
+msgstr "Немає мітки облікового запису"
+
+#: core/classes/class.bookingpress-package-customize.php:96
+#: core/classes/class.bookingpress-package-customize.php:1490
+#@ bookingpress-package
+msgid "Forgot Password form title"
+msgstr "Назва форми «Забув пароль»."
+
+#: core/classes/class.bookingpress-package-customize.php:97
+#: core/classes/class.bookingpress-package-customize.php:1494
+#@ bookingpress-package
+msgid "Email address field label"
+msgstr "Мітка поля електронної адреси"
+
+#: core/classes/class.bookingpress-package-customize.php:98
+#: core/classes/class.bookingpress-package-customize.php:1498
+#@ bookingpress-package
+msgid "Email address placeholder label"
+msgstr "Мітка заповнювача адреси електронної пошти"
+
+#: core/classes/class.bookingpress-package-customize.php:99
+#: core/classes/class.bookingpress-package-customize.php:1502
+#@ bookingpress-package
+msgid "Email required field label"
+msgstr "Мітка обов’язкового поля для електронної пошти"
+
+#: core/classes/class.bookingpress-package-customize.php:100
+#: core/classes/class.bookingpress-package-customize.php:1506
+#@ bookingpress-package
+msgid "Forgot password button label"
+msgstr "Етикетка кнопки «Забув пароль»."
+
+#: core/classes/class.bookingpress-package-customize.php:102
+#: core/classes/class.bookingpress-package-customize.php:1514
+#@ bookingpress-package
+msgid "Success message label"
+msgstr "Мітка повідомлення про успіх"
+
+#: core/classes/class.bookingpress-package-customize.php:103
+#: core/classes/class.bookingpress-package-customize.php:1518
+#@ bookingpress-package
+msgid "Sign In Link Label"
+msgstr "Мітка посилання для входу"
+
+#: core/classes/class.bookingpress-package-customize.php:108
+#: core/classes/class.bookingpress-package-customize.php:1523
+#@ bookingpress-package
+msgid "Signup form title"
+msgstr "Назва форми реєстрації"
+
+#: core/classes/class.bookingpress-package-customize.php:109
+#: core/classes/class.bookingpress-package-customize.php:1527
+#@ bookingpress-package
+msgid "Full name field label"
+msgstr "Мітка поля повного імені"
+
+#: core/classes/class.bookingpress-package-customize.php:110
+#: core/classes/class.bookingpress-package-customize.php:1531
+#@ bookingpress-package
+msgid "Email field label"
+msgstr "Мітка поля електронної пошти"
+
+#: core/classes/class.bookingpress-package-customize.php:111
+#: core/classes/class.bookingpress-package-customize.php:1535
+#@ bookingpress-package
+msgid "Mobile Number field label"
+msgstr "Мітка поля номера мобільного телефону"
+
+#: core/classes/class.bookingpress-package-customize.php:112
+#: core/classes/class.bookingpress-package-customize.php:1539
+#@ bookingpress-package
+msgid "Password field label"
+msgstr "Мітка поля пароля"
+
+#: core/classes/class.bookingpress-package-customize.php:113
+#: core/classes/class.bookingpress-package-customize.php:1543
+#@ bookingpress-package
+msgid "Full name field placeholder"
+msgstr "Заповнювач поля повної назви"
+
+#: core/classes/class.bookingpress-package-customize.php:114
+#: core/classes/class.bookingpress-package-customize.php:1547
+#@ bookingpress-package
+msgid "Email field placeholder"
+msgstr "Заповнювач поля електронної пошти"
+
+#: core/classes/class.bookingpress-package-customize.php:115
+#: core/classes/class.bookingpress-package-customize.php:1551
+#@ bookingpress-package
+msgid "Password field placeholder"
+msgstr "Заповнювач поля пароля"
+
+#: core/classes/class.bookingpress-package-customize.php:116
+#: core/classes/class.bookingpress-package-customize.php:1555
+#@ bookingpress-package
+msgid "Full name required message"
+msgstr "Необхідне повне ім’я"
+
+#: core/classes/class.bookingpress-package-customize.php:117
+#: core/classes/class.bookingpress-package-customize.php:1559
+#@ bookingpress-package
+msgid "Email required message"
+msgstr "Необхідне повідомлення електронною поштою"
+
+#: core/classes/class.bookingpress-package-customize.php:119
+#: core/classes/class.bookingpress-package-customize.php:121
+#: core/classes/class.bookingpress-package-customize.php:122
+#: core/classes/class.bookingpress-package-customize.php:1567
+#@ bookingpress-package
+msgid "Password required message"
+msgstr "Повідомлення вимагає пароля"
+
+#: core/classes/class.bookingpress-package-customize.php:124
+#: core/classes/class.bookingpress-package-customize.php:1580
+#@ bookingpress-package
+msgid "Signup button title"
+msgstr "Назва кнопки реєстрації"
+
+#: core/classes/class.bookingpress-package-customize.php:125
+#: core/classes/class.bookingpress-package-customize.php:1584
+#@ bookingpress-package
+msgid "Already have account text"
+msgstr "Уже є текст облікового запису"
+
+#: core/classes/class.bookingpress-package-customize.php:126
+#: core/classes/class.bookingpress-package-customize.php:1588
+#@ bookingpress-package
+msgid "Login link title"
+msgstr "Назва посилання для входу"
+
+#: core/classes/class.bookingpress-package-customize.php:131
+#: core/classes/class.bookingpress-package-customize.php:1593
+#@ bookingpress-package
+msgid "Basic Details form title"
+msgstr "Назва форми «Основні відомості»."
+
+#: core/classes/class.bookingpress-package-customize.php:132
+#: core/classes/class.bookingpress-package-customize.php:1597
+#@ bookingpress-package
+msgid "Submit button title"
+msgstr "Назва кнопки «Надіслати»."
+
+#: core/classes/class.bookingpress-package-customize.php:137
+#: core/classes/class.bookingpress-package-customize.php:1602
+#@ bookingpress-package
+msgid "Make payment tab title"
+msgstr "Заголовок вкладки «Здійснити оплату»."
+
+#: core/classes/class.bookingpress-package-customize.php:138
+#: core/classes/class.bookingpress-package-customize.php:1606
+#@ bookingpress-package
+msgid "Make payment form title"
+msgstr "Введіть назву платіжної форми"
+
+#: core/classes/class.bookingpress-package-customize.php:139
+#: core/classes/class.bookingpress-package-customize.php:1610
+#@ bookingpress-package
+msgid "Subtotal text"
+msgstr "Підсумковий текст"
+
+#: core/classes/class.bookingpress-package-customize.php:140
+#: core/classes/class.bookingpress-package-customize.php:1614
+#@ bookingpress-package
+msgid "Total amount text"
+msgstr "Текст загальної суми"
+
+#: core/classes/class.bookingpress-package-customize.php:141
+#: core/classes/class.bookingpress-package-customize.php:1618
+#@ bookingpress-package
+msgid "Select payment method text"
+msgstr "Виберіть текст способу оплати"
+
+#: core/classes/class.bookingpress-package-customize.php:142
+#: core/classes/class.bookingpress-package-customize.php:1622
+#@ bookingpress-package
+msgid "Buy package button text"
+msgstr "Купити текст кнопки пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:147
+#: core/classes/class.bookingpress-package-customize.php:1627
+#@ bookingpress-package
+msgid "Summary step"
+msgstr "Підсумковий крок"
+
+#: core/classes/class.bookingpress-package-customize.php:148
+#: core/classes/class.bookingpress-package-customize.php:1631
+#@ bookingpress-package
+msgid "Summary form title"
+msgstr "Назва форми зведення"
+
+#: core/classes/class.bookingpress-package-customize.php:149
+#: core/classes/class.bookingpress-package-customize.php:1635
+#: core/classes/class.bookingpress-package.php:3563
+#: core/classes/class.bookingpress-package.php:3621
+#@ bookingpress-package
+msgid "Booking Id"
+msgstr "Ідентифікатор бронювання"
+
+#: core/classes/class.bookingpress-package-customize.php:150
+#: core/classes/class.bookingpress-package-customize.php:1639
+#@ bookingpress-package
+msgid "Package booked success message"
+msgstr "Повідомлення про успішне замовлення пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:151
+#: core/classes/class.bookingpress-package-customize.php:1643
+#@ bookingpress-package
+msgid "Package booking information sent message"
+msgstr "Інформація про бронювання пакету надіслана"
+
+#: core/classes/class.bookingpress-package-customize.php:152
+#: core/classes/class.bookingpress-package-customize.php:1647
+#@ bookingpress-package
+msgid "Package title"
+msgstr "Назва пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:153
+#: core/classes/class.bookingpress-package-customize.php:1651
+#@ bookingpress-package
+msgid "Customer Name title"
+msgstr "Назва клієнта"
+
+#: core/classes/class.bookingpress-package-customize.php:154
+#: core/classes/class.bookingpress-package-customize.php:1655
+#@ bookingpress-package
+msgid "Book Appointment title"
+msgstr "Назва книги Призначення"
+
+#: core/classes/class.bookingpress-package-customize.php:155
+#: core/classes/class.bookingpress-package-customize.php:1659
+#@ bookingpress-package
+msgid "Card details title"
+msgstr "Назва картки"
+
+#: core/classes/class.bookingpress-package-customize.php:156
+#: core/classes/class.bookingpress-package-customize.php:1663
+#@ bookingpress-package
+msgid "Card name placeholder"
+msgstr "Заповнювач імені картки"
+
+#: core/classes/class.bookingpress-package-customize.php:157
+#: core/classes/class.bookingpress-package-customize.php:1667
+#@ bookingpress-package
+msgid "Card number placeholder"
+msgstr "Заповнювач номера картки"
+
+#: core/classes/class.bookingpress-package-customize.php:158
+#: core/classes/class.bookingpress-package-customize.php:1671
+#@ bookingpress-package
+msgid "Expire month placeholder"
+msgstr "Заповнювач місяця закінчується"
+
+#: core/classes/class.bookingpress-package-customize.php:159
+#: core/classes/class.bookingpress-package-customize.php:1675
+#@ bookingpress-package
+msgid "Expire year placeholder"
+msgstr "Заповнювач року закінчення терміну дії"
+
+#: core/classes/class.bookingpress-package-customize.php:160
+#: core/classes/class.bookingpress-package-customize.php:1679
+#@ bookingpress-package
+msgid "Cvv placeholder"
+msgstr "Заповнювач Cvv"
+
+#: core/classes/class.bookingpress-package-customize.php:161
+#: core/classes/class.bookingpress-package-customize.php:1683
+#@ bookingpress-package
+msgid "Tax title"
+msgstr "Назва податку"
+
+#: core/classes/class.bookingpress-package-customize.php:162
+#: core/classes/class.bookingpress-package-customize.php:1687
+#@ bookingpress-package
+msgid "PayPal payment title"
+msgstr "Назва платежу PayPal"
+
+#: core/classes/class.bookingpress-package-customize.php:163
+#: core/classes/class.bookingpress-package-customize.php:1691
+#@ bookingpress-package
+msgid "Package purchase limit message"
+msgstr "Повідомлення про ліміт покупки пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:177
+#@ bookingpress-package
+msgid "Language Translate"
+msgstr "Мова перекладу"
+
+#: core/classes/class.bookingpress-package-customize.php:212
+#@ bookingpress-package
+msgid "Okay"
+msgstr "Гаразд"
+
+#: core/classes/class.bookingpress-package-customize.php:246
+#@ bookingpress-package
+msgid "My Package labels"
+msgstr "Мій пакет етикетки"
+
+#: core/classes/class.bookingpress-package-customize.php:248
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1478
+#@ bookingpress-package
+msgid "My package tab title"
+msgstr "Назва вкладки «Мій пакет»."
+
+#: core/classes/class.bookingpress-package-customize.php:252
+#@ bookingpress-package
+msgid "My package title"
+msgstr "Назва мого пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:256
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1482
+#@ bookingpress-package
+msgid "Start date placeholder"
+msgstr "Заповнювач дати початку"
+
+#: core/classes/class.bookingpress-package-customize.php:260
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1484
+#@ bookingpress-package
+msgid "End date placeholder"
+msgstr "Заповнювач дати завершення"
+
+#: core/classes/class.bookingpress-package-customize.php:264
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1486
+#@ bookingpress-package
+msgid "Search package placeholder"
+msgstr "Заповнювач пакета пошуку"
+
+#: core/classes/class.bookingpress-package-customize.php:268
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1488
+#@ bookingpress-package
+msgid "Apply button"
+msgstr "Кнопка застосувати"
+
+#: core/classes/class.bookingpress-package-customize.php:272
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1490
+#@ bookingpress-package
+msgid "ID title"
+msgstr "назва ID"
+
+#: core/classes/class.bookingpress-package-customize.php:276
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1492
+#@ bookingpress-package
+msgid "Package name title"
+msgstr "Назва пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:280
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1494
+#@ bookingpress-package
+msgid "Remaining appointment title"
+msgstr "Інша назва призначення"
+
+#: core/classes/class.bookingpress-package-customize.php:284
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1496
+#@ bookingpress-package
+msgid "Expire on title"
+msgstr "Термін дії закінчується за назвою"
+
+#: core/classes/class.bookingpress-package-customize.php:288
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1498
+#@ bookingpress-package
+msgid "Payment title"
+msgstr "Назва платежу"
+
+#: core/classes/class.bookingpress-package-customize.php:292
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1500
+#@ bookingpress-package
+msgid "Booking id title"
+msgstr "Назва ідентифікатора бронювання"
+
+#: core/classes/class.bookingpress-package-customize.php:296
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1502
+#@ bookingpress-package
+msgid "Purchase date title"
+msgstr "Назва дати покупки"
+
+#: core/classes/class.bookingpress-package-customize.php:300
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1504
+#@ bookingpress-package
+msgid "Expiry date title"
+msgstr "Назва терміну придатності"
+
+#: core/classes/class.bookingpress-package-customize.php:304
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1506
+#@ bookingpress-package
+msgid "Services title"
+msgstr "Назва послуги"
+
+#: core/classes/class.bookingpress-package-customize.php:308
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1508
+#@ bookingpress-package
+msgid "Service name title"
+msgstr "Назва послуги"
+
+#: core/classes/class.bookingpress-package-customize.php:312
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1510
+#@ bookingpress-package
+msgid "Service duration title"
+msgstr "Назва терміну служби"
+
+#: core/classes/class.bookingpress-package-customize.php:316
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1512
+#@ bookingpress-package
+msgid "Service remainging appointment title"
+msgstr "Залишок служби"
+
+#: core/classes/class.bookingpress-package-customize.php:320
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1514
+#@ bookingpress-package
+msgid "Payment details title"
+msgstr "Назва платіжних реквізитів"
+
+#: core/classes/class.bookingpress-package-customize.php:324
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1516
+#@ bookingpress-package
+msgid "Total amount title"
+msgstr "Назва загальної суми"
+
+#: core/classes/class.bookingpress-package-customize.php:328
+#: core/classes/class.bookingpress-package.php:3630
+#@ bookingpress-package
+msgid "Appointment Package name label"
+msgstr "Етикетка з назвою пакета для зустрічей"
+
+#: core/classes/class.bookingpress-package-customize.php:689
+#: core/classes/class.bookingpress-package-order.php:120
+#: core/classes/class.bookingpress-package-order.php:328
+#: core/classes/class.bookingpress-package-order.php:493
+#: core/classes/class.bookingpress-package-order.php:563
+#: core/classes/class.bookingpress-package-order.php:607
+#: core/classes/class.bookingpress-package-order.php:649
+#: core/classes/class.bookingpress-package-order.php:701
+#: core/classes/class.bookingpress-package-order.php:757
+#: core/classes/class.bookingpress-package-order.php:799
+#: core/classes/class.bookingpress-package-order.php:1939
+#: core/classes/class.bookingpress-package.php:1189
+#: core/classes/class.bookingpress-package.php:1273
+#: core/classes/class.bookingpress-package.php:1307
+#: core/classes/class.bookingpress-package.php:1342
+#: core/classes/class.bookingpress-package.php:1417
+#: core/classes/class.bookingpress-package.php:1584
+#: core/classes/class.bookingpress-package.php:1678
+#: core/classes/class.bookingpress-package.php:1745
+#: core/classes/class.bookingpress-package.php:1869
+#: core/classes/class.bookingpress-package.php:1879
+#: core/classes/class.bookingpress-package.php:1970
+#@ bookingpress-package
+msgid "Sorry. Something went wrong while processing the request"
+msgstr "вибач Під час обробки запиту сталася помилка"
+
+#: core/classes/class.bookingpress-package-customize.php:700
+#: core/classes/class.bookingpress-package-customize.php:839
+#: core/classes/class.bookingpress-package-order.php:340
+#: core/classes/class.bookingpress-package-order.php:660
+#: core/classes/class.bookingpress-package-order.php:711
+#: core/classes/class.bookingpress-package-order.php:769
+#: core/classes/class.bookingpress-package-order.php:1950
+#: core/classes/class.bookingpress-package-order.php:3036
+#: core/classes/class.bookingpress-package-order.php:3088
+#: core/classes/class.bookingpress-package-order.php:3109
+#: core/classes/class.bookingpress-package-order.php:3362
+#: core/classes/class.bookingpress-package-order.php:3412
+#: core/classes/class.bookingpress-package-order.php:3454
+#: core/classes/class.bookingpress-package-order.php:3486
+#: core/classes/class.bookingpress-package-order.php:3528
+#: core/classes/class.bookingpress-package-order.php:3675
+#: core/classes/class.bookingpress-package.php:1201
+#: core/classes/class.bookingpress-package.php:1431
+#: core/classes/class.bookingpress-package.php:1596
+#: core/classes/class.bookingpress-package.php:1689
+#: core/classes/class.bookingpress-package.php:1756
+#: core/classes/class.bookingpress-package.php:2499
+#: core/classes/class.bookingpress-package.php:2538
+#: core/classes/class.bookingpress-package.php:2589
+#: core/classes/class.bookingpress-package.php:2792
+#: core/classes/class.bookingpress-package.php:2817
+#: core/classes/class.bookingpress-package.php:2938
+#: core/classes/class.bookingpress-package.php:2962
+#: core/classes/class.bookingpress-package.php:3011
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:3180
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:4115
+#@ bookingpress-package
+msgid "Something went wrong.."
+msgstr "Щось пішло не так.."
+
+#: core/classes/class.bookingpress-package-customize.php:800
+#@ bookingpress-package
+msgid "Customize settings updated successfully."
+msgstr "Налаштування налаштування успішно оновлено."
+
+#: core/classes/class.bookingpress-package-customize.php:894
+#@ bookingpress-package
+msgid "Package Form Visibility"
+msgstr "Видимість форми пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:896
+#@ bookingpress-package
+msgid "Hidden"
+msgstr "Прихований"
+
+#: core/classes/class.bookingpress-package-customize.php:1121
+#@ bookingpress-package
+msgid "Package Booking"
+msgstr "Бронювання пакетів"
+
+#: core/classes/class.bookingpress-package-customize.php:1142
+#@ bookingpress-package
+msgid "Staff Member"
+msgstr "Штатний співробітник"
+
+#: core/classes/class.bookingpress-package-customize.php:1143
+#@ bookingpress-package
+msgid "Staff Members"
+msgstr "Члени персоналу"
+
+#: core/classes/class.bookingpress-package-customize.php:1151
+#@ bookingpress-package
+msgid "Form Options"
+msgstr "Параметри форми"
+
+#: core/classes/class.bookingpress-package-customize.php:1155
+#@ bookingpress-package
+msgid "Hide image rotation arrow"
+msgstr "Сховати стрілку повороту зображення"
+
+#: core/classes/class.bookingpress-package-customize.php:1159
+#@ bookingpress-package
+msgid "Auto rotate image"
+msgstr "Автоматичний поворот зображення"
+
+#: core/classes/class.bookingpress-package-customize.php:1163
+#@ bookingpress-package
+msgid "Auto rotate image interval"
+msgstr "Інтервал автоматичного повороту зображення"
+
+#: core/classes/class.bookingpress-package-customize.php:1169
+#@ bookingpress-package
+msgid "Hide actual price"
+msgstr "Приховати актуальну ціну"
+
+#: core/classes/class.bookingpress-package-customize.php:1173
+#@ bookingpress-package
+msgid "Hide description"
+msgstr "Приховати опис"
+
+#: core/classes/class.bookingpress-package-customize.php:1177
+#@ bookingpress-package
+msgid "Show pagination"
+msgstr "Показати нумерацію сторінок"
+
+#: core/classes/class.bookingpress-package-customize.php:1181
+#@ bookingpress-package
+msgid "Show book appointment button"
+msgstr "Показати кнопку запису на зустріч"
+
+#: core/classes/class.bookingpress-package-customize.php:1185
+#@ bookingpress-package
+msgid "Display package services"
+msgstr "Показати пакет послуг"
+
+#: core/classes/class.bookingpress-package-customize.php:1188
+#@ bookingpress-package
+msgid "All services"
+msgstr "Всі послуги"
+
+#: core/classes/class.bookingpress-package-customize.php:1189
+#@ bookingpress-package
+msgid "Package services"
+msgstr "Пакетні послуги"
+
+#: core/classes/class.bookingpress-package-customize.php:1192
+#@ bookingpress-package
+msgid "Book Appointment Button URL"
+msgstr "URL-адреса кнопки запису на прийом"
+
+#: core/classes/class.bookingpress-package-customize.php:1198
+#@ bookingpress-package
+msgid "Payment failed message"
+msgstr "Повідомлення про помилку платежу"
+
+#: core/classes/class.bookingpress-package-customize.php:1244
+#: core/classes/class.bookingpress-package-customize.php:1305
+#@ bookingpress-package
+msgid "Sample Package 1"
+msgstr "Зразок упаковки 1"
+
+#: core/classes/class.bookingpress-package-customize.php:1248
+#: core/classes/class.bookingpress-package-customize.php:1309
+#@ bookingpress-package
+msgid "1 Month"
+msgstr "1 місяць"
+
+#: core/classes/class.bookingpress-package-customize.php:1269
+#: core/classes/class.bookingpress-package-customize.php:1330
+#@ bookingpress-package
+msgid "Sample service 1"
+msgstr "Зразок послуги 1"
+
+#: core/classes/class.bookingpress-package-customize.php:1270
+#: core/classes/class.bookingpress-package-customize.php:1331
+#@ bookingpress-package
+msgid "30 m"
+msgstr "30 м"
+
+#: core/classes/class.bookingpress-package-customize.php:1274
+#: core/classes/class.bookingpress-package-customize.php:1335
+#@ bookingpress-package
+msgid "Sample service 2"
+msgstr "Зразок послуги 2"
+
+#: core/classes/class.bookingpress-package-customize.php:1275
+#: core/classes/class.bookingpress-package-customize.php:1336
+#@ bookingpress-package
+msgid "45 m"
+msgstr "45 м. вул"
+
+#: core/classes/class.bookingpress-package-customize.php:1279
+#: core/classes/class.bookingpress-package-customize.php:1340
+#@ bookingpress-package
+msgid "Sample service 3"
+msgstr "Зразок послуги 3"
+
+#: core/classes/class.bookingpress-package-customize.php:1280
+#: core/classes/class.bookingpress-package-customize.php:1341
+#@ bookingpress-package
+msgid "1 hr"
+msgstr "1 год"
+
+#: core/classes/class.bookingpress-package-customize.php:1356
+#@ bookingpress-package
+msgid "Package Label Settings"
+msgstr "Налаштування мітки пакета"
+
+#: core/classes/class.bookingpress-package-customize.php:1359
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1529
+#@ bookingpress-package
+msgid "Common field labels"
+msgstr "Загальні мітки полів"
+
+#: core/classes/class.bookingpress-package-customize.php:1418
+#@ bookingpress-package
+msgid "Package years label"
+msgstr "Етикетка років упаковки"
+
+#: core/classes/class.bookingpress-package-customize.php:1430
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1530
+#@ bookingpress-package
+msgid "User Details step labels"
+msgstr "Мітки кроків із відомостями про користувача"
+
+#: core/classes/class.bookingpress-package-customize.php:1435
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1531
+#@ bookingpress-package
+msgid "Login Related labels"
+msgstr "Вхід Пов'язані мітки"
+
+#: core/classes/class.bookingpress-package-customize.php:1488
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1532
+#@ bookingpress-package
+msgid "Forgot Password related labels"
+msgstr "Мітки, пов’язані із забутим паролем"
+
+#: core/classes/class.bookingpress-package-customize.php:1521
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1533
+#@ bookingpress-package
+msgid "SignUp related labels"
+msgstr "Мітки, пов’язані з реєстрацією"
+
+#: core/classes/class.bookingpress-package-customize.php:118
+#: core/classes/class.bookingpress-package-customize.php:1563
+#@ bookingpress-package
+msgid "Mobile Number required message"
+msgstr "Необхідний номер мобільного телефону"
+
+#: core/classes/class.bookingpress-package-customize.php:1571
+#@ bookingpress-package
+msgid "Invalid email message"
+msgstr "Недійсне повідомлення електронної пошти"
+
+#: core/classes/class.bookingpress-package-customize.php:1575
+#@ bookingpress-package
+msgid "Email already exists message"
+msgstr "Повідомлення електронної пошти вже існує"
+
+#: core/classes/class.bookingpress-package-customize.php:1591
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1534
+#@ bookingpress-package
+msgid "Basic Details labels"
+msgstr "Етикетки основних деталей"
+
+#: core/classes/class.bookingpress-package-customize.php:1600
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1535
+#@ bookingpress-package
+msgid "Make Payment Form labels"
+msgstr "Зробіть ярлики платіжної форми"
+
+#: core/classes/class.bookingpress-package-customize.php:1625
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1536
+#@ bookingpress-package
+msgid "Summary step labels"
+msgstr "Мітки зведених кроків"
+
+#: core/classes/class.bookingpress-package-order.php:131
+#@ bookingpress-package
+msgid "Something went wrong while process with update package expire date"
+msgstr "Щось пішло не так під час обробки з терміном дії пакета оновлення"
+
+#: core/classes/class.bookingpress-package-order.php:148
+#@ bookingpress-package
+msgid "Package expire date successfully changed."
+msgstr "Термін дії пакета успішно змінено."
+
+#: core/classes/class.bookingpress-package-order.php:157
+#@ bookingpress-package
+msgid "Sorry, the selected date is less than the package expiration date."
+msgstr "На жаль, вибрана дата менша за дату закінчення терміну дії пакета."
+
+#: core/classes/class.bookingpress-package-order.php:209
+#: core/classes/class.bookingpress-package-order.php:301
+#: core/classes/class.bookingpress-package.php:1525
+#: core/classes/class.bookingpress-package.php:3181
+#: core/classes/class.bookingpress-package.php:3676
+#: core/classes/class.bookingpress-package.php:3892
+#: core/classes/class.bookingpress-package.php:3912
+#: core/classes/class.bookingpress-package.php:3930
+#: core/views/package_order.php:11
+#@ bookingpress-package
+msgid "Package Order"
+msgstr "Замовлення пакету"
+
+#: core/classes/class.bookingpress-package-order.php:298
+#@ bookingpress-package
+msgid "Package Order Notification"
+msgstr "Повідомлення про замовлення пакету"
+
+#: core/classes/class.bookingpress-package-order.php:314
+#: core/classes/class.bookingpress-package.php:584
+#: core/classes/class.bookingpress-package.php:3566
+#: core/classes/class.bookingpress-package.php:3891
+#: core/classes/class.bookingpress-package.php:3911
+#: core/classes/class.bookingpress-package.php:3929
+#@ bookingpress-package
+msgid "Package"
+msgstr "Пакет"
+
+#: core/classes/class.bookingpress-package-order.php:347
+#: core/classes/class.bookingpress-package-order.php:776
+#@ bookingpress-package
+msgid "Data retrieved successfully"
+msgstr "Дані успішно отримано"
+
+#: core/classes/class.bookingpress-package-order.php:405
+#: core/classes/class.bookingpress-package.php:240
+#@ bookingpress-package
+msgid "Package Order Transaction"
+msgstr "Трансакція пакетного замовлення"
+
+#: core/classes/class.bookingpress-package-order.php:466
+#@ bookingpress-package
+msgid "Service/Package"
+msgstr "Послуга/Пакет"
+
+#: core/classes/class.bookingpress-package-order.php:512
+#@ bookingpress-package
+msgid "Custom fields retrieved successfully."
+msgstr "Спеціальні поля успішно отримано."
+
+#: core/classes/class.bookingpress-package-order.php:677
+#@ bookingpress-package
+msgid "Package order has been deleted successfully."
+msgstr "Замовлення пакета успішно видалено."
+
+#: core/classes/class.bookingpress-package-order.php:680
+#: core/classes/class.bookingpress-package-order.php:723
+#@ bookingpress-package
+msgid "Appointment is already booked for package order ID #"
+msgstr "Зустріч уже заброньована для пакетного замовлення ID #"
+
+#: core/classes/class.bookingpress-package-order.php:733
+#@ bookingpress-package
+msgid "Package Order Has Been Deleted Successfully."
+msgstr "Замовлення пакета успішно видалено."
+
+#: core/classes/class.bookingpress-package-order.php:1983
+#: core/classes/class.bookingpress-package.php:3594
+#@ bookingpress-package
+msgid "The package purchase limit has been exceeded."
+msgstr "Перевищено ліміт покупки пакета."
+
+#: core/classes/class.bookingpress-package-order.php:2161
+#@ bookingpress-package
+msgid "Package order has been updated successfully."
+msgstr "Порядок пакета успішно оновлено."
+
+#: core/classes/class.bookingpress-package-order.php:2282
+#@ bookingpress-package
+msgid "Package has been booked successfully."
+msgstr "Пакет успішно заброньовано."
+
+#: core/classes/class.bookingpress-package-order.php:2289
+#@ bookingpress-package
+msgid "Please fill all required values"
+msgstr "Будь ласка, заповніть усі необхідні значення"
+
+#: core/classes/class.bookingpress-package-order.php:2372
+#: core/classes/class.bookingpress-package.php:2257
+#@ bookingpress-package
+msgid "Bulk Action"
+msgstr "Масова дія"
+
+#: core/classes/class.bookingpress-package-order.php:2376
+#: core/classes/class.bookingpress-package.php:1017
+#: core/classes/class.bookingpress-package.php:2261
+#: core/views/manage_package.php:221
+#: core/views/manage_package.php:224
+#: core/views/manage_package.php:527
+#: core/views/package_order.php:310
+#: core/views/package_order.php:314
+#@ bookingpress-package
+msgid "Delete"
+msgstr "Видалити"
+
+#: core/classes/class.bookingpress-package-order.php:2407
+#@ bookingpress-package
+msgid "Please select customer"
+msgstr "Виберіть клієнта"
+
+#: core/classes/class.bookingpress-package-order.php:2414
+#@ bookingpress-package
+msgid "Please select package"
+msgstr "Виберіть пакет"
+
+#: core/classes/class.bookingpress-package-order.php:2646
+#: core/classes/class.bookingpress-package.php:3612
+#: core/classes/class.bookingpress-package.php:3613
+#@ bookingpress-package
+msgid "Please select date"
+msgstr "Виберіть дату"
+
+#: core/classes/class.bookingpress-package-order.php:2693
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:4783
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:5666
+#@ bookingpress-package
+msgid "is required"
+msgstr "необхідно"
+
+#: core/classes/class.bookingpress-package-order.php:2704
+#@ bookingpress-package
+msgid "Minimum"
+msgstr "Мінімум"
+
+#: core/classes/class.bookingpress-package-order.php:2704
+#@ bookingpress-package
+msgid "character required"
+msgstr "необхідний символ"
+
+#: core/classes/class.bookingpress-package-order.php:2711
+#@ bookingpress-package
+msgid "Maximum"
+msgstr "Максимум"
+
+#: core/classes/class.bookingpress-package-order.php:2711
+#@ bookingpress-package
+msgid "character allowed"
+msgstr "дозволений символ"
+
+#: core/classes/class.bookingpress-package-order.php:2844
+#: core/classes/class.bookingpress-package.php:3054
+#@ bookingpress-package
+msgid "Please select service"
+msgstr "Виберіть послугу"
+
+#: core/classes/class.bookingpress-package-order.php:2851
+#@ bookingpress-package
+msgid "Please select page"
+msgstr "Виберіть сторінку"
+
+#: core/classes/class.bookingpress-package-order.php:2858
+#: core/classes/class.bookingpress-package-order.php:2882
+#: core/classes/class.bookingpress-package.php:3531
+#: core/classes/class.bookingpress-package.php:3547
+#@ bookingpress-package
+msgid "Please enter email address"
+msgstr "Будь ласка, введіть адресу електронної пошти"
+
+#: core/classes/class.bookingpress-package-order.php:2868
+#@ bookingpress-package
+msgid "Please enter firstname"
+msgstr "Будь ласка, введіть ім'я"
+
+#: core/classes/class.bookingpress-package-order.php:2875
+#@ bookingpress-package
+msgid "Please enter lastname"
+msgstr "Будь ласка, введіть прізвище"
+
+#: core/classes/class.bookingpress-package-order.php:2887
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:4763
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:5648
+#@ bookingpress-package
+msgid "Please enter valid email address"
+msgstr "Введіть дійсну електронну адресу"
+
+#: core/classes/class.bookingpress-package-order.php:2993
+#@ bookingpress-package
+msgid "Please select package expire date"
+msgstr "Виберіть термін дії пакета"
+
+#: core/classes/class.bookingpress-package-order.php:3098
+#@ bookingpress-package
+msgid "Package Order status changed successfully"
+msgstr "Статус замовлення пакету успішно змінено"
+
+#: core/classes/class.bookingpress-package-order.php:3499
+#@ bookingpress-package
+msgid "Please select any action."
+msgstr "Виберіть будь-яку дію."
+
+#: core/classes/class.bookingpress-package-order.php:3538
+#@ bookingpress-package
+msgid "Please select one or more records."
+msgstr "Виберіть один або кілька записів."
+
+#: core/classes/class.bookingpress-package.php:408
+#@ bookingpress-package
+msgid "BookingPress - Service Package plugin requires BookingPress Premium Plugin installed and active."
+msgstr "Плагін BookingPress - Service Package вимагає встановлення та активації плагіна BookingPress Premium."
+
+#: core/classes/class.bookingpress-package.php:414
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress Premium Plugin to version 3.2 or higher in order to use the BookingPress Package plugin"
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress Premium до версії 3.2 або новішої, щоб використовувати плагін пакета BookingPress"
+
+#: core/classes/class.bookingpress-package.php:420
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Tip Plugin to version 1.4 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - Tip до версії 1.4 або новішої."
+
+#: core/classes/class.bookingpress-package.php:426
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Tax Plugin to version 1.6 or higher."
+msgstr "BookingPress - Плагін пакета послуг. Потрібно оновити плагін BookingPress - Tax до версії 1.6 або новішої."
+
+#: core/classes/class.bookingpress-package.php:432
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Multi-Language Plugin to version 1.2 or higher."
+msgstr "BookingPress - Плагін пакета послуг. Необхідно оновити BookingPress - Багатомовний плагін до версії 1.2 або новішої."
+
+#: core/classes/class.bookingpress-package.php:438
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Invoice Plugin to version 2.0 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - Invoice до версії 2.0 або новішої."
+
+#: core/classes/class.bookingpress-package.php:444
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Stripe Payment Gateway Plugin to version 1.7 or higher."
+msgstr "BookingPress - Плагін пакета послуг. Потрібно оновити плагін BookingPress - Stripe Payment Gateway до версії 1.7 або новішої."
+
+#: core/classes/class.bookingpress-package.php:450
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Mollie Payment Gateway Plugin to version 1.5 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - Mollie Payment Gateway до версії 1.5 або новішої."
+
+#: core/classes/class.bookingpress-package.php:456
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Authorize.Net Payment Gateway Plugin to version 1.3 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - Authorize.Net Payment Gateway до версії 1.3 або новішої."
+
+#: core/classes/class.bookingpress-package.php:462
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Razorpay Payment Gateway Plugin to version 1.4 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - Razorpay Payment Gateway до версії 1.4 або новішої."
+
+#: core/classes/class.bookingpress-package.php:468
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - PayPal Pro Payment Gateway Plugin to version 1.3 or higher."
+msgstr "BookingPress — Плагін пакета послуг. Потрібно оновити плагін BookingPress — PayPal Pro Payment Gateway до версії 1.3 або новішої."
+
+#: core/classes/class.bookingpress-package.php:474
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - PagSeguro Payment Gateway Plugin to version 1.3 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - PagSeguro Payment Gateway до версії 1.3 або новішої."
+
+#: core/classes/class.bookingpress-package.php:480
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Braintree Payment Gateway Plugin to version 1.4 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - Braintree Payment Gateway до версії 1.4 або новішої."
+
+#: core/classes/class.bookingpress-package.php:486
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Paystack Payment Gateway Plugin to version 1.3 or higher."
+msgstr "BookingPress - Плагін пакета послуг. Потрібно оновити плагін BookingPress - Paystack Payment Gateway до версії 1.3 або новішої."
+
+#: core/classes/class.bookingpress-package.php:492
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - PayUMoney Payment Gateway Plugin to version 1.3 or higher."
+msgstr "BookingPress - Плагін пакета послуг. Необхідно оновити плагін BookingPress - PayUMoney Payment Gateway до версії 1.3 або новішої."
+
+#: core/classes/class.bookingpress-package.php:498
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Paddle Payment Gateway Plugin to version 1.2 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - Paddle Payment Gateway до версії 1.2 або новішої."
+
+#: core/classes/class.bookingpress-package.php:504
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Klarna Payment Gateway Plugin to version 1.3 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - Klarna Payment Gateway до версії 1.3 або новішої."
+
+#: core/classes/class.bookingpress-package.php:510
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - PayFast Payment Gateway Plugin to version 1.2 or higher."
+msgstr "BookingPress - плагін пакета послуг. Потрібно оновити плагін BookingPress - PayFast Payment Gateway до версії 1.2 або новішої."
+
+#: core/classes/class.bookingpress-package.php:516
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Square Payment Gateway Plugin to version 1.6 or higher."
+msgstr "BookingPress - Плагін пакета послуг. Потрібно оновити плагін BookingPress - Square Payment Gateway до версії 1.6 або новішої."
+
+#: core/classes/class.bookingpress-package.php:522
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - Skrill Payment Gateway Plugin to version 1.3 or higher."
+msgstr "BookingPress - Плагін пакета послуг. Потрібно оновити плагін BookingPress - Skrill Payment Gateway до версії 1.3 або новішої."
+
+#: core/classes/class.bookingpress-package.php:528
+#@ bookingpress-package
+msgid "BookingPress - Service Package Plugin Requires to update the BookingPress - WooCommerce Payment Gateway Plugin to version 1.7 or higher."
+msgstr "BookingPress - Плагін пакета послуг. Потрібно оновити плагін BookingPress - WooCommerce Payment Gateway до версії 1.7 або новішої."
+
+#: core/classes/class.bookingpress-package.php:599
+#: core/classes/class.bookingpress-package.php:617
+#: core/views/manage_package.php:27
+#: core/views/package_order.php:40
+#: core/views/package_order.php:248
+#: core/views/package_order.php:502
+#: core/views/package_order.php:564
+#@ bookingpress-package
+msgid "Package Name"
+msgstr "Назва пакета"
+
+#: core/classes/class.bookingpress-package.php:600
+#: core/classes/class.bookingpress-package.php:618
+#@ bookingpress-package
+msgid "Package Description"
+msgstr "Опис упаковки"
+
+#: core/classes/class.bookingpress-package.php:959
+#@ bookingpress-package
+msgid "Package Debug Logs"
+msgstr "Журнали налагодження пакетів"
+
+#: core/classes/class.bookingpress-package.php:965
+#: core/classes/class.bookingpress-package.php:977
+#@ bookingpress-package
+msgid "Package Order Logs"
+msgstr "Журнали замовлень пакетів"
+
+#: core/classes/class.bookingpress-package.php:977
+#@ bookingpress-package
+msgid "View log"
+msgstr "Переглянути журнал"
+
+#: core/classes/class.bookingpress-package.php:985
+#@ bookingpress-package
+msgid "Select log duration to download"
+msgstr "Виберіть тривалість журналу для завантаження"
+
+#: core/classes/class.bookingpress-package.php:996
+#: core/views/package_order.php:31
+#: core/views/package_report.php:25
+#@ bookingpress-package
+msgid "Start date"
+msgstr "Дата початку"
+
+#: core/classes/class.bookingpress-package.php:996
+#: core/views/package_order.php:31
+#@ bookingpress-package
+msgid "End date"
+msgstr "Дата закінчення"
+
+#: core/classes/class.bookingpress-package.php:1002
+#@ bookingpress-package
+msgid "Download"
+msgstr "Завантажити"
+
+#: core/classes/class.bookingpress-package.php:1012
+#@ bookingpress-package
+msgid "Download Log"
+msgstr "Журнал завантажень"
+
+#: core/classes/class.bookingpress-package.php:1018
+#: core/views/manage_package.php:170
+#: core/views/manage_package.php:191
+#: core/views/manage_package.php:225
+#: core/views/manage_package.php:290
+#: core/views/manage_package.php:605
+#: core/views/package_order.php:113
+#: core/views/package_order.php:122
+#: core/views/package_order.php:313
+#: core/views/package_order.php:347
+#: core/views/package_order.php:356
+#: core/views/package_order.php:540
+#: core/views/package_order.php:549
+#: core/views/package_order.php:796
+#: core/views/package_order.php:1096
+#: core/views/package_order.php:1293
+#@ bookingpress-package
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: core/classes/class.bookingpress-package.php:1020
+#@ bookingpress-package
+msgid "Are you sure you want to clear debug logs?"
+msgstr "Ви впевнені, що бажаєте очистити журнали налагодження?"
+
+#: core/classes/class.bookingpress-package.php:1024
+#@ bookingpress-package
+msgid "Clear Log"
+msgstr "Очистити журнал"
+
+#: core/classes/class.bookingpress-package.php:1092
+#@ bookingpress-package
+msgid "Paid"
+msgstr "Платний"
+
+#: core/classes/class.bookingpress-package.php:1096
+#@ bookingpress-package
+msgid "Pending"
+msgstr "В очікуванні"
+
+#: core/classes/class.bookingpress-package.php:1100
+#@ bookingpress-package
+msgid "Refunded"
+msgstr "Повернено"
+
+#: core/classes/class.bookingpress-package.php:1104
+#@ bookingpress-package
+msgid "Partially Paid"
+msgstr "Частково оплачено"
+
+#: core/classes/class.bookingpress-package.php:1108
+#@ bookingpress-package
+msgid "Refunded ( partial )"
+msgstr "Повернено (частково)"
+
+#: core/classes/class.bookingpress-package.php:1215
+#@ bookingpress-package
+msgid "Copy"
+msgstr "Копіювати"
+
+#: core/classes/class.bookingpress-package.php:1248
+#@ bookingpress-package
+msgid "Package duplicate successfully"
+msgstr "Дублікат пакета успішно створено"
+
+#: core/classes/class.bookingpress-package.php:1254
+#@ bookingpress-package
+msgid "No package found..."
+msgstr "Пакет не знайдено..."
+
+#: core/classes/class.bookingpress-package.php:1287
+#@ bookingpress-package
+msgid "Package status changed successfully"
+msgstr "Статус пакета змінено успішно"
+
+#: core/classes/class.bookingpress-package.php:1377
+#@ bookingpress-package
+msgid "Something went wrong while updating the file"
+msgstr "Під час оновлення файлу сталася помилка"
+
+#: core/classes/class.bookingpress-package.php:1466
+#@ bookingpress-package
+msgid "Service position has been changed successfully."
+msgstr "Посаду служби успішно змінено."
+
+#: core/classes/class.bookingpress-package.php:1492
+#: core/classes/class.bookingpress-package.php:1505
+#: core/classes/class.bookingpress-package.php:1515
+#: core/classes/class.bookingpress-package.php:3186
+#: core/classes/class.bookingpress-package.php:3500
+#: core/classes/class.bookingpress-package.php:3675
+#@ bookingpress-package
+msgid "Packages"
+msgstr "пакети"
+
+#: core/classes/class.bookingpress-package.php:1547
+#@ bookingpress-package
+msgid "Min"
+msgstr "Хв"
+
+#: core/classes/class.bookingpress-package.php:1550
+#@ bookingpress-package
+msgid "Mins"
+msgstr "хв"
+
+#: core/classes/class.bookingpress-package.php:1554
+#@ bookingpress-package
+msgid "Hour"
+msgstr "годину"
+
+#: core/classes/class.bookingpress-package.php:1557
+#@ bookingpress-package
+msgid "Hours"
+msgstr "години"
+
+#: core/classes/class.bookingpress-package.php:1561
+#: core/classes/class.bookingpress-package.php:1837
+#: core/classes/class.bookingpress-package.php:3587
+#@ bookingpress-package
+msgid "Day"
+msgstr "День"
+
+#: core/classes/class.bookingpress-package.php:1564
+#: core/classes/class.bookingpress-package.php:1845
+#: core/classes/class.bookingpress-package.php:3588
+#: core/views/manage_package.php:370
+#@ bookingpress-package
+msgid "Days"
+msgstr "днів"
+
+#: core/classes/class.bookingpress-package.php:1657
+#@ bookingpress-package
+msgid "Edit data retrieved successfully"
+msgstr "Редагувати дані успішно отримано"
+
+#: core/classes/class.bookingpress-package.php:1695
+#@ bookingpress-package
+msgid "Please select at-least one package to delete"
+msgstr "Виберіть принаймні один пакет для видалення"
+
+#: core/classes/class.bookingpress-package.php:1712
+#: core/classes/class.bookingpress-package.php:1786
+#@ bookingpress-package
+msgid " I am sorry"
+msgstr "Вибачте"
+
+#: core/classes/class.bookingpress-package.php:1712
+#: core/classes/class.bookingpress-package.php:1786
+#@ bookingpress-package
+msgid "This package cannot be deleted because it has already been purchased by the customer."
+msgstr "Цей пакет неможливо видалити, оскільки він уже придбаний клієнтом."
+
+#: core/classes/class.bookingpress-package.php:1719
+#: core/classes/class.bookingpress-package.php:1777
+#@ bookingpress-package
+msgid "package has been deleted successfully."
+msgstr "пакет успішно видалено."
+
+#: core/classes/class.bookingpress-package.php:1721
+#@ bookingpress-package
+msgid "Something went wrong while deleting packages."
+msgstr "Під час видалення пакетів сталася помилка."
+
+#: core/classes/class.bookingpress-package.php:1723
+#@ bookingpress-package
+msgid "Some of the packages has not been deleted sucessfully."
+msgstr "Деякі з пакетів не вдалося видалити."
+
+#: core/classes/class.bookingpress-package.php:1789
+#@ bookingpress-package
+msgid "warning"
+msgstr "УВАГА"
+
+#: core/classes/class.bookingpress-package.php:1839
+#: core/classes/class.bookingpress-package.php:3583
+#@ bookingpress-package
+msgid "Month"
+msgstr "місяць"
+
+#: core/classes/class.bookingpress-package.php:1841
+#: core/classes/class.bookingpress-package.php:3585
+#@ bookingpress-package
+msgid "Year"
+msgstr "рік"
+
+#: core/classes/class.bookingpress-package.php:1847
+#: core/classes/class.bookingpress-package.php:3584
+#: core/views/manage_package.php:371
+#@ bookingpress-package
+msgid "Months"
+msgstr "Місяці"
+
+#: core/classes/class.bookingpress-package.php:1849
+#: core/classes/class.bookingpress-package.php:3586
+#: core/views/manage_package.php:372
+#@ bookingpress-package
+msgid "Years"
+msgstr "років"
+
+#: core/classes/class.bookingpress-package.php:1949
+#@ bookingpress-package
+msgid "package data fetched successfully"
+msgstr "дані пакета отримано успішно"
+
+#: core/classes/class.bookingpress-package.php:1982
+#@ bookingpress-package
+msgid "Something went wrong while save package details"
+msgstr "Під час збереження деталей пакета сталася помилка"
+
+#: core/classes/class.bookingpress-package.php:2004
+#@ bookingpress-package
+msgid "Service name is too long..."
+msgstr "Назва служби задовга..."
+
+#: core/classes/class.bookingpress-package.php:2073
+#@ bookingpress-package
+msgid "Package has been added successfully."
+msgstr "Пакет успішно додано."
+
+#: core/classes/class.bookingpress-package.php:2081
+#@ bookingpress-package
+msgid "package has been updated successfully."
+msgstr "пакет успішно оновлено."
+
+#: core/classes/class.bookingpress-package.php:2086
+#@ bookingpress-package
+msgid "Please add valid data for add package"
+msgstr "Додайте дійсні дані для додавання пакета"
+
+#: core/classes/class.bookingpress-package.php:2317
+#@ bookingpress-package
+msgid "Please enter package name"
+msgstr "Введіть назву пакета"
+
+#: core/classes/class.bookingpress-package.php:2324
+#@ bookingpress-package
+msgid "Please enter duration"
+msgstr "Введіть тривалість"
+
+#: core/classes/class.bookingpress-package.php:2331
+#@ bookingpress-package
+msgid "Please enter price"
+msgstr "Будь ласка, введіть ціну"
+
+#: core/classes/class.bookingpress-package.php:2360
+#@ bookingpress-package
+msgid "Unlimited"
+msgstr "Необмежений"
+
+#: core/classes/class.bookingpress-package.php:2637
+#: core/classes/class.bookingpress-package.php:2650
+#@ bookingpress-package
+msgid "You can upload up to 5 images."
+msgstr "Ви можете завантажити до 5 зображень."
+
+#: core/classes/class.bookingpress-package.php:2659
+#@ bookingpress-package
+msgid "Something went wrong"
+msgstr "Щось пішло не так"
+
+#: core/classes/class.bookingpress-package.php:2722
+#@ bookingpress-package
+msgid "Please upload jpg/png file only"
+msgstr "Будь ласка, завантажуйте лише файл jpg/png"
+
+#: core/classes/class.bookingpress-package.php:2733
+#@ bookingpress-package
+msgid "Please upload maximum 1 MB file only"
+msgstr "Будь ласка, завантажуйте файл розміром не більше 1 МБ"
+
+#: core/classes/class.bookingpress-package.php:2749
+#@ bookingpress-package
+msgid "Please add service to the package."
+msgstr "Будь ласка, додайте послугу в пакет."
+
+#: core/classes/class.bookingpress-package.php:2757
+#@ bookingpress-package
+msgid "Please add image to the package."
+msgstr "Будь ласка, додайте зображення до пакету."
+
+#: core/classes/class.bookingpress-package.php:2975
+#@ bookingpress-package
+msgid "Please select any action..."
+msgstr "Виберіть будь-яку дію..."
+
+#: core/classes/class.bookingpress-package.php:3064
+#@ bookingpress-package
+msgid "Please set No. Of Appointment"
+msgstr "Будь ласка, встановіть номер зустрічі"
+
+#: core/classes/class.bookingpress-package.php:3080
+#: core/classes/class.bookingpress-package.php:3104
+#@ bookingpress-package
+msgid "This service already added in package."
+msgstr "Ця послуга вже додана в пакет."
+
+#: core/classes/class.bookingpress-package.php:3181
+#@ bookingpress-package
+msgid "Packages Order"
+msgstr "Замовлення пакетів"
+
+#: core/classes/class.bookingpress-package.php:3501
+#@ bookingpress-package
+msgid "What are you looking for.."
+msgstr "Що ти шукаєш.."
+
+#: core/classes/class.bookingpress-package.php:3502
+#@ bookingpress-package
+msgid "No Packages Found!"
+msgstr "Пакунки не знайдено!"
+
+#: core/classes/class.bookingpress-package.php:3503
+#@ bookingpress-package
+msgid "Search"
+msgstr "Пошук"
+
+#: core/classes/class.bookingpress-package.php:3504
+#@ bookingpress-package
+msgid "Buy Now"
+msgstr "Купити зараз"
+
+#: core/classes/class.bookingpress-package.php:3505
+#@ bookingpress-package
+msgid "Services Includes"
+msgstr "Послуги включають"
+
+#: core/classes/class.bookingpress-package.php:3506
+#@ bookingpress-package
+msgid "Show More"
+msgstr "Показати більше"
+
+#: core/classes/class.bookingpress-package.php:3507
+#: core/classes/class.bookingpress-package.php:3589
+#@ bookingpress-package
+msgid "Show Less"
+msgstr "Показати менше"
+
+#: core/classes/class.bookingpress-package.php:3514
+#@ bookingpress-package
+msgid "User Details"
+msgstr "Відомості про користувача"
+
+#: core/classes/class.bookingpress-package.php:3515
+#@ bookingpress-package
+msgid "Please Login"
+msgstr "Будь ласка, увійдіть"
+
+#: core/classes/class.bookingpress-package.php:3516
+#: core/views/package_order.php:1177
+#@ bookingpress-package
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: core/classes/class.bookingpress-package.php:3517
+#@ bookingpress-package
+msgid "Enter your email address"
+msgstr "Введіть адресу вашої електронної пошти"
+
+#: core/classes/class.bookingpress-package.php:3518
+#: core/classes/class.bookingpress-package.php:3543
+#: core/views/package_order.php:1169
+#@ bookingpress-package
+msgid "Password"
+msgstr "Пароль"
+
+#: core/classes/class.bookingpress-package.php:3519
+#: core/classes/class.bookingpress-package.php:3546
+#@ bookingpress-package
+msgid "Enter your password"
+msgstr "Введіть ваш пароль"
+
+#: core/classes/class.bookingpress-package.php:3520
+#@ bookingpress-package
+msgid "Please enter username"
+msgstr "Будь ласка, введіть ім'я користувача"
+
+#: core/classes/class.bookingpress-package.php:3521
+#: core/classes/class.bookingpress-package.php:3549
+#@ bookingpress-package
+msgid "Please enter password"
+msgstr "Будь ласка, введіть пароль"
+
+#: core/classes/class.bookingpress-package.php:3522
+#@ bookingpress-package
+msgid "SignUp"
+msgstr "Реєстрація"
+
+#: core/classes/class.bookingpress-package.php:3523
+#@ bookingpress-package
+msgid "Don't have an account?"
+msgstr "Немає облікового запису?"
+
+#: core/classes/class.bookingpress-package.php:3524
+#@ bookingpress-package
+msgid "Remember Me"
+msgstr "Пам'ятай мене"
+
+#: core/classes/class.bookingpress-package.php:3525
+#: core/classes/class.bookingpress-package.php:3539
+#@ bookingpress-package
+msgid "Login"
+msgstr "Логін"
+
+#: core/classes/class.bookingpress-package.php:3526
+#@ bookingpress-package
+msgid "Forgot Password?"
+msgstr "Забули пароль?"
+
+#: core/classes/class.bookingpress-package.php:3527
+#@ bookingpress-package
+msgid "The Username/ Password you entered is invalid."
+msgstr "Ім'я користувача/пароль, які ви ввели, недійсні."
+
+#: core/classes/class.bookingpress-package.php:3528
+#@ bookingpress-package
+msgid "Forgot Password"
+msgstr "Забули пароль"
+
+#: core/classes/class.bookingpress-package.php:3529
+#@ bookingpress-package
+msgid "Username OR Email Address"
+msgstr "Ім'я користувача АБО Адреса електронної пошти"
+
+#: core/classes/class.bookingpress-package.php:3530
+#@ bookingpress-package
+msgid "Enter email address"
+msgstr "Введіть електронну адресу"
+
+#: core/classes/class.bookingpress-package.php:3532
+#: core/classes/class.bookingpress-package.php:3554
+#@ bookingpress-package
+msgid "Submit"
+msgstr "Надіслати"
+
+#: core/classes/class.bookingpress-package.php:3533
+#@ bookingpress-package
+msgid "There is no user registered with that email address/Username."
+msgstr "Немає зареєстрованого користувача з цією електронною адресою/іменем користувача."
+
+#: core/classes/class.bookingpress-package.php:3534
+#@ bookingpress-package
+msgid "We have sent you a password reset link, Please check your mail."
+msgstr "Ми надіслали вам посилання для зміни пароля. Перевірте свою пошту."
+
+#: core/classes/class.bookingpress-package.php:3535
+#@ bookingpress-package
+msgid "Sign In"
+msgstr "Увійти"
+
+#: core/classes/class.bookingpress-package.php:3536
+#@ bookingpress-package
+msgid "Create Account"
+msgstr "Створити акаунт"
+
+#: core/classes/class.bookingpress-package.php:3537
+#@ bookingpress-package
+msgid "Sign Up"
+msgstr "Зареєструватися"
+
+#: core/classes/class.bookingpress-package.php:3538
+#@ bookingpress-package
+msgid "Already have an account?"
+msgstr "Вже є аккаунт?"
+
+#: core/classes/class.bookingpress-package.php:3540
+#@ bookingpress-package
+msgid "Full name"
+msgstr "Повне ім'я"
+
+#: core/classes/class.bookingpress-package.php:3541
+#: core/views/package_order.php:1202
+#@ bookingpress-package
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: core/classes/class.bookingpress-package.php:3542
+#@ bookingpress-package
+msgid "Mobile number"
+msgstr "Номер мобільного"
+
+#: core/classes/class.bookingpress-package.php:3544
+#@ bookingpress-package
+msgid "Enter your full name"
+msgstr "Введіть Ваше повне ім'я"
+
+#: core/classes/class.bookingpress-package.php:3545
+#@ bookingpress-package
+msgid "Enter your email"
+msgstr "Введіть адресу електронної пошти"
+
+#: core/classes/class.bookingpress-package.php:3548
+#@ bookingpress-package
+msgid "Please enter mobile number"
+msgstr "Будь ласка, введіть номер мобільного телефону"
+
+#: core/classes/class.bookingpress-package.php:3550
+#@ bookingpress-package
+msgid "Email address not valid."
+msgstr "Адреса електронної пошти недійсна."
+
+#: core/classes/class.bookingpress-package.php:3551
+#@ bookingpress-package
+msgid "Email address already exists."
+msgstr "Адреса електронної пошти вже існує."
+
+#: core/classes/class.bookingpress-package.php:3552
+#@ bookingpress-package
+msgid "Please enter fullname"
+msgstr "Будь ласка, введіть повне ім'я"
+
+#: core/classes/class.bookingpress-package.php:3553
+#: core/views/manage_package.php:306
+#: core/views/package_order.php:811
+#: core/views/package_order.php:1112
+#@ bookingpress-package
+msgid "Basic Details"
+msgstr "Основні деталі"
+
+#: core/classes/class.bookingpress-package.php:3555
+#: core/classes/class.bookingpress-package.php:3620
+#: core/views/package_order.php:275
+#@ bookingpress-package
+msgid "Payment"
+msgstr "Оплата"
+
+#: core/classes/class.bookingpress-package.php:3556
+#@ bookingpress-package
+msgid "Make a Payment"
+msgstr "Здійснити платіж"
+
+#: core/classes/class.bookingpress-package.php:3557
+#: core/views/package_order.php:1033
+#@ bookingpress-package
+msgid "Subtotal"
+msgstr "Проміжний підсумок"
+
+#: core/classes/class.bookingpress-package.php:3558
+#: core/views/package_order.php:231
+#: core/views/package_order.php:485
+#: core/views/package_order.php:694
+#@ bookingpress-package
+msgid "Total Amount"
+msgstr "Загальна кількість"
+
+#: core/classes/class.bookingpress-package.php:3559
+#@ bookingpress-package
+msgid "Select Payment Method"
+msgstr "Виберіть спосіб оплати"
+
+#: core/classes/class.bookingpress-package.php:3560
+#@ bookingpress-package
+msgid "Buy Package"
+msgstr "Купити пакет"
+
+#: core/classes/class.bookingpress-package.php:3561
+#: core/classes/class.bookingpress-package.php:3562
+#@ bookingpress-package
+msgid "Summary"
+msgstr "Резюме"
+
+#: core/classes/class.bookingpress-package.php:3564
+#@ bookingpress-package
+msgid "Your package booked successfully!"
+msgstr "Ваш пакет успішно заброньовано!"
+
+#: core/classes/class.bookingpress-package.php:3565
+#@ bookingpress-package
+msgid "We have sent your booking information to your email address."
+msgstr "Ми надіслали інформацію про бронювання на вашу електронну адресу."
+
+#: core/classes/class.bookingpress-package.php:3567
+#: core/views/package_order.php:34
+#@ bookingpress-package
+msgid "Customer Name"
+msgstr "Ім'я клієнта"
+
+#: core/classes/class.bookingpress-package.php:3568
+#@ bookingpress-package
+msgid "Book Appointment"
+msgstr "Запис на зустріч"
+
+#: core/classes/class.bookingpress-package.php:3569
+#@ bookingpress-package
+msgid "Card Details"
+msgstr "Реквізити картки"
+
+#: core/classes/class.bookingpress-package.php:3570
+#@ bookingpress-package
+msgid "Card Number"
+msgstr "Номер картки"
+
+#: core/classes/class.bookingpress-package.php:3571
+#@ bookingpress-package
+msgid "Expire Month"
+msgstr "Закінчується місяць"
+
+#: core/classes/class.bookingpress-package.php:3572
+#@ bookingpress-package
+msgid "Expire Year"
+msgstr "Рік закінчення"
+
+#: core/classes/class.bookingpress-package.php:3573
+#@ bookingpress-package
+msgid "CVV"
+msgstr "CVV"
+
+#: core/classes/class.bookingpress-package.php:3574
+#@ bookingpress-package
+msgid "Name on card"
+msgstr "Ім'я на картці"
+
+#: core/classes/class.bookingpress-package.php:3575
+#@ bookingpress-package
+msgid "Credit Card"
+msgstr "Кредитна карта"
+
+#: core/classes/class.bookingpress-package.php:3576
+#: core/views/frontend/package_booking_form.php:758
+#: core/views/package_order.php:1039
+#@ bookingpress-package
+msgid "Tax"
+msgstr "податок"
+
+#: core/classes/class.bookingpress-package.php:3577
+#@ bookingpress-package
+msgid "Give a tip"
+msgstr "Дайте чайові"
+
+#: core/classes/class.bookingpress-package.php:3578
+#@ bookingpress-package
+msgid "Enter tip amount"
+msgstr "Введіть суму чайових"
+
+#: core/classes/class.bookingpress-package.php:3579
+#: core/classes/class.bookingpress-package.php:3615
+#: core/views/manage_package.php:39
+#: core/views/package_order.php:63
+#: core/views/package_order.php:1295
+#@ bookingpress-package
+msgid "Apply"
+msgstr "Застосувати"
+
+#: core/classes/class.bookingpress-package.php:3580
+#@ bookingpress-package
+msgid "Tip Applied"
+msgstr "Порада застосована"
+
+#: core/classes/class.bookingpress-package.php:3581
+#@ bookingpress-package
+msgid "Please enter tip amount"
+msgstr "Введіть суму чайових"
+
+#: core/classes/class.bookingpress-package.php:3582
+#@ bookingpress-package
+msgid "Go back"
+msgstr "Повертайся"
+
+#: core/classes/class.bookingpress-package.php:3590
+#@ bookingpress-package
+msgid "Read More"
+msgstr "Детальніше"
+
+#: core/classes/class.bookingpress-package.php:3592
+#@ bookingpress-package
+msgid "Sorry! Something went wrong. Your payment has been failed."
+msgstr "Вибачте! Щось пішло не так. Ваш платіж не виконано."
+
+#: core/classes/class.bookingpress-package.php:3593
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:4365
+#@ bookingpress-package
+msgid "PayPal"
+msgstr "PayPal"
+
+#: core/classes/class.bookingpress-package.php:3610
+#: core/classes/class.bookingpress-package.php:3611
+#@ bookingpress-package
+msgid "My Package"
+msgstr "Мій пакет"
+
+#: core/classes/class.bookingpress-package.php:3614
+#@ bookingpress-package
+msgid "Search package"
+msgstr "Пошуковий пакет"
+
+#: core/classes/class.bookingpress-package.php:3616
+#: core/views/manage_package.php:126
+#: core/views/package_order.php:243
+#: core/views/package_order.php:497
+#@ bookingpress-package
+msgid "ID"
+msgstr "ID"
+
+#: core/classes/class.bookingpress-package.php:3617
+#: core/classes/class.bookingpress-package.php:3625
+#: core/views/manage_package.php:75
+#: core/views/package_order.php:137
+#: core/views/package_order.php:390
+#: core/views/package_order.php:599
+#@ bookingpress-package
+msgid "Name"
+msgstr "Ім'я"
+
+#: core/classes/class.bookingpress-package.php:3618
+#@ bookingpress-package
+msgid "Remaining Appo."
+msgstr "Залишилося Appo."
+
+#: core/classes/class.bookingpress-package.php:3619
+#@ bookingpress-package
+msgid "Expire on"
+msgstr "Термін дії закінчується"
+
+#: core/classes/class.bookingpress-package.php:3622
+#@ bookingpress-package
+msgid "Purchase date"
+msgstr "Дата покупки"
+
+#: core/classes/class.bookingpress-package.php:3623
+#@ bookingpress-package
+msgid "Expiry date"
+msgstr "Термін придатності"
+
+#: core/classes/class.bookingpress-package.php:3624
+#: core/views/manage_package.php:80
+#: core/views/manage_package.php:434
+#: core/views/manage_package.php:451
+#@ bookingpress-package
+msgid "Services"
+msgstr "Послуги"
+
+#: core/classes/class.bookingpress-package.php:3626
+#: core/views/manage_package.php:85
+#: core/views/manage_package.php:481
+#: core/views/manage_package.php:581
+#: core/views/package_order.php:251
+#@ bookingpress-package
+msgid "Duration"
+msgstr "Тривалість"
+
+#: core/classes/class.bookingpress-package.php:3627
+#@ bookingpress-package
+msgid "Remaining appointment"
+msgstr "Залишилася зустріч"
+
+#: core/classes/class.bookingpress-package.php:3628
+#@ bookingpress-package
+msgid "Payment details"
+msgstr "Платіжні реквізити"
+
+#: core/classes/class.bookingpress-package.php:3629
+#@ bookingpress-package
+msgid "Total amount"
+msgstr "Загальна кількість"
+
+#: core/classes/class.bookingpress-package.php:3647
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1811
+#@ bookingpress-package
+msgid "Redeem Package"
+msgstr "Викупити пакет"
+
+#: core/classes/class.bookingpress-package.php:3649
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1813
+#: core/views/package_order.php:42
+#@ bookingpress-package
+msgid "Select package"
+msgstr "Виберіть пакет"
+
+#: core/classes/class.bookingpress-package.php:3650
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1815
+#@ bookingpress-package
+msgid "You must be logged in to continue."
+msgstr "Ви повинні увійти, щоб продовжити."
+
+#: core/classes/class.bookingpress-package.php:3651
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1816
+#@ bookingpress-package
+msgid "Package appointment not avaliable."
+msgstr "Запис на пакет недоступний."
+
+#: core/classes/class.bookingpress-package.php:3696
+#, php-format
+#@ bookingpress-package
+msgid "Dear %customer_first_name% %customer_last_name%,<br>You have successfully ordered package.<br>Thank you for choosing us,<br>%company_name%"
+msgstr "Шановний %customer_first_name% %customer_last_name%,<br>Ви успішно замовили пакет.<br>Дякуємо, що вибрали нас,<br>%company_name%"
+
+#: core/classes/class.bookingpress-package.php:3751
+#@ bookingpress-package
+msgid "Our Package"
+msgstr "Наш пакет"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:178
+#@ bookingpress-package
+msgid "Coupon code not applied on this service"
+msgstr "Код купона не застосовано до цієї послуги"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:309
+#@ bookingpress-package
+msgid "Sorry, the selected date is greater than the package expiration date."
+msgstr "Вибачте, вибрана дата перевищує термін дії пакета."
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:353
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1829
+#@ bookingpress-package
+msgid "Package labels"
+msgstr "Пакет етикетки"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:361
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:382
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1832
+#@ bookingpress-package
+msgid "Package label"
+msgstr "Етикетка на упаковці"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:362
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:383
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1844
+#@ bookingpress-package
+msgid "Package apply button label"
+msgstr "Пакет застосувати кнопку етикетки"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:363
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:384
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1836
+#@ bookingpress-package
+msgid "Package placeholder"
+msgstr "Заповнювач пакета"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:364
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:385
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1840
+#@ bookingpress-package
+msgid "Package applied text"
+msgstr "Застосований текст пакета"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:365
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:386
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1848
+#@ bookingpress-package
+msgid "Login Message"
+msgstr "Повідомлення для входу"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:366
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:387
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1852
+#@ bookingpress-package
+msgid "Error Message"
+msgstr "Повідомлення про помилку"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:705
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1428
+#@ bookingpress-package
+msgid "Package Transaction"
+msgstr "Пакетна транзакція"
+
+#: core/classes/frontend/class.bookingpress-package-appointment-booking.php:1039
+#@ bookingpress-package
+msgid "Package succesfully redeem."
+msgstr "Пакет успішно викуплено."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:382
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1358
+#@ bookingpress-package
+msgid "Sorry, Your request can not process due to security reason."
+msgstr "На жаль, ваш запит не може бути оброблено з причин безпеки."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1373
+#@ bookingpress-package
+msgid "Captcha generated successfully."
+msgstr "Captcha згенеровано успішно."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1463
+#@ bookingpress-package
+msgid "BookingPress Package"
+msgstr "Пакет BookingPress"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1480
+#@ bookingpress-package
+msgid "My Package title"
+msgstr "Назва мого пакета"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1518
+#@ bookingpress-package
+msgid "Appointment Package name"
+msgstr "Назва пакету призначень"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:1525
+#@ bookingpress-package
+msgid "My package labels"
+msgstr "Мої етикетки на упаковці"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:665
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2245
+#@ bookingpress-package
+msgid "Package not selected."
+msgstr "Пакет не вибрано."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:686
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2266
+#@ bookingpress-package
+msgid "Please enter valid package price."
+msgstr "Введіть дійсну ціну пакета."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:732
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:752
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2312
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2332
+#@ bookingpress-package
+msgid "Sorry! package could not be processed"
+msgstr "Вибачте! не вдалося обробити пакет"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2573
+#@ bookingpress-package
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Хтось подав запит на скидання пароля для такого облікового запису:"
+
+#. translators: 1. Username
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2576
+#, php-format
+#@ bookingpress-package
+msgid "Username: %s"
+msgstr "Ім'я користувача: %s"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2577
+#@ bookingpress-package
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Якщо це була помилка, просто ігноруйте цей електронний лист, і нічого не станеться."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2578
+#@ bookingpress-package
+msgid "To reset your password, visit the following address:"
+msgstr "Щоб скинути пароль, перейдіть за такою адресою:"
+
+#. translators: 1. Site Name
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2586
+#, php-format
+#@ bookingpress-package
+msgid "[%s] Password Reset"
+msgstr "[%s] Скидання пароля"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2712
+#@ bookingpress-package
+msgid "Something wrong user not created."
+msgstr "Щось не так користувач створив."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2811
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:2950
+#@ bookingpress-package
+msgid "Login Successfully"
+msgstr "Вхід успішно"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:4372
+#@ bookingpress-package
+msgid ""
+"There is no payment method available.\n"
+"            "
+msgstr "Немає доступного способу оплати."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:4670
+#@ bookingpress-package
+msgid "Please enter customer phone number"
+msgstr "Будь ласка, введіть номер телефону клієнта"
+
+#: core/views/frontend/package_booking_form.php:148
+#@ bookingpress-package
+msgid "Displaying"
+msgstr "Відображення"
+
+#: core/views/frontend/package_booking_form.php:150
+#@ bookingpress-package
+msgid "Out of "
+msgstr "З"
+
+#: core/views/frontend/package_my_booking.php:159
+#@ bookingpress-package
+msgid "No Package found!"
+msgstr "Пакет не знайдено!"
+
+#: core/views/frontend/package_my_booking.php:215
+#: core/views/frontend/package_my_booking.php:300
+#: core/views/frontend/package_my_booking.php:392
+#@ bookingpress-package
+msgid "paid by admin"
+msgstr "оплачує адмін"
+
+#: core/views/frontend/package_my_booking.php:402
+#@ bookingpress-package
+msgid "Prev"
+msgstr "попередня"
+
+#: core/views/frontend/package_my_booking.php:402
+#@ bookingpress-package
+msgid "Next"
+msgstr "Далі"
+
+#: core/views/manage_package.php:9
+#@ bookingpress-package
+msgid "Manage Packages"
+msgstr "Керування пакетами"
+
+#: core/views/manage_package.php:15
+#: core/views/manage_package.php:58
+#: core/views/manage_package.php:441
+#: core/views/package_order.php:17
+#: core/views/package_order.php:84
+#: core/views/package_order.php:829
+#@ bookingpress-package
+msgid "Add New"
+msgstr "Додати новий"
+
+#: core/views/manage_package.php:29
+#@ bookingpress-package
+msgid "Enter Package Name"
+msgstr "Введіть назву пакета"
+
+#: core/views/manage_package.php:35
+#: core/views/package_order.php:60
+#@ bookingpress-package
+msgid "Reset"
+msgstr "Скинути"
+
+#: core/views/manage_package.php:55
+#: core/views/package_order.php:80
+#@ bookingpress-package
+msgid "No Record Found!"
+msgstr "Запис не знайдено!"
+
+#: core/views/manage_package.php:90
+#@ bookingpress-package
+msgid "Appointments"
+msgstr "Призначення"
+
+#: core/views/manage_package.php:95
+#@ bookingpress-package
+msgid "Retail Price"
+msgstr "Роздрібна ціна"
+
+#: core/views/manage_package.php:100
+#@ bookingpress-package
+msgid "Package Price"
+msgstr "Ціна пакету"
+
+#: core/views/manage_package.php:118
+#@ bookingpress-package
+msgid "One or more appointments are associated with this package,"
+msgstr "З цим пакетом пов’язано одну або кілька зустрічей,"
+
+#: core/views/manage_package.php:119
+#@ bookingpress-package
+msgid "so you will not be able to delete it"
+msgstr "тому ви не зможете його видалити"
+
+#: core/views/manage_package.php:132
+#@ bookingpress-package
+msgid "Other Services"
+msgstr "Інші послуги"
+
+#: core/views/manage_package.php:167
+#@ bookingpress-package
+msgid "Disable Package"
+msgstr "Вимкнути пакет"
+
+#: core/views/manage_package.php:171
+#@ bookingpress-package
+msgid "Disable"
+msgstr "Вимкнути"
+
+#: core/views/manage_package.php:173
+#@ bookingpress-package
+msgid "Are you sure you want to disable package?"
+msgstr "Ви впевнені, що бажаєте вимкнути пакет?"
+
+#: core/views/manage_package.php:188
+#@ bookingpress-package
+msgid "Enable Package"
+msgstr "Увімкнути пакет"
+
+#: core/views/manage_package.php:192
+#@ bookingpress-package
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: core/views/manage_package.php:194
+#@ bookingpress-package
+msgid "Are you sure you want to enable package?"
+msgstr "Ви впевнені, що бажаєте ввімкнути пакет?"
+
+#: core/views/manage_package.php:205
+#: core/views/manage_package.php:519
+#: core/views/package_order.php:301
+#@ bookingpress-package
+msgid "Edit"
+msgstr "Редагувати"
+
+#: core/views/manage_package.php:213
+#@ bookingpress-package
+msgid "Duplicate"
+msgstr "дублікат"
+
+#: core/views/manage_package.php:227
+#@ bookingpress-package
+msgid "Are you sure you want to delete this package?"
+msgstr "Ви впевнені, що хочете видалити цей пакет?"
+
+#: core/views/manage_package.php:251
+#: core/views/package_order.php:762
+#@ bookingpress-package
+msgid " Items Selected"
+msgstr "Вибрані елементи"
+
+#: core/views/manage_package.php:254
+#: core/views/package_order.php:765
+#@ bookingpress-package
+msgid "Select"
+msgstr "Виберіть"
+
+#: core/views/manage_package.php:259
+#: core/views/package_order.php:770
+#@ bookingpress-package
+msgid "Go"
+msgstr "Іди"
+
+#: core/views/manage_package.php:277
+#@ bookingpress-package
+msgid "Add Package"
+msgstr "Додати пакет"
+
+#: core/views/manage_package.php:278
+#@ bookingpress-package
+msgid "Edit Package"
+msgstr "Редагувати пакет"
+
+#: core/views/manage_package.php:282
+#: core/views/manage_package.php:604
+#: core/views/package_order.php:789
+#: core/views/package_order.php:1089
+#@ bookingpress-package
+msgid "Save"
+msgstr "зберегти"
+
+#: core/views/manage_package.php:331
+#@ bookingpress-package
+msgid "Upload jpg/png/webp file"
+msgstr "Завантажте файл jpg/png/webp"
+
+#: core/views/manage_package.php:352
+#@ bookingpress-package
+msgid "Package Name:"
+msgstr "Назва пакета:"
+
+#: core/views/manage_package.php:354
+#@ bookingpress-package
+msgid "Enter package name"
+msgstr "Введіть назву пакета"
+
+#: core/views/manage_package.php:361
+#@ bookingpress-package
+msgid "Duration:"
+msgstr "Тривалість:"
+
+#: core/views/manage_package.php:381
+#@ bookingpress-package
+msgid "Price:"
+msgstr "Ціна:"
+
+#: core/views/manage_package.php:394
+#@ bookingpress-package
+msgid "Per Customer Limit:"
+msgstr "Ліміт на клієнта:"
+
+#: core/views/manage_package.php:402
+#@ bookingpress-package
+msgid "Leave it 0 for unlimited."
+msgstr "Залиште 0 для необмеженого."
+
+#: core/views/manage_package.php:409
+#@ bookingpress-package
+msgid "Description:"
+msgstr "опис:"
+
+#: core/views/manage_package.php:411
+#@ bookingpress-package
+msgid "Description"
+msgstr "опис"
+
+#: core/views/manage_package.php:450
+#@ bookingpress-package
+msgid "Service"
+msgstr "Сервіс"
+
+#: core/views/manage_package.php:465
+#@ bookingpress-package
+msgid "No Service Found"
+msgstr "Сервіс не знайдено"
+
+#: core/views/manage_package.php:476
+#@ bookingpress-package
+msgid "Service Name"
+msgstr "Назва служби"
+
+#: core/views/manage_package.php:486
+#@ bookingpress-package
+msgid "No. Of Appointments"
+msgstr "Кількість призначень"
+
+#: core/views/manage_package.php:491
+#@ bookingpress-package
+msgid "Action"
+msgstr "Дія"
+
+#: core/views/manage_package.php:554
+#@ bookingpress-package
+msgid "Add Service"
+msgstr "Додати послугу"
+
+#: core/views/manage_package.php:569
+#: core/views/manage_package.php:571
+#: core/views/package_report.php:16
+#@ bookingpress-package
+msgid "Select Service"
+msgstr "Виберіть Сервіс"
+
+#: core/views/manage_package.php:589
+#@ bookingpress-package
+msgid "No. Of Appointment"
+msgstr "№ призначення"
+
+#: core/views/package_order.php:30
+#: core/views/package_order.php:250
+#: core/views/package_order.php:379
+#: core/views/package_order.php:588
+#@ bookingpress-package
+msgid "Purchase Date"
+msgstr "Дата покупки"
+
+#: core/views/package_order.php:35
+#@ bookingpress-package
+msgid "Start typing to fetch customer"
+msgstr "Почніть вводити текст, щоб отримати клієнта"
+
+#: core/views/package_order.php:50
+#@ bookingpress-package
+msgid "Package Order ID"
+msgstr "Ідентифікатор замовлення пакета"
+
+#: core/views/package_order.php:54
+#@ bookingpress-package
+msgid "Search for customers, package..."
+msgstr "Пошук клієнтів, пакет..."
+
+#: core/views/package_order.php:104
+#: core/views/package_order.php:338
+#: core/views/package_order.php:531
+#@ bookingpress-package
+msgid "Booking ID"
+msgstr "ID бронювання"
+
+#: core/views/package_order.php:112
+#: core/views/package_order.php:346
+#: core/views/package_order.php:539
+#@ bookingpress-package
+msgid "Close"
+msgstr "Закрити"
+
+#: core/views/package_order.php:115
+#: core/views/package_order.php:349
+#: core/views/package_order.php:542
+#@ bookingpress-package
+msgid "Are you sure you want to cancel this package?"
+msgstr "Ви впевнені, що бажаєте скасувати цей пакет?"
+
+#: core/views/package_order.php:134
+#: core/views/package_order.php:387
+#: core/views/package_order.php:596
+#@ bookingpress-package
+msgid "Services Detail"
+msgstr "Деталі послуг"
+
+#: core/views/package_order.php:140
+#: core/views/package_order.php:393
+#: core/views/package_order.php:602
+#@ bookingpress-package
+msgid "Remain Appo."
+msgstr "Залишайтеся Appo."
+
+#: core/views/package_order.php:155
+#: core/views/package_order.php:409
+#: core/views/package_order.php:618
+#@ bookingpress-package
+msgid "Customer Details"
+msgstr "Відомості про клієнта"
+
+#: core/views/package_order.php:201
+#: core/views/package_order.php:455
+#: core/views/package_order.php:664
+#: core/views/package_order.php:883
+#@ bookingpress-package
+msgid "Custom Fields"
+msgstr "Спеціальні поля"
+
+#: core/views/package_order.php:220
+#: core/views/package_order.php:474
+#: core/views/package_order.php:683
+#: core/views/package_order.php:1023
+#@ bookingpress-package
+msgid "Payment Details"
+msgstr "Платіжні реквізити"
+
+#: core/views/package_order.php:223
+#: core/views/package_order.php:477
+#: core/views/package_order.php:686
+#@ bookingpress-package
+msgid "Payment Method"
+msgstr "Спосіб оплати"
+
+#: core/views/package_order.php:227
+#: core/views/package_order.php:255
+#: core/views/package_order.php:481
+#: core/views/package_order.php:504
+#: core/views/package_order.php:690
+#@ bookingpress-package
+msgid "Status"
+msgstr "Статус"
+
+#: core/views/package_order.php:249
+#: core/views/package_order.php:503
+#: core/views/package_order.php:572
+#: core/views/package_order.php:712
+#@ bookingpress-package
+msgid "Customer"
+msgstr "Замовник"
+
+#: core/views/package_order.php:252
+#: core/views/package_order.php:371
+#: core/views/package_order.php:580
+#: core/views/package_order.php:713
+#@ bookingpress-package
+msgid "Expire Date"
+msgstr "Дата закінчення терміну"
+
+#: core/views/package_order.php:265
+#: core/views/package_order.php:514
+#: core/views/package_order.php:725
+#@ bookingpress-package
+msgid "Select Status"
+msgstr "Виберіть Статус"
+
+#: core/views/package_order.php:266
+#: core/views/package_order.php:515
+#: core/views/package_order.php:726
+#@ bookingpress-package
+msgid "Change status"
+msgstr "Змінити статус"
+
+#: core/views/package_order.php:284
+#@ bookingpress-package
+msgid "Created Date"
+msgstr "Дата створення"
+
+#: core/views/package_order.php:293
+#@ bookingpress-package
+msgid "Change package expiration date"
+msgstr "Змінити термін дії пакета"
+
+#: core/views/package_order.php:316
+#@ bookingpress-package
+msgid "Are you sure you want to delete this package order?"
+msgstr "Ви впевнені, що хочете видалити це замовлення?"
+
+#: core/views/package_order.php:368
+#: core/views/package_order.php:561
+#@ bookingpress-package
+msgid "Package Detail"
+msgstr "Деталі пакета"
+
+#: core/views/package_order.php:743
+#@ bookingpress-package
+msgid "Showing"
+msgstr "Показ"
+
+#: core/views/package_order.php:743
+#@ bookingpress-package
+msgid "out of"
+msgstr "з"
+
+#: core/views/package_order.php:745
+#@ bookingpress-package
+msgid "Per Page"
+msgstr "На сторінку"
+
+#: core/views/package_order.php:784
+#@ bookingpress-package
+msgid "Assign Package"
+msgstr "Призначити пакет"
+
+#: core/views/package_order.php:785
+#@ bookingpress-package
+msgid "Edit Assign Package"
+msgstr "Редагувати пакет призначення"
+
+#: core/views/package_order.php:824
+#@ bookingpress-package
+msgid "Select Customer"
+msgstr "Виберіть Клієнт"
+
+#: core/views/package_order.php:826
+#@ bookingpress-package
+msgid "Start typing to fetch Customer"
+msgstr "Почніть вводити текст, щоб отримати клієнта"
+
+#: core/views/package_order.php:852
+#@ bookingpress-package
+msgid "Internal note"
+msgstr "Внутрішня примітка"
+
+#: core/views/package_order.php:863
+#@ bookingpress-package
+msgid "Do Not Send Notifications"
+msgstr "Не надсилати сповіщення"
+
+#: core/views/package_order.php:1034
+#@ bookingpress-package
+msgid "No. Of Person"
+msgstr "№ особи"
+
+#: core/views/package_order.php:1049
+#@ bookingpress-package
+msgid "Total"
+msgstr "Всього"
+
+#: core/views/package_order.php:1056
+#@ bookingpress-package
+msgid "Once package booked"
+msgstr "Після замовлення пакету"
+
+#: core/views/package_order.php:1057
+#@ bookingpress-package
+msgid "Send Payment Link"
+msgstr "Надіслати посилання для оплати"
+
+#: core/views/package_order.php:1058
+#@ bookingpress-package
+msgid "Mark as paid"
+msgstr "Позначити як оплачений"
+
+#: core/views/package_order.php:1059
+#@ bookingpress-package
+msgid "Do Nothing"
+msgstr "Нічого не робити"
+
+#: core/views/package_order.php:1063
+#@ bookingpress-package
+msgid "Through Email"
+msgstr "Через електронну пошту"
+
+#: core/views/package_order.php:1084
+#@ bookingpress-package
+msgid "Add Customer"
+msgstr "Додати клієнта"
+
+#: core/views/package_order.php:1085
+#@ bookingpress-package
+msgid "Edit Customer"
+msgstr "Редагувати клієнта"
+
+#: core/views/package_order.php:1129
+#@ bookingpress-package
+msgid "jpg/png files with a size less than 500kb"
+msgstr "файли jpg/png розміром менше 500 Кб"
+
+#: core/views/package_order.php:1145
+#@ bookingpress-package
+msgid "WordPress User"
+msgstr "Користувач WordPress"
+
+#: core/views/package_order.php:1147
+#@ bookingpress-package
+msgid "Start typing to fetch user."
+msgstr "Почніть вводити, щоб отримати користувача."
+
+#: core/views/package_order.php:1148
+#@ bookingpress-package
+msgid "Create New User"
+msgstr "Створити нового користувача"
+
+#: core/views/package_order.php:1152
+#@ bookingpress-package
+msgid "Create New"
+msgstr "Створити новий"
+
+#: core/views/package_order.php:1171
+#@ bookingpress-package
+msgid "Enter Password"
+msgstr "Введіть пароль"
+
+#: core/views/package_order.php:1179
+#@ bookingpress-package
+msgid "Enter Username"
+msgstr "Введіть ім'я користувача"
+
+#: core/views/package_order.php:1186
+#@ bookingpress-package
+msgid "First Name"
+msgstr "Ім'я"
+
+#: core/views/package_order.php:1188
+#@ bookingpress-package
+msgid "Enter First Name"
+msgstr "Введіть ім'я"
+
+#: core/views/package_order.php:1194
+#@ bookingpress-package
+msgid "Last Name"
+msgstr "Прізвище"
+
+#: core/views/package_order.php:1196
+#@ bookingpress-package
+msgid "Enter Last Name"
+msgstr "Введіть прізвище"
+
+#: core/views/package_order.php:1204
+#@ bookingpress-package
+msgid "Enter Email"
+msgstr "Введіть Email"
+
+#: core/views/package_order.php:1210
+#@ bookingpress-package
+msgid "Phone"
+msgstr "Телефон"
+
+#: core/views/package_order.php:1222
+#@ bookingpress-package
+msgid "Note"
+msgstr "Примітка"
+
+#: core/views/package_order.php:1264
+#@ bookingpress-package
+msgid "Update Expire date"
+msgstr "Термін дії оновлення"
+
+#: core/views/package_order.php:1278
+#: core/views/package_order.php:1280
+#@ bookingpress-package
+msgid "Package expire date"
+msgstr "Термін дії пакета"
+
+#: core/views/package_report.php:3
+#: core/views/package_report.php:7
+#@ bookingpress-package
+msgid "Package Report"
+msgstr "Звіт про пакет"
+
+#: core/views/package_report.php:25
+#@ bookingpress-package
+msgid "End Date"
+msgstr "Дата закінчення"
+
+#: core/views/package_report.php:38
+#@ bookingpress-package
+msgid "Quick Stats"
+msgstr "Швидка статистика"
+
+#: core/views/package_report.php:69
+#@ bookingpress-package
+msgid "Packages Summary"
+msgstr "Резюме пакетів"
+
+#: core/widget/bookingpress_package_element_add.php:23
+#@ bookingpress-package
+msgid "Package Booking Forms - WordPress Booking Plugin"
+msgstr "Форми бронювання пакетів - Плагін бронювання WordPress"
+
+#: core/classes/class.bookingpress-package.php:173
+#: core/classes/class.bookingpress-package.php:186
+#: core/classes/class.bookingpress-package.php:217
+#: core/classes/class.bookingpress-package.php:228
+#: core/classes/class.bookingpress-package.php:3265
+#@ bookingpress-package
+msgid "Please activate license of BookingPress premium plugin to use BookingPress Service Package Add-on"
+msgstr "Будь ласка, активуйте ліцензію преміум-плагіна BookingPress, щоб використовувати надбудову пакета послуг BookingPress"
+
+#: core/classes/class.bookingpress-package.php:174
+#: core/classes/class.bookingpress-package.php:187
+#: core/classes/class.bookingpress-package.php:218
+#: core/classes/class.bookingpress-package.php:229
+#: core/classes/class.bookingpress-package.php:3266
+#, php-format
+#@ bookingpress-package
+msgid "Please %s Click Here %s to Continue"
+msgstr "%s Натисніть тут %s, щоб продовжити"
+
+#: core/classes/class.bookingpress-package.php:3220
+#: core/classes/class.bookingpress-package.php:3252
+#@ bookingpress-package
+msgid "An error occurred, please try again."
+msgstr "Сталася помилка, спробуйте ще раз."
+
+#: core/classes/class.bookingpress-package.php:3228
+#, php-format
+#@ bookingpress-package
+msgid "Your license key expired on %s."
+msgstr "Термін дії вашого ліцензійного ключа закінчився %s."
+
+#: core/classes/class.bookingpress-package.php:3233
+#@ bookingpress-package
+msgid "Your license key has been disabled."
+msgstr "Ваш ліцензійний ключ вимкнено."
+
+#: core/classes/class.bookingpress-package.php:3236
+#@ bookingpress-package
+msgid "Invalid license."
+msgstr "Недійсна ліцензія."
+
+#: core/classes/class.bookingpress-package.php:3240
+#@ bookingpress-package
+msgid "Your license is not active for this URL."
+msgstr "Ваша ліцензія неактивна для цієї URL-адреси."
+
+#: core/classes/class.bookingpress-package.php:3243
+#: core/classes/class.bookingpress-package.php:3246
+#@ bookingpress-package
+msgid "This appears to be an invalid license key for your selected package."
+msgstr "Здається, це недійсний ліцензійний ключ для вибраного вами пакета."
+
+#: core/classes/class.bookingpress-package.php:3249
+#@ bookingpress-package
+msgid "Your license key has reached its activation limit."
+msgstr "Ваш ліцензійний ключ досяг ліміту активації."
+
+#. translators: the plugin name.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:257
+#, php-format
+#@ bookingpress-package
+msgid "There is a new version of %1$s available."
+msgstr "Доступна нова версія %1$s."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:263
+#@ bookingpress-package
+msgid "Contact your network administrator to install the update."
+msgstr "Щоб установити оновлення, зверніться до адміністратора мережі."
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: core/classes/class.bookingpress_pro_plugin_updater.php:268
+#, php-format
+#@ bookingpress-package
+msgid "%1$sView version %2$s details%3$s."
+msgstr "%1$sПереглянути версію %2$s деталі%3$s."
+
+#. translators: 1. link for changelog 2. version name 3. opening anchor tag for update link 4. closing tag for update link
+#: core/classes/class.bookingpress_pro_plugin_updater.php:277
+#, php-format
+#@ bookingpress-package
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr "%1$sПереглянути версію %2$s деталі%3$s або %4$sоновити зараз%5$s."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:288
+#@ bookingpress-package
+msgid "Update now."
+msgstr "Оновити зараз."
+
+#: core/classes/class.bookingpress_pro_plugin_updater.php:520
+#@ bookingpress-package
+msgid "You do not have permission to install plugin updates"
+msgstr "У вас немає дозволу на встановлення оновлень плагіна"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:374
+#@ bookingpress-package
+msgid "Sorry, payment is not successed with the paypal."
+msgstr "На жаль, платіж не вдалося здійснити через Paypal."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:391
+#@ bookingpress-package
+msgid "Please configure PayPal Client ID"
+msgstr "Налаштуйте ідентифікатор клієнта PayPal"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:402
+#@ bookingpress-package
+msgid "Please Configure PayPal Client Secret"
+msgstr "Налаштуйте секрет клієнта PayPal"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:455
+#@ bookingpress-package
+msgid "Package succesfully created."
+msgstr "Пакет успішно створено."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:492
+#@ bookingpress-package
+msgid "Something Wrong"
+msgstr "Щось не так"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:827
+#@ bookingpress-package
+msgid "Appointment Booking"
+msgstr "Запис на прийом"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:920
+#@ bookingpress-package
+msgid "Appointment succesfully created."
+msgstr "Зустріч успішно створена."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:989
+#@ bookingpress-package
+msgid "Client ID is required."
+msgstr "Потрібно ввести ідентифікатор клієнта."
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:994
+#@ bookingpress-package
+msgid "Client secret is required."
+msgstr "Потрібен секрет клієнта."
+
+#. translators: plugin header field 'Version'
+#: bookingpress-package.php:0
+#@ bookingpress-package
+msgid "1.9"
+msgstr "1.9"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:151
+#@ bookingpress-package
+msgid "Google reCAPTCHA is Invalid or Expired. Please reload page and try again"
+msgstr "Google reCAPTCHA недійсний або термін дії минув. Перезавантажте сторінку та повторіть спробу"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:335
+#@ bookingpress-package
+msgid "Google reCaptcha Settings"
+msgstr "Налаштування Google reCaptcha"
+
+#: core/classes/frontend/class.bookingpress-package-booking-form.php:338
+#@ bookingpress-package
+msgid "Enable google recaptcha"
+msgstr "Увімкніть google recaptcha"
+

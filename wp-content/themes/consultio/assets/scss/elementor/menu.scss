@@ -1,0 +1,199 @@
+.ct-nav-menu1 {
+	.ct-main-menu {
+		> li {
+			&.menu-item-has-children {
+				> a:after {
+					@include transition(transform .25s cubic-bezier(.3,.3,0,.8));
+				}
+				&:hover > a:after {
+					transform: rotate(45deg);
+				}
+			}
+			&:hover > a,
+            &.current_page_item > a:not(.is-one-page),
+            &.current-menu-item > a:not(.is-one-page),
+            &.current_page_ancestor > a:not(.is-one-page),
+            &.current-menu-ancestor > a:not(.is-one-page),
+            a.is-one-page.ct-onepage-active {
+            	color: $primary_color;
+            }
+            .link-icon {
+            	color: inherit;
+            }
+		}
+		.sub-menu {
+			@include border-radius(5px);
+		}
+	}
+	&.style1 {
+		.ct-main-menu > li > a:before {
+			display: none;
+		}
+	}
+	&.style2 {
+		.ct-main-menu > li {
+			z-index: 1;
+			&:after {
+				content: '';
+				height: 34px;
+				width: 1px;
+				background: #d8d8d8;
+				position: absolute;
+				top: 50%;
+				@include transform(translate(0, -50%));
+				right: -17px;
+				z-index: -1;
+			}
+			&:last-child:after {
+				display: none;
+			}
+			> a:before {
+				height: 4px;
+			}
+		}
+	}
+	&.style3 {
+		.ct-main-menu > li {
+			> a:before {
+				display: block;
+				height: 3px;
+				width: 0;
+				background: $primary_color;
+				right: auto;
+				left: -14px;
+				bottom: auto;
+				margin-top: 17px;
+				top: 50%;
+			}
+			> a.ct-onepage-active,
+            &:hover > a,
+            &.current_page_item:not(.menu-item-type-custom) > a,
+            &.current-menu-item:not(.menu-item-type-custom) > a,
+            &.current-menu-parent > a,
+            &.current_page_ancestor:not(.menu-item-type-custom) > a,
+            &.current-menu-ancestor:not(.menu-item-type-custom) > a {
+            	&:before {
+            		width: 42px;
+            	}
+            }
+		}
+	}
+	&.style4 {
+		.ct-main-menu > li {
+			> a:before {
+				display: block;
+				background: $primary_color;
+				height: 4px;
+			}
+		}
+	}
+	&.style5 {
+		.ct-main-menu > li {
+			margin: 0 10px;
+			@media #{$max-xxl} {
+				margin-left: 4px;
+				margin-right: 4px;
+			}
+			> a {
+				font-size: 18px;
+				font-weight: 500;
+				color: #000;
+				@media #{$max-xxl} {
+					font-size: 16px;
+				}
+				&:before, &:after {
+					display: none;
+				}
+				span {
+					padding: 8px 22px;
+					@include transition(all 300ms linear 0ms);
+					@media #{$max-xxl} {
+						padding-left: 18px;
+						padding-right: 18px;
+					}
+					@media #{$max-lg2} {
+						padding-left: 14px;
+						padding-right: 14px;
+					}
+				}
+			}
+			> a.ct-onepage-active,
+            &:hover > a,
+            &.current_page_item:not(.menu-item-type-custom) > a,
+            &.current-menu-item:not(.menu-item-type-custom) > a,
+            &.current-menu-parent:not(.menu-item-type-custom) > a,
+            &.current_page_ancestor:not(.menu-item-type-custom) > a,
+            &.current-menu-ancestor:not(.menu-item-type-custom) > a {
+            	color: #fff;
+        		span {
+        			background-color: $primary_color;
+        		}
+            }
+		}
+	}
+	&.style6 {
+		.ct-main-menu > li > a:before {
+			bottom: auto;
+			top: 50%;
+			margin-top: 16px;
+			@include ct-background-horizontal($var_gradient_color_from, $var_gradient_color_to);
+		}
+	}
+}
+.ct-header-menu-popup {
+	span {
+		color: #fff;
+		font-size: 16px;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.025em;
+		display: inline-block;
+		padding: 4px 0;
+		position: relative;
+		cursor: pointer;
+		&:before, &:after {
+			content: '';
+			width: 25px;
+			height: 2px;
+			background-color: $primary_color;
+			position: absolute;
+			@include transition(all .25s cubic-bezier(.645,.045,.355,1));
+		}
+		&:before {
+			top: 0;
+			left: 0;
+		}
+		&:after {
+			right: 0;
+			bottom: 0;
+		}
+		&:hover {
+			&:before, &:after {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.ct-navigation-menu1 {
+	&.style-modern {
+		a {
+			display: block;
+			background-color: #f5f5f5;
+			font-size: 18px;
+			color: #080808;
+			padding: 8px 24px;
+			&:hover {
+				background-color: $primary_color;
+				color: #fff;
+			}
+		}
+		li.current-menu-item > a {
+			background-color: $primary_color;
+			color: #fff;
+		}
+		li + li {
+			margin-top: 10px;
+		}
+	}
+}

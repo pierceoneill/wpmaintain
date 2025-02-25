@@ -1,0 +1,221 @@
+/**
+ * Theme Option
+ */
+ .redux-sidebar-head {
+ 	padding: 30px 20px;
+ 	text-align: center;
+ }
+ #redux-connect-message {
+ 	display: none;
+ }
+ .redux-sidebar .redux-logo-main img {
+ 	max-width: 140px;
+ }
+ .redux-logo-main {
+ 	opacity: 1;
+ }
+ .meta-box-sortables .redux-container {
+ 	overflow: visible;
+ }
+ #redux-header {
+ 	display: none !important;
+ }
+.redux-main .wp-picker-container {
+    display: inline-block;
+}
+.redux-main .color-transparency-check {
+    display: inline-block;
+    margin: 6px 0 !important;
+}
+.redux-sidebar .redux-group-menu li.active > a, .redux-sidebar .redux-group-menu li:hover > a {
+    background-color: #c1282a !important;
+    color: #fff !important;
+}
+.redux-container .redux-group-tab > h2 {
+	padding: 0 !important;
+	margin-bottom: 10px !important;
+}
+.redux-container .redux-group-tab .redux-section-desc {
+	font-style: italic
+}
+.redux-container .redux-group-tab .ui-checkboxradio-icon {
+	display: none !important;
+}
+.wp-admin.admin-color-fresh .redux-container-switch .cb-enable.selected, 
+.wp-admin.admin-color-fresh .redux-field-container .ui-buttonset .ui-state-active, 
+.wp-admin.wp-customizer .redux-container-switch .cb-enable.selected, 
+.wp-admin.wp-customizer .redux-field-container .ui-buttonset .ui-state-active {
+	background-color: #c1282a !important;
+	background-image: none !important;
+	border-color: #c1282a !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+}
+
+.redux-container-image_select ul.redux-image-select {
+	margin: 0 -15px !important;
+}
+.redux-container-image_select ul.redux-image-select li {
+	padding: 0 15px !important;
+	margin: 0 0 30px !important;
+}
+#ct_theme_options-all_careers_page ul.redux-image-select,
+#ct_theme_options-single_post_layout ul.redux-image-select,
+#ct_theme_options-singe_service_layout ul.redux-image-select,
+#ct_theme_options-singe_portfolio_layout ul.redux-image-select {
+	display: flex;
+	display: -webkit-flex;
+    flex-wrap: wrap;
+}
+
+.redux-container .redux-field-container {
+	margin-bottom: 10px;
+}
+
+.wp-admin.admin-color-fresh .redux-container-image_select .redux-image-select-selected img, 
+.wp-admin.wp-customizer .redux-container-image_select .redux-image-select-selected img {
+	border-color: #c1282a !important;
+	box-shadow: 0 1px 6px #c1282a !important;
+	-webkit-box-shadow: 0 1px 6px #c1282a !important;
+	-ms-box-shadow: 0 1px 6px #c1282a !important;
+}
+.redux-container-color .wp-picker-container {
+	display: inline-block;
+}
+.redux-container-color .color-transparency-check {
+	display: inline-block;
+    margin: 5px 0;
+}
+.term-php .form-field {
+	display: table-row !important;
+}
+.redux-container .redux-container-context-side .redux-main {
+	padding: 20px !important;
+}
+.redux-container .redux-container-media img {
+	max-width: 200px !important;
+	margin-bottom: 10px !important;
+}
+.vc_edit_form_elements .vc_column {
+	padding-top: 30px !important;
+}
+.panel-primary > .panel-heading {
+	background-image: none !important;
+	background-color: #c1282a !important;
+}
+.description.field-desc {
+	font-style: italic;
+    opacity: 0.4;
+}
+.post-type-post .redux-container .redux-main {
+	min-height: auto;
+}
+.post-type-post .redux-container .redux-sidebar {
+	display: none;
+}
+.wp-admin [id*="mymetabox_revslider_"], .wp-admin [id^="mymetabox_revslider_"] {
+	display: none;
+}
+
+.ct-dashboard-item i.dashicon {
+	background-color: #c1282a;
+}
+.ct-dashboard-item a {
+	background-color: #c1282a;
+}
+.ct-dashboard-item a:hover, .ct-dashboard-item a:focus {
+	background-color: #360e0f;
+}
+.ct-dashboard-ticket a {
+	border-color: #c1282a;
+}
+.ct-dashboard-ticket a:hover, .ct-dashboard-ticket a:focus {
+	color: #c1282a;
+}
+.vc_el-container [id*='ct_'] .vc_element-icon, .vc_el-container [id^='ct_'] .vc_element-icon {
+	background-image: url('../images/el-icon.png');
+	background-color: transparent;
+	background-position: center;
+}
+
+.wp-core-ui .ct-ie-dashboard .button {
+	background-color: #c1282a;
+	border-color: #c1282a;
+	box-shadow: 0 1px 0 #c1282a;
+	-webkit-box-shadow: 0 1px 0 #c1282a;
+	-ms-box-shadow: 0 1px 0 #c1282a;
+}
+.ct-import-contains .ct-ie-image::before {
+	background-color: rgba(0, 0, 0, 0.67);
+}
+.video-tutorial .dash-deactivate {
+	display: none;
+}
+.consultioe_page_theme-options .error.redux-message, .consultioe_page_theme-options .updated.redux-notice,
+.consultioe-child_page_theme-options .error.redux-message, .consultioe-child_page_theme-options .updated.redux-notice,
+.gwp-live-feed-contents.notice.gwp-notice-pro, .ct-delete-demo.button {
+	display: none !important;
+}
+.vc_edit_form_elements .vc_ui-flex-row .vc_col-sm-1\/5 {
+	width: 20%;
+}
+.vc_edit-form-tab.vc_row .ct-col-5 {
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 20%;
+	box-sizing: border-box;
+}
+.redux-main .ui-button-text-only .ui-button-text {
+	padding: 0;
+}
+.plugin-title .go_pro {
+	display: none
+}
+#revslider-update .update-message {
+	display: none
+}
+[data-slug="redux-framework"] .plugin-version-author-uri span {
+	display: none !important;
+}
+/** Gutenberg CSS **/
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/admin/roboto-regular.woff2') format('woff2'),
+       url('../fonts/admin/roboto-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.edit-post-layout .editor-styles-wrapper {
+	font-family: 'Roboto-Regular', sans-serif !important;
+	font-size: 16px;
+	line-height: 1.875;
+	color: #383838;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.edit-post-layout .block-editor-block-list__block[data-type="core/paragraph"] p {
+	line-height: 1.6;
+}
+.edit-post-layout .editor-styles-wrapper p {
+	margin: 0 0 15px;
+}
+.edit-post-layout .editor-styles-wrapper [data-block] {
+	margin: 0;
+}
+.edit-post-layout .wp-block-cover__inner-container .editor-rich-text__editable.wp-block-paragraph {
+	font-size: 24px !important;
+	line-height: 1.25 !important;
+	color: rgba(255, 255, 255, 0.87);
+	font-weight: normal;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.edit-post-layout .block-library-cover__resize-container {
+	margin-bottom: 45px;
+}
+.edit-post-layout .block-editor-block-list__layout .block-editor-block-list__block {
+	padding-left: 0;
+	padding-right: 0;
+}

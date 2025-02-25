@@ -1,0 +1,84 @@
+.echo-ajax-class img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+ul.echo_rss_list {
+	margin-left: 0 !important;
+}
+
+.echo_live_rss li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+a.echo_rss_title {
+	display: block;
+	margin-bottom: .5em;
+}
+
+.echo_rss_image {
+	position: relative;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.echo_rss_image img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 100%;
+	max-width: none;
+	max-height: none;
+	width: auto;
+	-webkit-transform: translate(-50%,-50%);
+	  	-ms-transform: translate(-50%,-50%);
+	      	transform: translate(-50%,-50%);
+	object-fit: cover;
+}
+
+.echo_rss_image img.portrait {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+a.echo_rss_readmore {
+	display: inline-block;
+}
+
+.echo_rss_metadata {
+	margin: .5em 0;
+	font-size: 85%;
+	clear: both;
+}
+
+.echo_live_rss ul:before,
+.echo_live_rss ul:after,
+.echo_rss_metadata:before,
+.echo_rss_metadata:after,
+.echo_rss_container:before,
+.echo_rss_container:after,
+.echo_rss_item_wrapper:before,
+.echo_rss_item_wrapper:after {
+	content: '';
+	display: table;
+}
+
+.echo_live_rss ul:after,
+.echo_rss_metadata:after,
+.echo_rss_container:after,
+.echo_rss_item_wrapper:after  {
+	clear: both;
+}
+
+.echo_rss_credits {
+	text-align: right;
+	font-size: .5em;
+}
+
+

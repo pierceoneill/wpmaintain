@@ -1,0 +1,80 @@
+.fixed-footer {
+	@media #{$min-xl} {
+		.site-footer-custom {
+			width: 100%;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+		}
+		#ct-masthead, .site-content {
+			background-color: #fff;
+		}
+	}
+	@media #{$max-lg} {
+		.site-content {
+			margin-bottom: 0 !important;
+		}
+	}
+}
+
+.site-footer-custom {
+	font-family: "Poppins";
+	@media #{$max-md} {
+		overflow: hidden;
+	}
+}
+.logo-footer {
+	opacity: 1;
+	img {
+		max-height: 59px;
+	}
+}
+.scroll-top {
+	position: fixed;
+	z-index: 99;
+	bottom: 24px;
+	right: 30px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	@include background-gradient-rotate(-190deg, $gradient_color_from, $gradient_color_to);
+	@include border-radius(50px);
+	color: #fff;
+	font-size: 22px;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	@media #{$max-sm} {
+		bottom: 0;
+		right: 0;
+	}
+	&:hover, &:focus, &:active {
+		color: #fff;
+	}
+	&.on {
+		bottom: 44px;
+		opacity: 1;
+		visibility: visible;
+		@media #{$max-sm} {
+			bottom: 0;
+			right: 0;
+			@include border-radius(2px 0 0);
+			height: 35px;
+			width: 35px;
+			line-height: 35px;
+			font-size: 16px;
+		}
+	}
+	&:hover i {
+		-o-animation: toTopFromBottom 0.3s forwards;
+        -ms-animation: toTopFromBottom 0.3s forwards;
+        -webkit-animation: toTopFromBottom 0.3s forwards;
+        animation: toTopFromBottom 0.3s forwards;
+	}
+}
+.btn-type-normal .scroll-top {
+	background-image: none;
+	background-color: $primary_color;
+}

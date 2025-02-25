@@ -1,0 +1,592 @@
+.bpa-mlc__package-container .bpa-data-empty-view{
+    margin: 0;
+    min-height: calc(65vh - 98px);
+}
+.bpa-dialog--fullscreen__package .bpa-db-sec-heading{
+    padding: 0;
+}
+.bpa-dialog--fullscreen__package .bpa-db-sec-heading .bpa-page-heading{
+    font-size: 20px;
+    line-height: 28px;
+}
+.bpa-dialog--fullscreen__package .bpa-dc__staff--assigned-service .bpa-mle-dc__item {
+    padding: 0 52px;
+}
+.bpa-dialog--fullscreen__package .bpa-dc__staff--assigned-service .bpa-mle-dc__item .bpa-mle-dc--heading {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.bpa-dialog--fullscreen__package .bpa-dc__staff--assigned-service .bpa-mle-dc__item .bpa-cmc--tab-menu {
+    display: block;
+    width: 100%;
+}
+.bpa-dialog--fullscreen__package .bpa-dc__staff--assigned-service .bpa-mle-dc__item .bpa-cmc--tab-menu .bpa-cms-tm__body .el-radio-button__inner {
+    padding: 10px 48px;
+}
+.bpa__is-package-specific-price-deactivated{
+	padding-bottom: 12px;
+}
+.bpa-lspd__body{
+	width: 100%;
+	margin-top: 28px;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle__default-card .bpa-cmc--tab-menu{
+    justify-content: unset;
+    margin-top: 12px;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle__default-card .bpa-cmc--tab-menu .bpa-cms-tm__body,
+.bpa-timesheet-card-container .bpa-cmc--tab-menu .bpa-cms-tm__body{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle__default-card .bpa-cmc--tab-menu .bpa-cms-tm__body .bpa-btn--icon-without-box,
+.bpa-timesheet-card-container .bpa-cmc--tab-menu .bpa-cms-tm__body .bpa-btn--icon-without-box{
+    min-height: unset;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle__default-card .bpa-cmc--tab-menu .bpa-cms-tm__body .el-radio-group,
+.bpa-timesheet-card-container .bpa-cmc--tab-menu .bpa-cms-tm__body .el-radio-group{
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    margin: 0 20px;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle__default-card .bpa-mle-dc--heading,
+.bpa-timesheet-card-container .bpa-mle-dc--heading {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle__default-card .bpa-cmc--tab-menu .bpa-cms-tm__body .el-radio-button__inner {
+    padding: 11px 32px;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle__default-card .bpa-sm__working-hours .bpa-sm__wh-head-row {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle__default-card .bpa-sm__working-hours .bpa-sm__wh-items {
+    padding: 32px 0;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle-dc__item.bpa-sm__working-hours {
+    border-bottom: 2px solid var(--bpa-gt-gray-400);
+}
+.bpa-dialog__multi-package-enabled .bpa-mle-dc__special-days {
+    margin-top: 32px;
+}
+.bpa-dialog__multi-package-enabled .bpa-mle-dc__item .bpa-db-sec-heading {
+    padding: 0;
+    margin-bottom: 16px;
+}
+.bpa-dialog__multi-package-enabled .bpa-sm__special-days-card,
+.bpa-dialog__multi-package-enabled .bpa-sm__special-days-card .bpa-as__body {
+    padding: 0;
+}
+.bpa-dialog__multi-package-enabled .bpa-sm__special-days-card.bpa_package_special_days .bpa-dc--sec-sub-head {
+    padding-left: 0;
+}
+.bpa-mle-dc__package-item{
+    padding: unset !important;
+    margin-bottom: -30px !important;
+    margin-top: 10px;
+}
+.bpa-dialog-assign-service__is-package .bpa-form-row .el-form .el-row .el-col .el-form-item,
+.bpa-dialog--add-package .bpa-form-row .el-form .el-row .el-col .el-form-item{
+    margin-bottom: 24px;
+}
+.bpa-dialog-assign-service__is-package .bpa-form-row .el-form .el-row .el-col:last-child .el-form-item{
+    margin-bottom: 0;
+}
+.bpa-dialog-assign-service__is-package .el-popper .el-select-dropdown__list .el-select-group__wrap li:not(.el-select-group__title){
+    line-height: 20px;
+}
+/* Service & Sfaff Shift Management CSS Start */
+
+.bpa-form-row--is-package{
+    background-color: var(--bpa-cl-white);
+    border: 2px solid var(--bpa-gt-gray-300);
+    border-radius: var(--bpa-radius-8px);
+    margin-top: 100px;
+    position: relative;
+    padding: 40px 44px;
+}
+.bpa-form-row--is-package .bpa-sm__working-hours{
+    border-bottom: 2px solid var(--bpa-gt-gray-300);
+}
+.bpa-form-row--is-package .bpa-sm__working-hours .bpa-sm__wh-items{
+    padding: 28px 0 0;
+}
+.bpa-form-row--is-package .bpa-sm__working-hours .bpa-db-sec-heading{
+    position: absolute;
+    top: -110px;
+    width: 100%;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bpa-form-row--is-package .bpa-default-card{
+    border: none;
+    padding: 0;
+    border-radius: unset;
+    background:transparent;
+}
+.bpa-form-row--is-package .bpa-sm__working-hours .bpa-sm__wh-head-row,
+.bpa-form-row--is-package .bpa-sm__special-days .bpa-db-sec-heading{
+    padding: 0;
+}
+.bpa-form-row--is-package .bpa-sm__special-days .bpa-db-sec-heading{
+    margin-bottom: 16px;
+}
+.bpa-form-row--is-package .bpa-sm__special-days .bpa-db-sec-heading .bpa-page-heading{
+    font-size: 20px;
+}
+
+
+/* Staff Panel Compact Mode  */
+
+.bpa-form-row--is-package .bpa-timesheet--specialdays .bpa-mlc-head-wrap{
+    padding: 0;
+    border-bottom: none;
+    margin-top: 0;
+}
+.bpa-form-row--is-package .bpa-timesheet--specialdays .bpa-mlc-head-wrap .bpa-page-heading{
+    font-size: 20px;
+}
+.bpa-form-row--is-package .bpa-timesheet--specialdays .bpa-grid-list-container{
+    margin-bottom: 0;
+}
+/* Staff - My Services */
+
+/* Manage Gird Filter Pills Section */
+.bpa-grid-filter__is-package-pills{
+    margin: 24px 40px;
+    border-bottom: 1px solid var(--bpa-gt-gray-400);
+    padding-bottom: 24px;
+}
+.bpa-grid-filter__is-package-pills h4{
+    font-size: 15px;
+    line-height: 18px;
+    font-family: var(--bpa-primary-font);
+    color: var(--bpa-dt-black-400);
+}
+.bpa-bd__item-package_nm .material-icons-round{
+    font-size: 16px;
+    color: var(--bpa-dt-black-200);
+}
+
+.bpa-card__item--with-count .bpa-card__item-extra-tooltip .bpa-iet__label{
+    padding-right: 4px;
+    padding-left: 1px;
+}
+.bpa-multi-upload-component .el-upload-dragger{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;    
+}
+
+.bpa-multi-upload-component .bpa-upload-component__icon{
+    width: 130px;
+    height: 95px;
+    font-size: 32px;
+    margin-right: 20px;
+    color: var(--bpa-dt-black-100);
+    border: 1px solid var(--bpa-dt-black-100);
+    border-radius: var(--bpa-radius-6px);
+    text-align: center;
+    line-height: 100px;
+    box-sizing: border-box;    
+}
+.bpa-multi-upload-col{
+    height: 95px;
+    width: 145px;
+    margin-left: 25px;
+    position: relative;
+}
+.bpa-multi-select-fields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bpa-multi-upload-component .bpa-upload-component__text{
+    margin-top: 5px;
+    font-size: 10px;
+}
+.bpa-multi-upload-imgs img{
+    height: 90px;
+    width: 100%;
+    border: 1px solid var(--bpa-dt-black-100);
+    background: #C0C4CC;
+    border-radius: 5px;
+}
+.bpa-multi-uploaded-avatar__preview{
+    position: relative;
+}
+.bpa-multi-uploaded-avatar__preview .bpa-avatar-close-icon {
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    background-color: var(--bpa-sc-danger);
+    border-radius: var(--bpa-radius-circle);
+    text-align: center;
+    line-height: 28px;
+    border: 3px solid var(--bpa-cl-white);
+
+}
+.bpa-multi-uploaded-avatar__preview .bpa-avatar-close-icon span {
+    color: var(--bpa-cl-white);
+    font-size: 15px;
+}
+.bpa-header-navbar .bpa-navbar-nav ul li a .bpp-backend-package-icon svg{
+    height: 16px;
+    width: 16px;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.bpp-pack-custom-fields .is-checked .el-checkbox__label {
+    color: var(--bpa-pt-main-green);
+}
+.bpa--is-page-non-scrollable-mob  .bpp-expand-cust-detail{
+    margin-top: 0px;
+}
+.bpa-fm--bs__package-module-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.bpa-fm--bs__package-module-box .bpa-cmt__right-inner{
+    display: flex;
+    min-width: 300px;
+}
+.bpa-fm--bs__package-module-box .bpa-package-redeem{
+    margin-left: 8px;
+}
+.bpa-pack-remov-icon{
+    cursor: pointer;
+}
+.bpa-cs-sp-sub-module-extra .el-textarea__inner{
+    background-color: #ffffff;
+}
+.bpa-cs-sp-sub-module-extra .bpa-form-label{
+    max-width: 100% !important;
+}
+.bpa-pack-exp-body{
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+}
+.bpa-appointment-rp__allow-packexp-row .bpa-form-label{
+    margin-bottom: 15px;
+}
+
+/*Package Booking form Backend Preview */
+
+.bpp-package-list-col .bpp-package-detail .bpp-package-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bpp-frontend-main-container-package .bpp-front-package-filter button.bpp-front-btn {
+    position: absolute; 
+    right: 10px;
+    top: 4px;
+    padding: 7px 20px !important;
+    border-radius: var(--bpa-radius-4px) !important;
+    font-size: 14px;
+    line-height: 17px;
+    min-width: 82px;
+}
+.bpp-frontend-main-container-package .bpp-front-package-filter {
+    margin-bottom: 20px;
+}
+.bpp-frontend-main-container-package .bpp-front-package-filter .bpp-filter-package-search {
+    position: relative;
+}
+.bpp-package-head-col .bpp-front-module-heading {
+    font-size: 30px;
+}
+.bpp-frontend-main-container-package .bpp-package--filter-wrapper {
+    justify-content: space-between;
+}
+.bpp-front-module-heading {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: var(--bpa-dt-black-400);
+    font-family: var(--bpa-primary-font);
+    -webkit-animation-name: bppFadeInUp;
+    animation-name: bppFadeInUp;
+    animation-timing-function: cubic-bezier(.645, .045, .355, 1);
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.bpp-frontend-main-container-package .bpp-front-package-detail {
+    padding: 30px;
+}
+.bpp-package-list-col .bpp-package-detail .bpp-package-duration .bpa-ma-dt__time-val svg {
+    width: 17px;
+    margin-right: 4px;
+}   
+.bpp-package-list-col .bpp-package-detail .bpp-package-duration .bpa-ma-dt__time-val {
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+.bpa-cmb-step-preview .bpp-package-list-col .bpp-package-list-inner {
+    box-shadow: 0px 0px 10px 0px rgba(172, 164, 164, 0.14);
+    padding: 20px !important;
+}
+.bpp-frontend-main-container-package .bpp-buy-now-button {
+    padding: 10px 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: var(--bpa-radius-6px);
+    background: var(--bpa-pt-main-green);
+    color: var(--bpp-cl-white);
+    outline: none !important;
+}
+.bpp-frontend-main-container-package .bpp-package-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-detail-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-detail-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+}
+.bpp-package-list-col .bpp-package-detail .bpp-package-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.bpp-frontend-main-container-package .bpp-package-description {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.bpp-frontend-main-container-package .bpp-package-service-include-text {
+    font-weight: 600;
+    height: 32px;
+    font-size: 16px;
+    border-bottom: 1px dashed var(--bpa-gt-gray-400);
+    margin-bottom: 15px;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service {
+    display: flex;
+    margin-bottom: 6px;
+}
+.bpp-frontend-main-container-package .bpp-package-indicator {
+    display: flex;
+    width: 15px;
+    height: 13px;
+    align-items: end;
+    min-width: 15px;
+}
+.bpp-frontend-main-container-package .bpp-package-indicator::after{
+    width: 4px;
+    content: '';
+    height: 4px;
+    background: var(--bpa-dt-black-200);
+    border-radius: 4px;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-nm, 
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-dur {
+    flex: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: fit-content;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-service-nm {
+    flex: 6 !important;
+}
+.bpp-package-service-no-app {
+    flex: auto;
+    text-align: right;
+    font-weight: 600;
+    color: var(--bpp-dt-black-400);
+}
+.bpp-frontend-main-container-package .bpp-package-list-row .bpp-package-slider{
+    margin-bottom: 16px;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col {
+    background: var(--bpa-cl-white);
+    border-radius: var(--bpa-radius-12px);
+    margin-bottom: 20px;
+    width: 48.5%;
+}
+.bpp-frontend-main-container-package .bpp-package-list-col .bpp-package-price .bpp-package-realprice{
+    margin-right: 10px;    
+    text-decoration: line-through !important;
+}
+.bpp-front-form-control.bpp-package-search {
+    padding: 10px 16px !important;
+    height: auto !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    font-weight: normal !important;
+    color: var(--bpa-dt-black-400);
+    border: 1px solid var(--bpa-gt-gray-400);
+    margin: 0 !important;
+    background-color:transparent;
+    border-radius: var(--bpa-radius-4px) !important;
+    font-family: var(--bpa-primary-font);
+    width: 100%;
+    max-width: 100%;
+}
+/*Image carousel CSS*/
+.bpp-package-list-inner .bpp-package-slider .el-carousel__container {
+    height: 280px;
+}
+.bpp-package-slider .el-carousel__item img{
+    width: 100%;
+    height: 100%;
+}
+.bpp-package-slider .el-carousel__item{
+    height: 280px; 
+    border-radius: 16px; 
+}
+.bpp-package-slider .el-carousel .el-carousel__indicators{
+    background: rgba(0,0,0,0.4);
+    padding:0 12px;
+    display:flex;
+    flex-direction:row;
+    height: 24px;
+    align-items: center;
+    border-radius: 5px;;
+    bottom:10px;
+}
+.bpp-package-slider .el-carousel .el-carousel__indicators li.el-carousel__indicator .el-carousel__button{
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    margin:0 5px;
+}
+.bpp-package-slider .el-carousel .el-carousel__indicators li.el-carousel__indicator.is-active .el-carousel__button{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+.bpp-package-slider .el-carousel .el-carousel__indicator--horizontal {
+    padding: 0;
+    margin: 0;
+}
+.bpa-form-label-pack-title{
+    font-size: 14px;
+}
+.bpa-apc__package-icon svg{
+    height: 16px;
+    width: 16px;
+}
+.bpa-ad__basic-details-pack-serv .bpa-bd__item, .bpa-ad__basic-details-pack-serv  .bpa-bd__item-head{
+    display: flex !important;
+    justify-content: flex-start !important;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    flex-direction: row !important;
+}    
+.bpa-ad__basic-details-pack-serv .bpa-bd__item .bpa-bd__item-head{
+    display: flex !important;
+    flex:1  !important;
+}
+.bpa-pack-form-rows .el-upload-list .el-upload-list__item a{
+    height: fit-content;
+}
+/*Image carousel CSS*/
+/*Package Booking form Backend Preview */
+@media (max-width: 1024px){
+    .bpa-timesheet-card-container .bpa-form-row--is-package .bpa-db-sec-heading{
+        top: -68px;
+    }
+    .bpa-cmc--tab-menu .bpa-cms-tm__body .el-radio-button__inner{
+        padding: 8px 28px;
+    }
+    .bpa-grid-filter__is-package-pills{
+        margin: 24px 24px 0 24px;
+    }
+    .bpa-ilp__item{
+        margin: 8px 12px 0 0;
+        padding: 6px 12px;
+    }
+}
+@media (max-width: 1023px){
+    .bpa-form-row--is-package{
+        padding: 32px 24px;
+    }
+    .bpa-timesheet-card-container .bpa-form-row--is-package .bpa-db-sec-heading{
+        width: calc(calc(100% - 50px));
+    }
+    .bpa--is-page-non-scrollable-mob.bpa-timesheet-card-container .bpa-timesheet--specialdays .bpa-mlc-head-wrap{
+        padding: 0;
+    }
+    .bpa-timesheet-edit_workinghours .bpa-sm__working-hours .bpa-sm__wh-head-row{
+        margin-top: 20px;
+    }
+    .bpa-cmc--tab-menu .bpa-cms-tm__body .el-radio-button__inner{
+        padding: 8px 20px;
+    }
+}
+@media (max-width: 767px) {
+    .bpa-front-module-package-module .bpa-front-module-heading {
+        padding-left: 20px;
+    }
+    .bpa-front-module--package-items-row {
+        margin: 0 20px;
+        display: block;
+    }
+    .bpa-fm-li--col-item {
+        padding: 0;
+    }
+    .bpa-fm-li--col-item .bpa-fm-li__card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bpa-fm-li--col-item .bpa-fm-li__card .bpa-li-col__image {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .bpa-fm-li--col-item .bpa-fm-li__card .bpa-li-col__body {
+        text-align: center;
+    }
+    .bpa-timesheet-card-container .bpa-form-row--is-package .bpa-db-sec-heading{
+        top: -156px;
+    }
+    .bpa-timesheet-card-container.bpa-main-list-card__is-staff-custom-view .bpa-form-row--is-package,
+    .bpa-timesheet-card-container .bpa-form-row--is-package{
+        margin-top: 156px;
+    }
+    .bpa-timesheet-card-container .bpa-cmc--tab-menu .bpa-cms-tm__body .el-radio-group{
+        margin: 0 12px;
+    }
+    .bpa-cmc--tab-menu .bpa-cms-tm__body .el-radio-button__inner{
+        padding: 8px 16px;
+        font-size: 14px;        
+    }
+    .bpa-lr__item{
+        width: 50%;
+    }
+    .bpa-bd__item-package_nm .material-icons-round{
+        width: 20px;
+        position: relative;
+        top: 2px;
+    }
+}

@@ -1,0 +1,33 @@
+.ct-logo {
+	opacity: 1;
+	a {
+		display: inline-block;
+	}
+	img {
+		width: auto;
+	}
+}
+
+.ct-logo-animate {
+	display: inline-flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	.ct-logo1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		@include transform(translate(-50%, -50%));
+		margin: auto;
+		line-height: 1;
+    	.ct-logo-inner {
+    		animation: ctspinY 4s linear infinite;
+    		-webkit-animation: ctspinY 4s linear infinite;
+    		display: inline-flex;
+    	}
+	}
+	.ct-logo2 {
+		animation: ctspin 22s linear infinite;
+    	-webkit-animation: ctspin 22s linear infinite;
+	}	
+}
