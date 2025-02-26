@@ -21,4 +21,4 @@ jobs:
         remote-user: vxwhqvbg
         ssh-port: 7822
         private-ssh-key: ${{ secrets.SSH_KEY }}
-        destination-path: /vxwhqvbg/wpmaintain.ie
+        destination-path: /home/vxwhqvbg/wpmaintain.ie
