@@ -19,5 +19,6 @@ jobs:
       with:
         target-server: nl1-cl9-ats1.a2hosting.com
         remote-user: vxwhqvbg
+        ssh-port: 7822
         private-ssh-key: ${{ secrets.SSH_KEY }}
         destination-path: /vxwhqvbg/wpmaintain.ie
