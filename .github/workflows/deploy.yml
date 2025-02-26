@@ -20,4 +20,4 @@ jobs:
         target-server: nl1-cl9-ats1.a2hosting.com
         remote-user: vxwhqvbg
         private-ssh-key: ${{ secrets.SSH_KEY }}
-        destination-path: /home/vxwhqvbg/wpmaintain.ie
+        destination-path: /vxwhqvbg/wpmaintain.ie
