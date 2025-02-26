@@ -22,5 +22,5 @@ if($custom_footer && !empty($footer_layout_custom_page) ) {
             </div>
         </div>
     <?php endif; ?>
-    <span class="ct-footer-year"><?php echo esc_attr(date("Y")); ?>fdfsfsfs</span>
+    <span class="ct-footer-year"><?php echo esc_attr(date("Y")); ?></span>
 </footer>
